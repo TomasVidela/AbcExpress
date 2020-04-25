@@ -1,0 +1,616 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/* NOTE: encabezado y footer ---------------------------------------------------------*/
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.button-collapse {
+  color:#26a69a;
+}
+
+.iconos-encabezado {
+  margin: 0px !important;
+}
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block.material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/* fin encabezado ---------------------------------------- */
+
+
+
+
+
+
+/* NOTE: varios y no se ---------------------------------------------------- */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container.section {
+  width: 100%;
+}
+/* NOTE: carrito de compras */
+.recomendado {
+  color: white;
+  background: #263238;
+  padding: 2px;
+}
+
+.icono-pago {/* NOTE: no se */
+  padding: 10px !important;
+}
+
+/* fin varios y no se ---------------------------------------------------- */
+
+
+
+
+/* NOTE: responsive pantallas----------------------------------------------- */
+@media only screen and (max-width : 500px) {
+  .container.central {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  img.logo {
+    transform: scale(0.8);
+    margin: -5px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  div.carousel.carousel-slider.center {
+    max-height: 300px;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner.section {
+    top: 10%;
+  }
+
+  .brand-logo {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #imagen-repuesto {
+    max-height: 150px
+  }
+
+  div.carousel.carousel-slider.center {
+    max-height: 200px;
+  }
+
+  #index-banner.section {
+    min-height: 200px !important;
+    top: 0;
+  }
+
+  .brand-logo {
+    width: 180px;
+  }
+
+  .botones-peques {
+    padding: 0px !important;
+  }
+
+  div.card-content.preventivos {
+    padding: 0px 0px 24px 0px  !important;
+  }
+
+  div.card-content.abcmotor {
+    padding: 0px !important;
+  }
+
+  div.card-content.frenos {
+    padding: 0px 0px 24px 0px !important;
+  }
+}
+/* NOTE: responsive pantallas fin  */
+
+
+
+
+
+
+
+
+/* NOTE: indicador-seccion--------------------------------------------------- */
+div.indicador-seccion {
+  margin: 0px;
+  text-align: center;
+  align-content: center !important;
+  vertical-align: middle !important;
+}
+
+.indicador-seccion p {
+  margin: 4px !important;
+}
+
+.indicador-seccion img {
+  align-content: center !important;
+  vertical-align: middle !important;
+  padding-right: 10px;
+}
+
+/* NOTE: menu de selecion de vehiculo ---------------------------------------*/
+.dropdown-button {
+  text-align: center;
+  width: 100%;
+}
+
+a.dropdown-button.btn {
+  padding: 0px 5px 0px 5px;
+  margin: 1px;
+}
+
+a.waves-effect.waves-light.btn {
+  margin: 1px;
+  width: 100%;
+}
+
+.iconos-encabezado {
+  padding: 0px 15px 0px 0px;
+}
+
+i.material-icons {
+  vertical-align: middle !important;
+}
+
+#barra-busqueda {
+  margin: 0px;
+}
+
+p.center-align {
+  color: #37474f;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.dropdown-content {
+  text-decoration: red;
+  font color: red;
+}
+
+.dropdown-content li>a {
+  color: grey !important;
+}
+
+p.texto-seleccion-auto {
+  padding: 10px;
+}
+
+/*-------------------------------------------------------------------------- */
+/* NOTE: seccion compra de repuestos  */
+div.collapsible-body {
+  padding: 10px 10px 10px 60px;
+}
+
+.letra-peque {
+  color: #607d8b !important;
+  font-size: 15px;
+  line-height: normal;
+  padding: 5px;
+  font-weight: 300;
+}
+
+#imagen-repuesto {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+
+.premium {
+  color: white;
+  background: #37474f;
+  padding: 2px;
+}
+
+.economico {
+  color: white;
+  background: #455a64;
+  padding: 2px;
+}
+
+.boton {
+  padding: 5px 0px 5px 0px !important;
+}
+
+a.btn {
+  padding: 0px 10px 0px 10px !important;
+}
+
+.dos-botones {
+  padding: 0px 20px 0px 0px !important;
+}
+
+.cuadro-compra {
+  padding: 0 !important;
+}
+
+.precio {
+  margin: 15px 0px 0px 0px !important;
+}
+
+.iva {
+  font-size: 12px;
+}
+
+/* NOTE menu lateral --------------------------------------------------------*/
+.menos.divider {
+  margin: 0px;
+}
+
+div.user-view {
+  padding: 0px !important;
+  min-height: 175px;
+  margin: 0px !important;
+}
+
+.info-carros {
+  padding: 5px 15px 5px 15px;
+  line-height: normal;
+  background-color: rgba(38, 50, 56, 0.5);
+}
+
+/* encabezado barra navegacion ---------------------------------------------- */
+.brand-logo {
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px !important;
+}
+
+/* cobertura---------------------------------------------------------------- */
+img.activator {
+  padding: 20px;
+}
+
+.mapa {
+  max-width: 800px;
+}
+
+i.material-icons.right.cumbaya {
+  margin: 0px;
+}
+
+/*-------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOTE: seleccion de servicios--------------------------------------------- */
+  .seleccion-servicios{
+    padding-bottom: 0px !important;
+  }
+
+
+a.collection-item.Deshabilitado {
+  background-color: #f5f5f5 ;
+  color: #546e7a !important;
+  padding-left: 20px !important;
+  border-top: 1px solid !important;
+  border-bottom: 1px solid !important;
+  border-color: #e0e0e0 !important;
+  font-weight: 400;
+}
+
+/* texto de busqueda por kilometraje */
+.centrar-texto li {
+  text-align: center !important;
+}
+
+.centrar-texto i {
+  float: inherit !important;
+}
+/* ---------------------------------:  */
+
+.collection-item.hijo {
+  padding-left: 20px !important;
+  color: #546e7a !important;
+  font-weight: 300 !important;
+}
+
+div.col.s12.collection {
+  padding: 0px;
+}
+
+.informacion {
+  text-align: center;
+  margin: 0px;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.informacion-precio {
+  padding: 0px !important;
+  text-align: center !important;
+}
+
+.informacion-item {
+  padding: 0px 10px 0px 0px !important;
+}
+
+div.collapsible-header.blue-text.active {
+  background-color: #f5f5f5;
+}
+
+.collection-item.active {
+  background-color: #90a4ae !important;
+  color: white !important;
+  font-weight: 400;
+}
+
+.kilometraje.active {
+  background-color: #f5f5f5;
+}
+
+.texto-banner {
+  color: #607d8b;
+  font-size: 13px;
+}
+
+div.collection.collapsible-body {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.collapsible-body {
+  padding: 0px;
+  border: 0px;
+}
+
+
+000000div.collapsible-body.principal {
+  /* NOTE: codigo escvroll deshabilitado */
+  max-height: 400px !important;
+  overflow-y: auto !important;
+  backface-visibility: hidden !important;
+  border: 0px;
+  margin: 0px;
+}
+
+div.card-content.preventivos {
+  padding: 0px 24px 24px 24px;
+}
+
+div.card-content.abcmotor {
+  padding: 0px 24px 0px 24px;
+}
+
+div.card-content.frenos {
+  padding: 0px 24px 24px 24px;
+}
+
+ul.collapsible {
+  margin: 0px;
+}
+
+div.collapsible-header.blue-text:focus {
+  background: blue !important;
+}
+
+div.padre {
+  padding: 0px !important;
+}
+/*seleccion de servicios---------------------------------------------------  */
+
+
+
+
+
+
+/* NOTE: Detalle precios----------------------------------------------------- */
+div.detalle-precios.card-content {
+  padding: 15px;
+}
+
+.letra-precios {
+  padding: 0px !important;
+  color: grey !important;
+}
+
+.precio-total {
+  margin: inherit !important;
+  padding: 0px 0px 0px 5px !important;
+  align-self: center;
+}
+
+.boton-pago {
+  padding: 0px !important;
+}
+
+.texto-precio-total {
+  padding: 5px !important;
+}
+
+.detalle-precios-peques {
+  padding: 8px;
+}
+
+.card-precios {
+  margin: 0px;
+}
+
+.card-detalle-precios {
+  margin-bottom: 0px;
+}
+
+.boton-pago-dos {
+  padding: 0px !important;
+}
+
+.boton-pago-dos i {
+  margin-right: 15px;
+}
+
+/* NOTE: efecto scroll statico para seccion derecha pantallas grandes*/
+div.sticky {
+  position: sticky !important;
+  top: 85px !important;
+  z-index: 2;
+  margin-bottom: 15px;
+}
+
+/* NOTE:efecto scroll statico detalle precios total pantallas pequeña*/
+ul.sticky-precios {
+  position: sticky !important;
+  top: 59px !important;
+  z-index: 2;
+}
+/*  fin precios-------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* NOTE: busqueda de carro dos ----------------------------------------------*/
+
+
+
+
+.icono-seleccion{
+  color: #ff1744;
+  margin: 0px 10px 3px 0px;
+}
+
+
+.indicator {
+  background-color: #ff1744 !important;
+}
+
+.busqueda-carros {
+  border-bottom: 1px solid #ddd;
+}
+
+.letras-menu {
+  color: #607d8b !important;
+  font-size: 13.5px;
+  padding: 0px !important;
+  font-weight: 300;
+  border: 0px !important;
+}
+
+a.menu-carros {
+  color: #607d8b !important;
+}
+
+.columna {
+  padding: 0px !important;
+}
+
+a.menu-carros:hover {
+  background-color: #eceff1 !important;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tab a {
+  color: #ff1744 !important;
+}
+
+.tab a.active {
+  font-size: 15px !important;
+  background-color: white !important;
+}
+
+#tabs-swipe-demo{
+  background-color: #eceff1;
+
+}
+
+.flex-container-marcas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+  max-height: 200px;
+}
+
+.flex-item-marcas {
+  margin: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+  max-height: 250px;
+}
+
+.flex-item {
+  flex: 0 0 50px;
+  margin: 2px;
+}
+
+.flex-container-modelo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 250px;
+}
+
+.flex-item-modelo {
+  flex: 0 0 0px;
+  margin: 0px 2px 0px 0px;
+  height: 50px;
+  0margin: 5px;
+}
+
+.flex-container-motor {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 250px;
+  0height: 250px;
+}
+
+.flex-item-motor {
+  flex: 3 0 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+a.collection-item {
+  padding: 5px !important;
+}

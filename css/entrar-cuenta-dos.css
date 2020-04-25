@@ -1,0 +1,73 @@
+
+h5 {
+  font-weight: 400;
+}
+
+@media only screen and (max-width : 450px) {
+
+
+  .botones-largos {
+    min-width: 230px !important;
+    min-width: 320px;
+  }
+
+  i.cerrar {
+    position: relative;
+    left: 50%;
+    top: 5px !important;
+    z-index: +1;
+  }
+
+  #modal-ingreso-cuenta.modal.open {
+    min-width: 320px !important;
+  }
+
+  .form-container.ingreso-container {
+    padding: 15px !important;
+  }
+
+  .menos-margin {
+    margin-bottom: 0px !important;
+  }
+}
+
+
+.entrar {
+  padding: 0px !important;
+}
+
+#modal-ingreso-cuenta.modal.open {
+  max-width: 500px !important;
+  max-height: 800px;
+}
+
+.tabs .indicator .ingreso-cuenta {
+  background-color: blue !important;
+  height: 60px;
+  opacity: 0.3;
+}
+
+.ingreso-cuenta {
+  background-color: #eceff1 !important;
+}
+
+.form-container.ingreso-container {
+  padding: 40px;
+  padding-top: 10px;
+}
+
+.confirmation-tabs-btn {
+  position: absolute;
+}
+
+.logo-social {
+  transform: scale(1.5);
+  padding-right: 20px !important;
+}
+
+i.cerrar {
+  position: relative;
+  left: 50%;
+  top: 60px;
+  z-index: +1;
+}

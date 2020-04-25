@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Localiza</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/localiza.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/entrar-cuenta-dos.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="blue-grey lighten-5">
+
+<!-- barra navegación inicio ---------------------------------------------------------------------------------------------------->
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <!-- barra navegación pantallas grandes -->
+        <a id="logo-container" href="#" class="brand-logo hide-on-med-and-down responsive-img"><img class="logo" src="fotos\ABCexpress logo.png" alt=""></a>
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index_carrito.html"><i class="iconos-encabezado material-icons left">shopping_cart</i>Comprar</a></li>
+          <!-- Modal Trigger entrar cuenta -->
+          <li><a href="entrar-cuenta.html"><i class="iconos-encabezado material-icons  left ">account_box</i>Cuenta</a></li>
+        </ul>
+        <!-- barra navegación pantallas pequeñas-->
+        <div class="row hide-on-large-only">
+          <a href="#" data-activates="slide-out" class="button-collapse "><i class="material-icons menu">menu</i></a>
+          <div class="col s4">
+            <a href="index.html"><img href="index.html" class="brand-logo " src="fotos\ABCexpress logo.png" alt=""></a>
+          </div>
+
+          <ul class="row">
+            <a href="entrar-cuenta.html"><i class="botones-peques material-icons right">account_box</i></a>
+            <a href="index_carrito.html"><i class="botones-peques material-icons right">shopping_cart</i></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<!-- NOTE: menu desplegable lateral patallas medianas y pequeñas -------------->
+  <ul id="slide-out" class="side-nav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img class="responsive-img" src="fotos/Chevrolet/carro.jpg">
+        </div>
+
+        <div class="info-carros z-depth-2">
+          <span class="white-text">Chevrolet Trooper 3.2L</span><br>
+          <span class="white-text">(1995) II Generación</span>
+        </div>
+      </div>
+    </li>
+    <!-- menus de seleccion de vehiculos pastallas medianas y pequeñas ------------>
+    <div class="blue-grey darken-4">
+      <div class="container">
+        <div class="menu-lateral section">
+          <div id="barra-busqueda" class="row">
+
+            <div class="busqueda-lateral col s12">
+              <p class="texto-seleccion-auto center-align white-text">Selecciona tu vehículo</p>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown5'>MARCA</a>
+              <ul id='dropdown5' class='dropdown-content '>
+                <li><a href="#!">BMW</a></li>
+                <li><a href="#!">CHEVROLET</a></li>
+                <li><a href="#!">FIAT</a></li>
+                <li><a href="#!">FORD</a></li>
+                <li><a href="#!">HONDA</a></li>
+                <li><a href="#!">HYUNDAI</a></li>
+                <li><a href="#!">JEEP</a></li>
+                <li><a href="#!">KIA</a></li>
+                <li><a href="#!">MAZDA</a></li>
+                <li><a href="#!">MERCEDES BENZ</a></li>
+                <li><a href="#!">MITSUBISHI</a></li>
+                <li><a href="#!">NISSAN</a></li>
+                <li><a href="#!">TOYOTA</a></li>
+                <li><a href="#!">VOLKSWAGEN</a></li>
+              </ul>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <div>
+                <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown6'>Año</a>
+              </div>
+              <ul id='dropdown6' class='dropdown-content'>
+                <li><a href="#!">2019</a></li>
+                <li><a href="#!">2018</a></li>
+                <li><a href="#!">2017</a></li>
+                <li><a href="#!">2016</a></li>
+                <li><a href="#!">2015</a></li>
+                <li><a href="#!">2014</a></li>
+                <li><a href="#!">2013</a></li>
+                <li><a href="#!">2012</a></li>
+                <li><a href="#!">2011</a></li>
+                <li><a href="#!">2010</a></li>
+                <li><a href="#!">2009</a></li>
+                <li><a href="#!">2008</a></li>
+                <li><a href="#!">2007</a></li>
+                <li><a href="#!">2006</a></li>
+                <li><a href="#!">2005</a></li>
+              </ul>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <a class="dropdown-button btn waves-effect white grey-text darken-text-2" href='#' data-activates='dropdown7'>Modelo</a>
+              <ul id='dropdown7' class='dropdown-content'>
+                <li><a href="#!">Aveo Emotion GT</a></li>
+                <li><a href="#!">Aveo Activo </a></li>
+                <li><a href="#!">Aveo Family </a></li>
+                <li><a href="#!">Aveo Emotion</a></li>
+                <li><a href="#!">Camaro</a></li>
+                <li><a href="#!">Captiva Sport</a></li>
+                <li><a href="#!">Corsa 5 puertas</a></li>
+                <li><a href="#!">Corsa 3 puertas</a></li>
+                <li><a href="#!">Corsa Evolution</a></li>
+                <li><a href="#!">Cruze</a></li>
+                <li><a href="#!">D-MAX 4X2</a></li>
+                <li><a href="#!">D-MAX 4X4 </a></li>
+                <li><a href="#!">Grand Vitara 3P</a></li>
+                <li><a href="#!">Grand Vitara 5P</a></li>
+                <li><a href="#!">Grand Vitara SZ</a></li>
+                <li><a href="#!">Grand Vitara SZ NEXT </a></li>
+                <li><a href="#!">Jimny</a></li>
+                <li><a href="#!">Optra</a></li>
+                <li><a href="#!">Optra Limited</a></li>
+                <li><a href="#!">Optra Advance Hatchback</a></li>
+                <li><a href="#!">Optra Advance </a></li>
+                <li><a href="#!">Rodeo</a></li>
+                <li><a href="#!">Sail</a></li>
+                <li><a href="#!">Sail (Hatchback)</a></li>
+                <li><a href="#!">Silverado</a></li>
+                <li><a href="#!">Spark</a></li>
+                <li><a href="#!">Spark GT</a></li>
+                <li><a href="#!">TrailBlazer</a></li>
+                <li><a href="#!">Trooper</a></li>
+                <li><a href="#!">Vitara 3P Clásico </a></li>
+                <li><a href="#!">Vitara 5P Clásico</a></li>
+                <li><a href="#!">Zafira</a></li>
+              </ul>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown8'>Motor</a>
+              <ul id='dropdown8' class='dropdown-content'>
+                <li><a href="#!">1.6L</a></li>
+                <li><a href="#!">2.0L</a></li>
+                <li><a href="#!">2.5L</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ul>
+
+<!-- NOTE: banner encabezado -------------------------------------------------->
+
+  <div class="card card-mapa">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator imagen-mapa" src="fotos\mapa.png">
+
+      <div class="fixed-action-btn toolbar">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
+          <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card-content seccion-mapa">
+      <span class="activator grey-text text-darken-4">Selecciona el taller express más cercano o de preferencia</span>
+    </div>
+  </div>
+
+
+<!-- NOTE: menu indicador de sección------------------------------------------->
+  <div class="indicador-seccion row col s12">
+
+    <div class="col s3 white-text blue-grey">
+      <div>
+        <p><img src="fotos\uno.png">Localizar</p>
+      </div>
+    </div>
+    <div class="col s3 white-text red accent-3">
+      <div>
+        <p><img src="fotos\dos.png">Cotizar</p>
+      </div>
+    </div>
+    <div class="col s3 white-text blue-grey lighten-2">
+      <div>
+        <p><img src="fotos\tres.png">Reservar</p>
+      </div>
+    </div>
+    <div class="col s3 white-text blue-grey lighten-3">
+      <div>
+        <p><img src="fotos\cuatro.png">Pagar</p>
+      </div>
+    </div>
+
+  </div>
+  <br>
+
+<!-- NOTE: Contenido ----------------------------------------------------------------------------------------------------------->
+  <!-- NOTE: contenido central  ----------------------------------------------->
+  <div class="container central">
+    <div class="row">
+
+      <!-- contenido central-->
+      <div class="col s12 l8">
+
+        <!-- NOTE: detalle de precio mantallas medianas y pequeñas ------------>
+        <ul class="sticky-precios collapsible hide-on-large-only" data-collapsible="accordion">
+          <li>
+            <div class="detalle-precios-peques collapsible-header">
+              <div class="texto-precio-total col s6 right-align "><b>DETALLE PRECIO TOTAL</b></div>
+              <h4 class="precio-total col s6 red-text left-align ">$167.98</h4>
+            </div>
+
+            <div class="collapsible-body">
+              <div class="card-precios card">
+                <div class="card-content">
+                  <p class="letra-peque left-align">Repuestos<strike class="secondary-content orange-text">$100.00</strike></p>
+                  <p class="letra-peque left-align">10% descuento<strong class="secondary-content blue-grey-text darken-4-text">-$10.00</strong> </p>
+                  <p class="letra-peque left-align"> <b>Total repuestos</b><strong class="secondary-content">$90.00</strong> </p>
+
+                  <div class="divider"></div>
+
+                  <p class="letra-peque left-align">Mano de obra ABC Motor<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+                  <p class="letra-peque left-align">Mano de obra ABC Frenos<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+                  <p class="letra-peque left-align">0% descuento<strong class="secondary-content blue-grey-text darken-4-text">$00.00</strong> </p>
+                  <p class="letra-peque left-align"><b>Total mano de obra</b><strong class="secondary-content">$59.98</strong> </p>
+
+                  <div class="divider"></div>
+                  <p class="letra-peque left-align">12% IVA<strong class="secondary-content blue-grey-text darken-4-text">$17.99</strong> </p>
+                  <div class="divider"></div>
+
+                  <div class="letra-peque left-align">
+                    <b>PRECIO TOTAL</b>
+                    <h4 class="precio red-text right-align">$167.98</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="boton-pago collapsible-header"><a class="waves-effect waves-light red accent-3 btn"><i class="material-icons">shopping_cart</i>Realizar pago</a></div>
+          </li>
+        </ul>
+
+        <!-- NOTE: menu busqueda de carro pantallas grandes ------------------->
+
+        <!-- busqueda de carros -->
+        <div class="card">
+
+          <div class="card-content busqueda-carros">
+            <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">search</i>Selecciona el taller</h5>
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal-ingreso-cuenta">Talleres favoritos</a>
+            <p class="letra-peque">*Selecciona entre los talleres favoritos en tu cuenta</p>
+          </div>
+
+          <ul id="tabs-swipe-demo" class="tabs">
+            <li class="tab col s3"><a href="#test-swipe-1">Quito norte</a></li>
+            <li class="tab col s3"><a href="#test-swipe-2">Cumbayá</a></li>
+            <li class="tab col s3"><a href="#test-swipe-3">Tumbaco</a></li>
+            <li class="tab col s3"><a href="#test-swipe-4">Quito Sur</a></li>
+          </ul>
+
+          <div class="row">
+
+            <div class="col s12" id="test-swipe-1">
+              <div class="card-content col s12">
+                <div class="card">
+                  <ul class="col s12 flex-container taller">
+
+
+                    <li class="flex-item taller">
+                      <div class="collection-item card card-talleres">
+
+                        <a href="#">
+                          <div class="card-image">
+                            <img class="talleres" src="fotos\talleres\talleres-01.jpg">
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-content dereccion-talleres">
+                            <div class="blue-text text-darken-2"><b>AutoBoxes</b><small> (Montecerrin)</small></div>
+                            <div class="texto-talleres"><b>Dirección: </b> Calle Julio Arellano y De Los Claveles.</div>
+                          </div>
+                        </a>
+
+                        <div class="row">
+                          <div class=" col s12">
+                            <div class="botones-talleres col s8">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger red accent-3" href="#modal1">Promoción</a>
+                            </div>
+                            <div class="botones-talleres col s4">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger blue-grey lighten-2" href="#modal1">Info</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <li class="flex-item taller">
+                      <div class="card card-talleres">
+
+                        <a href="index_carrito.html">
+                          <div class="card-image">
+                            <img class="talleres" src="fotos\talleres\talleres-02.jpg">
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-content dereccion-talleres">
+                            <div class="blue-text text-darken-2"><b>Moyabaca</b><small> (La Y)</small></div>
+                            <div class="texto-talleres"><b>Dirección: </b> Av. de La Prensa N42-52 y El Inca.</div>
+                          </div>
+                        </a>
+
+                        <div class="row">
+                          <div class=" col s12">
+                            <div class="botones-talleres">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger red accent-3" href="#modal1">Promoción</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <li class="flex-item taller">
+                      <div class="card card-talleres">
+
+                        <a href="index_carrito.html">
+                          <div class="card-image">
+                            <img class="talleres" src="fotos\talleres\talleres-03.jpg">
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-content dereccion-talleres">
+                            <div class="blue-text text-darken-2"><b>Tires Plus </b><small> (Batan Bajo)</small></div>
+                            <div class="texto-talleres"><b>Dirección: </b>Av. Gaspar de Villaroel E9 66 y Av. de los Shyris.</div>
+                          </div>
+                        </a>
+
+                        <div class="row">
+                          <div class=" col s12">
+                            <div class="botones-talleres">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger blue-grey lighten-2" href="#modal1">Información</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <li class="flex-item taller">
+                      <div class="card card-talleres">
+
+                        <a href="index_carrito.html">
+                          <div class="card-image">
+                            <img class="talleres" src="fotos\talleres\talleres-04.jpg">
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-content dereccion-talleres">
+                            <div class="blue-text text-darken-2"><b>FRESNO Car Center</b><small> (Voz De Los Andes)</small></div>
+                            <div class="texto-talleres"><b>Dirección: </b> Barón de Carondelet Oe3-225 y Av América.</div>
+                          </div>
+                        </a>
+
+                        <div class="row">
+                          <div class=" col s12">
+                            <div class="botones-talleres">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger blue-grey lighten-2" href="#modal1">Información</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <li class="flex-item taller">
+                      <div class="card card-talleres">
+
+                        <a href="index_carrito.html">
+                          <div class="card-image">
+                            <img class="talleres" src="fotos\talleres\talleres-05.jpg">
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-content dereccion-talleres">
+                            <div class="blue-text text-darken-2"><b>Mega Auto Plaza </b><small> (Los Laureles)</small></div>
+                            <div class="texto-talleres"><b>Dirección: </b> De las Bugambillias E14-225 y Av. Eloy Alfar.</div>
+                          </div>
+                        </a>
+
+                        <div class="row">
+                          <div class=" col s12">
+                            <div class="botones-talleres">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger blue-grey lighten-2" href="#modal1">Información</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <li class="flex-item taller">
+                      <div class="card card-talleres">
+
+                        <a href="index_carrito.html">
+                          <div class="card-image">
+                            <img class="talleres" src="fotos\talleres\talleres-06.jpg">
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-content dereccion-talleres">
+                            <div class="blue-text text-darken-2"><b>Su Auto </b><small> (Sector Estación Río Coca)</small></div>
+                            <div class="texto-talleres"><b>Dirección: </b> De Los Rosales n46113, Quito 170138</div>
+                          </div>
+                        </a>
+
+                        <div class="row">
+                          <div class=" col s12">
+                            <div class="botones-talleres">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger blue-grey lighten-2" href="#modal1">Información</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <li class="flex-item taller">
+                      <div class="card card-talleres">
+
+                        <a href="index_carrito.html">
+                          <div class="card-image">
+                            <img class="talleres" src="fotos\talleres\talleres-07.jpg">
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-content dereccion-talleres">
+                            <div class="blue-text text-darken-2"><b>Dinamyca Competición</b><small> (Zaldumbide / Las Acacias)</small></div>
+                            <div class="texto-talleres"><b>Dirección: </b> Psje: Godoy E1-52 e Isaac Albaniz</div>
+                          </div>
+                        </a>
+
+                        <div class="row">
+                          <div class=" col s12">
+                            <div class="botones-talleres">
+                              <a class="col s6 waves-effect waves-light btn modal-trigger blue-grey lighten-2" href="#modal1">Información</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </li>
+                    </u>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12" id="test-swipe-2">
+              <div class="card-content col s12">
+                <h5>Proximamente</h5>
+              </div>
+            </div>
+
+            <div class="col s12" id="test-swipe-3">
+              <div class="card-content col s12">
+                <h5>Proximamente</h5>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+        <!-- NOTE :Incicio seleccion de servicios central-->
+        <div class=" card">
+          <div class="card-content seleccion-servicios">
+            <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">dvr</i>Selecciona los servicios</h5>
+          </div>
+          <!----------------------------------------------------------------------------->
+          <!-- NOTE: montenimientos-->
+          <div class="card-content row">
+            <!-- NOTE: montenimiento preventivos -->
+            <div class="card-content preventivos">
+              <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                  <div class="collapsible-header blue-text">
+                    <div class="col s11 padre"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>MANTENIMIENTO PREVENTIVOS</b></div>
+                    <div class="col s1">
+                      <a class="informacion secondary-content orange-text modal-trigger " href="#modal1"><i class="informacion material-icons">info</i></a>
+                    </div>
+                  </div>
+
+                  <a class='dropdown-button btn' href='#' data-activates='dropdown10'>busqueda por kilometraje</a>
+                  <ul id='dropdown10' class='dropdown-content centrar-texto'>
+                    <li><a href="#!">5.000 kilómetros</a></li>
+                    <li><a href="#!">10.000 kilómetros</a></li>
+                    <li><a href="#!">15.000 kilómetros</a></li>
+                    <li><a href="#!">20.000 kilómetros</a></li>
+                    <li><a href="#!">25.000 kilómetros</a></li>
+                    <li><a href="#!">30.000 kilómetros</a></li>
+                    <li><a href="#!">35.000 kilómetros</a></li>
+                    <li><a href="#!">40.000 kilómetros</a></li>
+                    <li><a href="#!">45.000 kilómetros</a></li>
+                    <li><a href="#!">50.000 kilómetros</a></li>
+                    <li><a href="#!">55.000 kilómetros</a></li>
+                    <li><a href="#!">60.000 kilómetros</a></li>
+                    <li><a href="#!">65.000 kilómetros</a></li>
+                    <li><a href="#!">70.000 kilómetros</a></li>
+                    <li><a href="#!">75.000 kilómetros</a></li>
+                    <li><a href="#!">80.000 kilómetros</a></li>
+                    <li><a href="#!">85.000 kilómetros</a></li>
+                    <li><a href="#!">90.000 kilómetros</a></li>
+                    <li><a href="#!">95.000 kilómetros</a></li>
+                    <li><a href="#!">100.000 kilómetros</a></li>
+                    <li><a href="#!">105.000 kilómetros</a></li>
+                    <li><a href="#!">110.000 kilómetros</a></li>
+                    <li><a href="#!">120.000 kilómetros</a></li>
+                    <li><a href="#!">125.000 kilómetros</a></li>
+                    <li><a href="#!">130.000 kilómetros</a></li>
+                    <li><a href="#!">135.000 kilómetros</a></li>
+                    <li><a href="#!">140.000 kilómetros</a></li>
+                    <li><a href="#!">145.000 kilómetros</a></li>
+                    <li><a href="#!">150.000 kilómetros</a></li>
+                    <li><a href="#!">155.000 kilómetros</a></li>
+                    <li><a href="#!">160.000 kilómetros</a></li>
+                    <li><a href="#!">165.000 kilómetros</a></li>
+                    <li><a href="#!">170.000 kilómetros</a></li>
+                    <li><a href="#!">175.000 kilómetros</a></li>
+                    <li><a href="#!">180.000 kilómetros</a></li>
+                    <li><a href="#!">185.000 kilómetros</a></li>
+                    <li><a href="#!">190.000 kilómetros</a></li>
+                    <li><a href="#!">195.000 kilómetros</a></li>
+                    <li><a href="#!">200.000 kilómetros</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!"><i class="material-icons">arrow_drop_down</i>Ver más</a></li>
+                  </ul>
+
+                  <!---------------------------------------------------------------------------->
+
+                  <div class="collapsible-body principal">
+
+                    <ul class="collapsible " data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header kilometraje blue-grey-text  text-darken-3"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>5.000
+                            kilómetros</b></div>
+
+                        <div class="collapsible-body">
+                          <div class="col s12 collection">
+
+                            <div class="card">
+                              <div class="col s12">
+                                <div class="card ">
+                                  <div class="card-image">
+                                    <img src="fotos\banner\mantenimiento5000km.jpg">
+                                  </div>
+                                  <div class="card-content texto-banner">
+                                    <blockquote>
+                                    <li>Seleccionamos los mejores repuestos de mantenimiento preventivo exclusivamente para ti.</li><br>
+                                    <li>Si deseas conocer más de las opciones selecciona, los iconos informativos.</li><br>
+                                    <li>Recuerda que todas las compras realizadas en nuestra red de mantenimiento tiene garantías y seguimiento en línea.</li>
+                                    </blockquote>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">ABC DE MOTOR</div>
+                            <div class="col s2 informacion-precio"><span>$30.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite PREMIUM</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12 active">
+                            <div class="col s9 informacion-item">Aceite RECOMENDADOOO</div>
+                            <div class="col s2 informacion-precio"><span>$15.98</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite BÁSICO</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite OPCIONAL</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">FILTRO DE ACEITE</div>
+                            <div class="col s2 informacion-precio"><span>$8.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="collapsible-header kilometraje blue-grey-text  text-darken-3"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>10.000 kilómetros</b>
+                      </div>
+                      <div class="collection collapsible-body">
+
+                        <div class="col s12 collection">
+                          <div class="card">
+                            <div class="col s12">
+                              <div class="card ">
+                                <div class="card-image">
+                                  <img src="fotos\banner\mantenimiento5000km.jpg">
+                                </div>
+                                <div class="card-content texto-banner">
+                                  <blockquote>
+                                  <li>Seleccionamos los mejores repuestos de mantenimiento preventivo exclusivamente para ti.</li><br>
+                                  <li>Si deseas conocer más de las opciones, selecciona los iconos informativos.</li><br>
+                                  <li>Recuerda que todas las compras realizadas en nuestra red de mantenimiento tiene garantías y seguimiento en línea.</li>
+                                  </blockquote>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">ABC DE MOTOR</div>
+                              <div class="col s2 informacion-precio"><span>$30,00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite PREMIUM</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12 active">
+                              <div class="col s9 informacion-item">Aceite RECOMENDADO</div>
+                              <div class="col s2 informacion-precio"><span>$15,98</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite BÁSICO</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite OPCIONAL</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">FILTRO DE ACEITE</div>
+                              <div class="col s2 informacion-precio"><span>$8,00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">FILTRO DE COMBUSTIBLE</div>
+                              <div class="col s2 informacion-precio"><span>$15,00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">LIMPIEZA, REVISIÓN Y CALIBRACIÓN DE FRENOS</div>
+                              <div class="col s2 informacion-precio"><span>$29,99</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="collapsible-header kilometraje blue-grey-text  text-darken-3"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>15.000 kilómetros</b>
+                      </div>
+                      <div class="collection collapsible-body">
+
+                        <div class="col s12 collection">
+                          <div class="card">
+                            <div class="col s12">
+                              <div class="card ">
+                                <div class="card-image">
+                                  <img src="fotos\banner\mantenimiento5000km.jpg">
+                                </div>
+                                <div class="card-content texto-banner">
+                                  <blockquote>
+                                  <li>Seleccionamos los mejores repuestos de mantenimiento preventivo exclusivamente para ti.</li><br>
+                                  <li>Si deseas conocer más de las opciones, selecciona los iconos informativos.</li><br>
+                                  <li>Recuerda que todas las compras realizadas en nuestra red de mantenimiento tiene garantías y seguimiento en línea.</li>
+                                  </blockquote>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">ABC DE MOTOR</div>
+                            <div class="col s2 informacion-precio"><span>$30.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite PREMIUM</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12 active">
+                            <div class="col s9 informacion-item">Aceite RECOMENDADOOO</div>
+                            <div class="col s2 informacion-precio"><span>$15.98</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite BÁSICO</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite OPCIONAL</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">FILTRO DE ACEITE</div>
+                            <div class="col s2 informacion-precio"><span>$8.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">ALINEACIÓN, BALANCEO Y ROTACIÓN DE NEUMÁTICOS</div>
+                            <div class="col s2 informacion-precio"><span>$29.99</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="collapsible-header kilometraje blue-grey-text  text-darken-3"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>20.000 kilómetros</b>
+                      </div>
+                      <div class="collection collapsible-body">
+
+                        <div class="col s12 collection">
+                          <div class="card">
+                            <div class="col s12">
+                              <div class="card ">
+                                <div class="card-image">
+                                  <img src="fotos\banner\mantenimiento5000km.jpg">
+                                </div>
+                                <div class="card-content texto-banner">
+                                  <blockquote>
+                                <li>Seleccionamos los mejores repuestos de mantenimiento preventivo exclusivamente para ti.</li><br>
+                                <li>Si deseas conocer más de las opciones, selecciona los iconos informativos.</li><br>
+                                <li>Recuerda que todas las compras realizadas en nuestra red de mantenimiento tiene garantías y seguimiento en línea.</li>
+                                </blockquote>
+                                </div>
+                               </div>
+                             </div>
+                           </div>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">ABC DE MOTOR</div>
+                            <div class="col s2 informacion-precio"><span>$30.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite PREMIUM</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12 active">
+                            <div class="col s9 informacion-item">Aceite RECOMENDADOOO</div>
+                            <div class="col s2 informacion-precio"><span>$15.98</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite BÁSICO</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Aceite OPCIONAL</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">FILTRO DE ACEITE</div>
+                            <div class="col s2 informacion-precio"><span>$8.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">CAMBIO DE LíQUIDO DE FRENOS</div>
+                            <div class="col s2 informacion-precio"><span>$20.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                        </div>
+                    </li>
+
+                    <li>
+                      <div class="collapsible-header kilometraje blue-grey-text  text-darken-3"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>25.000 kilómetros</b>
+                      </div>
+                      <div class="collection collapsible-body">
+
+                        <div class="col s12 collection">
+                          <div class="card">
+                            <div class="col s12">
+                              <div class="card ">
+                                <div class="card-image">
+                                  <img src="fotos\banner\mantenimiento5000km.jpg">
+                                </div>
+                                <div class="card-content texto-banner">
+                                  <blockquote>
+                                <li>Seleccionamos los mejores repuestos de mantenimiento preventivo exclusivamente para ti.</li><br>
+                                <li>Si deseas conocer más de las opciones selecciona, los iconos informativos.</li><br>
+                                <li>Recuerda que todas las compras realizadas en nuestra red de mantenimiento tiene garantías y seguimiento en línea.</li>
+                                </blockquote>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">ABC DE MOTOR</div>
+                              <div class="col s2 informacion-precio"><span>$30.00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite PREMIUM</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12 active">
+                              <div class="col s9 informacion-item">Aceite RECOMENDADOOO</div>
+                              <div class="col s2 informacion-precio"><span>$15.98</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite BÁSICO</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite OPCIONAL</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">FILTRO DE ACEITE</div>
+                              <div class="col s2 informacion-precio"><span>$8.00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">FILTRO AIRE</div>
+                              <div class="col s2 informacion-precio"><span>$15.00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">4 BUJÍAS DE ENCENDIDO</div>
+                              <div class="col s2 informacion-precio"><span>$15.00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">CAMBIO DE BUJÍAS DE ENCENDIDO</div>
+                              <div class="col s2 informacion-precio"><span>$10.00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">LIMPIEZA DE INYECTORES</div>
+                              <div class="col s2 informacion-precio"><span>$30.00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                          </div>
+                    </li>
+                    </ul>
+                  </div>
+            </div>
+
+            <!-- NOTE: SELECCION ABC MOTOR ------------------------------------>
+            <div class="card-content abcmotor">
+              <ul class="collapsible" data-collapsible="accordion">
+                <li>
+
+                  <div class="collapsible-header blue-text">
+                    <div class="col s11 padre"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>ABC MOTOR</b></div>
+                    <div class="col s1">
+                      <a class="informacion secondary-content orange-text modal-trigger " href="#modal1"><i class="informacion material-icons">info</i></a>
+                    </div>
+                  </div>
+
+                  <div class=" collapsible-body">
+                    <ul class="collapsible principal" data-collapsible="Expandable">
+
+                      <li>
+                        <div class="collapsible-header kilometraje blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio de aceite de
+                            motor y filtros</b></div>
+                        <div class="collection collapsible-body">
+
+                          <div class="col s12 collection">
+
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite PREMIUM</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item hijo active col s12">
+                              <div class="col s9 informacion-item">Aceite RECOMENDADO</div>
+                              <div class="col s2 informacion-precio"><span>$15.99</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite BÁSICO</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item hijo col s12">
+                              <div class="col s9 informacion-item">Aceite Aceite OPCIONAL</div>
+                              <div class="col s2 informacion-precio"><span>-</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+                            <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                              <div class="col s9 informacion-item">FILTRO DE ACEITE</div>
+                              <div class="col s2 informacion-precio"><span>$8.00</span></div>
+                              <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                            </a>
+
+                          </div>
+
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio de filtro de aire</b>
+                        </div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">FILTRO DE AIRE</div>
+                            <div class="col s2 informacion-precio"><span>$8.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio de filtro combustible</b>
+                        </div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">FILTRO DE COMBUSTIBLE</div>
+                            <div class="col s2 informacion-precio"><span>$12.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio de bujías</b></div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">4 Bujías de cobre 25.000 km</div>
+                            <div class="col s2 informacion-precio"><span>$12.50</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Mano de obra adicional</div>
+                            <div class="col s2 informacion-precio"><span>$00.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                        </div>
+
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Limpieza de inyectores</b></div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Mano de obra adicional</div>
+                            <div class="col s2 informacion-precio"><span>$30.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- NOTE: SELECCION ABC MOTOR ABC FRENOS ------------------------------------->
+            <div class="card-content frenos">
+
+              <ul class="collapsible" data-collapsible="accordion">
+                <li>
+
+                  <div class="collapsible-header blue-text">
+                    <div class="col s11 padre"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>ABC FRENOS</b></div>
+                    <div class="col s1">
+                      <a class="informacion secondary-content orange-text modal-trigger " href="#modal1"><i class="informacion material-icons">info</i></a>
+                    </div>
+                  </div>
+
+                  <div class=" collapsible-body">
+                    <ul class="collapsible principal" data-collapsible="Expandable">
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de pastillas
+                            delanteras</b></div>
+                        <div class="collection collapsible-body">
+
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Pastillas PREMIUM</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal-pastillas-premium">info</i></div>
+                          </a>
+                          <a class="collection-item hijo active col s12">
+                            <div class="col s9 informacion-item">Pastillas RECOMENDADAS</div>
+                            <div class="col s2 informacion-precio"><span>$40.99</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Pastillas ECO</div>
+                            <div class="col s2 informacion-precio"><span>-</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal-pastillas-eco">info</i></div>
+                          </a>
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Rectificación de discos</div>
+                            <div class="col s2 informacion-precio"><span>$20.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de pastillas
+                            posteriores</b></div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">Pastillas RECOMENDADAS</div>
+                            <div class="col s2 informacion-precio"><span>$41.99</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Rectificación de discos</div>
+                            <div class="col s2 informacion-precio"><span>$20.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+                      </li>
+
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio discos delanteros</b>
+                        </div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Dicos delanteros</div>
+                            <div class="col s2 informacion-precio"><span>$40.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de discos
+                            posteriores</b></div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Discos posteriores</div>
+                            <div class="col s2 informacion-precio"><span>$30.50</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Zapatas posteriores</b></div>
+                        <div class="collection collapsible-body">
+
+
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Cambio de pastillas de zapata</div>
+                            <div class="col s2 informacion-precio"><span>$15.50</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio de líquido de freno</b>
+                        </div>
+                        <div class="collection collapsible-body">
+
+                          <a class="collection-item hijo col s12">
+                            <div class="col s9 informacion-item">líquido de freno</div>
+                            <div class="col s2 informacion-precio"><span>$16.99</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                            <div class="col s9 informacion-item">Mano de obra adicional</div>
+                            <div class="col s2 informacion-precio"><span>$5.00</span></div>
+                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                          </a>
+
+                        </div>
+
+                      </li>
+                    </ul>
+                  </div>
+
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+<!----------------------------------------------------------------------------->
+        <!-- CARD VENTA REPUESTOS: -->
+        <!-- NOTE: PASTILLAS PREMIUM ECO -->
+
+      </div>
+
+<!--- seleccion derecha busqueda pantallas grandes ---------------------------->
+      <div class="sticky hide-on-med-and-down col s12 l4">
+
+        <div class="card">
+          <div class="card-image">
+            <img class="responsive-img" src="fotos/Chevrolet/carro.jpg">
+          </div>
+
+          <div class="info-carros">
+            <span class="white-text">Chevrolet Trooper 3.2L</span><br>
+            <span class="white-text">(1995) II Generación</span>
+          </div>
+        </div>
+
+        <div class="card-detalle-precios card">
+          <div class="detalle-precios card-content">
+
+            <p class="letra-peque left-align">Repuestos<strike class="secondary-content orange-text">$100.00</strike></p>
+            <p class="letra-peque left-align">10% descuento<strong class="secondary-content blue-grey-text darken-4-text">-$10.00</strong> </p>
+            <p class="letra-peque left-align"> <b>Total repuestos</b><strong class="secondary-content">$90.00</strong> </p>
+
+            <div class="divider"></div>
+
+            <p class="letra-peque left-align">Mano de obra ABC Motor<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+            <p class="letra-peque left-align">Mano de obra ABC Frenos<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+            <p class="letra-peque left-align">0% Descuento<strong class="secondary-content blue-grey-text darken-4-text">$00.00</strong> </p>
+            <p class="letra-peque left-align"><b>Total mano de obra</b><strong class="secondary-content">$59.98</strong> </p>
+
+            <div class="divider"></div>
+            <p class="letra-peque left-align">12% IVA<strong class="secondary-content blue-grey-text darken-4-text">$17.99</strong> </p>
+            <div class="divider"></div>
+
+            <div class="letra-peque left-align">
+              <b>PRECIO TOTAL</b>
+              <h4 class="precio red-text right-align">$167.98</h4>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="boton-pago-dos col s12 ">
+          <a class="waves-effect waves-light red accent-3 btn"><i class="material-icons">shopping_cart</i>Realizar pago</a>
+        </div>
+      </div>
+      <!------------>
+    </div>
+  </div>
+
+
+
+
+<!-- POPUP MODALS -------------------------------------------------------------------------------------------------------------->
+<!-- Modal ingreso cuenta -->
+  <div id="modal-ingreso-cuenta" class="modal">
+    <div class="modal-content entrar" >
+
+
+        <div class="white z-depth-2">
+
+          <ul class="tabs teal ingreso-cuenta">
+            <li class="tab col s3 "><a class="white-text active" href="#login">Iniciar sesión</a></li>
+            <li class="tab col s3"><a class="white-text" href="#register">Crear cuenta</a></li>
+          </ul>
+
+          <div id="login" class="col s12">
+            <form class="col s12">
+              <div class="form-container ingreso-container">
+                <h3 class="teal-text menos-margin">Hola</h3>
+                <div class="row menos-margin">
+                  <div class="input-field col s12 ">
+                    <input id="email" type="email" class="validate menos-margin">
+                    <label for="email">Email</label>
+
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field  col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Contraseña</label>
+                  </div>
+
+                  <div class="col s12">
+
+                    <div class="col s4">
+                      <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                      <label for="filled-in-box">Recordar</label>
+                    </div>
+
+                    <div class="col s8 right-align">
+                      <a href="">¿Olvidaste tu contraseña?</a>
+                    </div>
+
+                  </div>
+
+                </div>
+                <br>
+                <center>
+
+                  <div class="col s12 ">
+                    <a class="botones-largos waves-effect red accent-3 waves-light btn">entrar</a>
+                  </div>
+
+
+                  <br>
+                  <div class="divider"></div>
+                  <br>
+
+
+                  <div class="col s12">
+                    <a class="botones-largos waves-effect indigo darken-2 waves-light btn"><i class="logo-social fab fa-facebook "></i>iniciar sesión con Facebook</a>
+                  </div>
+
+                  <br>
+
+                  <div class="col s12">
+                    <a class="botones-largos waves-effect deep-orange waves-light btn"><i class="logo-social fab fa-google-plus-g"></i>iniciar sesión con Google +</a>
+                  </div>
+
+                </center>
+              </div>
+            </form>
+
+          </div>
+
+
+          <div id="register" class="col s12">
+            <form class="col s12">
+              <div class="form-container ingreso-container">
+                <h3 class="teal-text menos-margin">Bienvenido</h3>
+                <div class="row menos-margin">
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate menos-margin">
+                    <label for="last_name">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate menos-margin">
+                    <label for="last_name">Apellido</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate menos-margin">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="email-confirm" type="email" class="validate menos-margin">
+                    <label for="email-confirm">Confirmar Email</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="password" type="password" class="validate menos-margin">
+                    <label for="password">Contraseña</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="password-confirm" type="password" class="validate">
+                    <label for="password-confirm">Confirmar contraseña</label>
+                  </div>
+                </div>
+                <center>
+                  <button class="btn waves-effect waves-light teal" type="submit" name="action">enviar</button>
+                </center>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+
+
+
+      <div class="divider botones"></div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+    </div>
+  </div>
+<!-- Modal -->
+
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>AutoBoxes</h4>
+    <p>A bunch of text</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Regresar</a>
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Seleccionar</a>
+  </div>
+</div>
+
+
+<div id="modal2" class="modal bottom-sheet">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>
+
+
+
+</body>
+
+<!-- NOTE: footer ------------------------------------------------------------------------------------------------------------>
+<footer class="page-footer teal blue-grey darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="card-content">
+        <h5 class="white-text">ABC Express</h5>
+      </div>
+      <div class="col s12 m8">
+        <p class="grey-text text-lighten-4">Nuestra misión está en utilizar nuevas tecnologías para dar un mejor servicio a nuestros usuarios convirtiéndonos en sus aliado estratégicos. Hemos construido la plataforma de repuestos y suministros de
+          mantenimiento automotriz preventivo del futuro, lo que nos permite tener una gran cobertura de la mayoría de vehículos de nuestro mercado, enfocados en aumentar día a día nuestro catálogo con nuevos ítems de la mejor calidad y prestaciones.
+          Nuestra plataforma basada en la nube reemplazan la infraestructura física de las tiendas, lo que nos permite tener precios mas competitivos y disponibilidad inmediata gracias a nuestros proveedores amigos.</p>
+      </div>
+
+      <div class="col s12  m4 row">
+        <div class="col s12 m10">
+          <ul>
+            <li><a class="white-text" href="#!">Garantía del consumidor</a></li>
+            <li><a class="white-text" href="#!">Términos y Condiciones </a></li>
+            <li><a class="blue-text" href="#!">Contáctanos</a></li>
+          </ul>
+
+        </div>
+        <div class="col s12 m2 row">
+          <ul>
+            <li><i class="fab fa-facebook small"></i></li>
+            <li><i class="fab fa-instagram small"></i></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright blue-grey darken-3">
+    <div class="container">
+      COPYRIGHT © 2019 <a class="red-text text-accent-3">ABC Express</a>
+    </div>
+  </div>
+</footer>
+
+<!--  Scripts------------------------------------------------------------------>
+<script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+</script>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</html>

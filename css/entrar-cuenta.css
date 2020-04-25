@@ -1,0 +1,79 @@
+body
+{
+	background: #f5f5f5;
+}
+
+h5
+{
+	font-weight: 400;
+}
+
+.container
+{
+	margin-top: 80px;
+	width: 400px;
+	height: 700px;
+}
+
+
+@media only screen and (max-width : 430px) {
+  .container
+  {
+  	margin-top:10px;
+  	width: 300px;
+  	height: 700px;
+  }
+
+  .botones-largos{
+    min-width: 230px !important;
+
+  }
+	i.cerrar{
+		position: relative;
+	  left:50%;
+	  top:5px !important;
+	  z-index:+1;
+	}
+
+
+
+}
+
+.tabs .indicator
+{
+	background-color: #e0f2f1;
+	height: 60px;
+	opacity: 0.3;
+}
+
+.form-container
+{
+	padding: 40px;
+	padding-top: 10px;
+}
+
+.confirmation-tabs-btn
+{
+	position: absolute;
+}
+
+
+
+.botones-largos{
+  min-width: 320px;
+}
+
+.logo-social{
+  transform: scale(1.5);
+  min-width: 10px;
+padding-right:20px;
+}
+
+
+
+i.cerrar{
+	position: relative;
+  left:50%;
+  top:60px;
+  z-index:+1;
+}

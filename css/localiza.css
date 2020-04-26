@@ -30,7 +30,14 @@ footer.page-footer {
   margin: 0;
 }
 
+.brand-logo {
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px !important;
+}
 
+.container.central{
+  margin-top: 24px;
+}
 /* fin encabezado ---------------------------------------- */
 
 
@@ -76,6 +83,11 @@ footer.page-footer {
     max-width: 300px !important;
     margin: auto;
   }
+
+  .container.central{
+    margin-top: 0px;
+  }
+
 
 }
 
@@ -289,31 +301,6 @@ div.user-view {
 }
 
 /* encabezado barra navegacion ---------------------------------------------- */
-.brand-logo {
-  margin: 0px 0px 0px 0px !important;
-  padding: 10px !important;
-}
-
-/* cobertura---------------------------------------------------------------- */
-img.activator {
-  padding: 20px;
-}
-
-.mapa {
-  max-width: 800px;
-}
-
-i.material-icons.right.cumbaya {
-  margin: 0px;
-}
-
-/*-------------------------------------------------------------------------- */
-
-
-
-
-
-
 
 
 
@@ -641,15 +628,18 @@ a.collection-item {
   margin: 0px;
 }
 
-.imagen-mapa {
-  padding: 0px !important;
+.card-image.mapa{
+  height: 45vh;
 }
 
 .seccion-mapa {
   padding: 10px 24px 10px 24px !important;
   text-align: center;
   background-color: #eceff1;
+}
 
+.imagen-mapa{
+  min-width: 700px;
 }
 
 .texto-talleres{

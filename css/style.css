@@ -5,7 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
-/* NOTE: encabezado y footer ---------------------------------------------------------*/
+/* NOTE: encabezado y footer ----------------------------------*/
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -28,6 +28,14 @@ nav .brand-logo {
 
 footer.page-footer {
   margin: 0;
+}
+
+.brand-logo {
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px !important;
+}
+.container.central{
+  margin-top: 24px;
 }
 
 
@@ -70,6 +78,10 @@ footer.page-footer {
   .container.central {
     width: 100% !important;
   }
+  .container.central{
+    margin-top: 0px;
+  }
+
 }
 
 @media only screen and (min-width : 992px) {

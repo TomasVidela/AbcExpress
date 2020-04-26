@@ -34,6 +34,7 @@ footer.page-footer {
   margin: 0px 0px 0px 0px !important;
   padding: 10px !important;
 }
+
 .container.central{
   margin-top: 24px;
 }
@@ -78,6 +79,13 @@ footer.page-footer {
   .container.central {
     width: 100% !important;
   }
+  /* NOTE: ojo  nuevo talleres*/
+  .flex-item.taller{
+    flex: 2 0 300px !important;
+    max-width: 300px !important;
+    margin: auto;
+  }
+
   .container.central{
     margin-top: 0px;
   }
@@ -294,23 +302,20 @@ div.user-view {
 }
 
 /* encabezado barra navegacion ---------------------------------------------- */
-.brand-logo {
-  margin: 0px 0px 0px 0px !important;
-  padding: 10px !important;
-}
+/* NOTE: ojo  */
+      .brand-logo {
+        margin: 0px 0px 0px 0px !important;
+        padding: 10px !important;
+      }
 
-/* cobertura---------------------------------------------------------------- */
-img.activator {
-  padding: 20px;
-}
+      /* cobertura---------------------------------------------------------------- */
+      img.activator {
+        padding: 20px;
+      }
 
-.mapa {
-  max-width: 800px;
-}
-
-i.material-icons.right.cumbaya {
-  margin: 0px;
-}
+      i.material-icons.right.cumbaya {
+        margin: 0px;
+      }
 
 /*-------------------------------------------------------------------------- */
 
@@ -518,9 +523,6 @@ ul.sticky-precios {
 
 /* NOTE: busqueda de carro dos ----------------------------------------------*/
 
-
-
-
 .icono-seleccion{
   color: #ff1744;
   margin: 0px 10px 3px 0px;
@@ -561,6 +563,7 @@ a.menu-carros:hover {
 }
 
 .tab a.active {
+  /* NOTE: ojo */
   font-size: 15px !important;
   background-color: white !important;
 }
@@ -570,7 +573,7 @@ a.menu-carros:hover {
 
 }
 
-.flex-container-marcas {
+.flex-container.marcas, .año, .modelo{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -582,20 +585,13 @@ a.menu-carros:hover {
   margin: 5px;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 250px;
-  max-height: 250px;
-}
 
 .flex-item {
   flex: 0 0 50px;
   margin: 2px;
 }
 
-.flex-container-modelo {
+.flex-container-modelo00 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -625,4 +621,80 @@ a.menu-carros:hover {
 
 a.collection-item {
   padding: 5px !important;
+}
+
+
+
+
+
+
+/* NOTE: inicio lacaliza------------------------------------------------------- */
+.flex-container.taller{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* <-- allows multi-line flex container */
+  align-self: center !important;
+  padding: 0px !important;
+}
+
+.flex-item.taller{
+  flex: 2 0 260px  !important;
+  max-width: 260px;
+  margin: auto;
+}
+
+.flex-item.taller:last-child {
+  align-self: flex-end;
+  max-width: 260px;
+}
+
+.card-mapa{
+  margin: 0px;
+}
+
+.card-image.mapa {
+  height: 45vh;
+}
+
+.seccion-mapa {
+  padding: 10px 24px 10px 24px !important;
+  text-align: center;
+  background-color: #eceff1;
+}
+
+.imagen-mapa {
+  min-width: 700px;
+}
+
+.activator.imagen-mapa {
+  padding: 0px;
+}
+
+.texto-talleres{
+  color: #607d8b !important;
+  font-size: 13px !important;
+  line-height: normal;
+  font-weight: 300;
+}
+
+.dereccion-talleres{
+  padding:  10px 24px 10px 24px !important;
+}
+
+.botones-talleres{
+  padding: 0px !important;
+
+}
+
+.contenedor-talleres{
+  padding:20px !important;
+
+}
+
+.card-talleres{
+  margin:10px !important;
+}
+
+.card-talleres:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
 }

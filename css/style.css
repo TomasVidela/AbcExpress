@@ -698,3 +698,22 @@ a.collection-item {
 .card-talleres:hover {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
 }
+
+
+
+
+
+
+
+
+/* NOTE:  reservar---------------------------------------------------------- */
+
+/* radio checked de redondo a cuadrado */
+[type="radio"]:not(:checked) + label:before,
+[type="radio"]:not(:checked) + label:after,
+[type="radio"]:checked + label:before,
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:before,
+[type="radio"].with-gap:checked + label:after {
+  border-radius: 0%;
+}

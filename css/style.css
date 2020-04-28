@@ -717,3 +717,34 @@ a.collection-item {
 [type="radio"].with-gap:checked + label:after {
   border-radius: 0%;
 }
+
+
+
+
+.flex-container.horas {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  border: 0px;
+
+
+}
+
+.flex-item.hora {
+  flex: auto;
+  padding: 0px;
+  background-color:white;
+  width: 1%
+}
+
+.boton-hora0000000000{
+  border-radius: 0%;
+  border: 1px solid #cfd8dc ;
+  background-color: white;
+
+
+}
+.hora{
+  border-radius: 0%;
+  00border: 1px solid red;
+}

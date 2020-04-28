@@ -708,43 +708,42 @@ a.collection-item {
 
 /* NOTE:  reservar---------------------------------------------------------- */
 
-/* radio checked de redondo a cuadrado */
-[type="radio"]:not(:checked) + label:before,
-[type="radio"]:not(:checked) + label:after,
-[type="radio"]:checked + label:before,
-[type="radio"]:checked + label:after,
-[type="radio"].with-gap:checked + label:before,
-[type="radio"].with-gap:checked + label:after {
-  border-radius: 0%;
-}
-
-
-
-
-.flex-container.horas {
+.flex-container-celdas{
   display: flex;
   flex-wrap: nowrap;
   align-content: stretch;
-  border: 0px;
-
+  border: 0px !important;
+  margin-bottom: 0px;
 
 }
-
-.flex-item.hora {
+.flex-item-celdas{
   flex: auto;
-  padding: 0px;
-  background-color:white;
-  width: 1%
+  height: 40px;
+  margin: 20px;
+  border: 1px  solid  #cfd8dc !important;
 }
 
-.boton-hora0000000000{
-  border-radius: 0%;
-  border: 1px solid #cfd8dc ;
-  background-color: white;
 
-
+.collection a.flex-item-celdas:not(.active):hover{
+  background-color: #4db6ac ;
 }
-.hora{
-  border-radius: 0%;
-  00border: 1px solid red;
+.collection a.flex-item-celdas (.active):hover{
+  background-color: #4db6ac ;
+}
+
+
+.flex-item-hora{
+  flex: auto;
+  margin: 0px;
+  border: 0px !important;
+}
+
+li.flex-item-hora{
+padding: 0px !important;
+text-align: center;
+font-size: 12px !important;
+}
+
+ul.letras-horas{
+  margin: 0px;
 }

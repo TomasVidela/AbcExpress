@@ -89,7 +89,6 @@ footer.page-footer {
   .container.central{
     margin-top: 0px;
   }
-
 }
 
 @media only screen and (min-width : 992px) {
@@ -161,7 +160,7 @@ footer.page-footer {
 
 
 
-/* NOTE: indicador-seccion--------------------------------------------------- */
+/* NOTE: menu indicador de sección--------------------------------------------------- */
 div.indicador-seccion {
   margin: 0px;
   text-align: center;
@@ -177,7 +176,15 @@ div.indicador-seccion {
   align-content: center !important;
   vertical-align: middle !important;
   padding-right: 10px;
+  padding-right: 10px
 }
+
+
+
+
+
+
+
 
 /* NOTE: menu de selecion de vehiculo ---------------------------------------*/
 .dropdown-button {
@@ -494,7 +501,7 @@ div.detalle-precios.card-content {
 
 .boton-pago-dos i {
   margin-right: 15px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* NOTE: efecto scroll statico para seccion derecha pantallas grandes*/

@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>ABC Express</title>
+  <title>Pagar</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -47,9 +47,34 @@
 </nav>
 
 <!-- NOTE:__________________________________________________________________ -->
+<!-- NOTE: menu indicador de sección------------------------------------------->
+<div class="indicador-seccion row col s12">
+
+  <a href="Cotizar.html" class="waves-effect waves-light col s3 white-text blue-grey">
+    <div>
+      <p><img src="fotos\uno.png">Cotizar</p>
+    </div>
+  </a>
+  <a href="Localizar.html" class="waves-effect waves-light col s3 white-text blue-grey lighten-2">
+    <div>
+      <p><img src="fotos\dos.png">Localizar</p>
+    </div>
+  </a>
+  <a href="Reservar.html "class="waves-effect waves-light col s3 white-text blue-grey lighten-3">
+    <div>
+      <p><img src="fotos\tres.png">Reservar</p>
+    </div>
+  </a>
+  <div class="col s3 white-text red accent-3">
+    <div>
+      <p><img src="fotos\cuatro.png">Pagar</p>
+    </div>
+  </div>
+
+</div>
 
 <div class="recomendado center-align">
-  <h6>Facturación</h6>
+  <h6>Formas de pago</h6>
 </div>
 
 <!-- NOTE: contenido central  -->
@@ -60,70 +85,60 @@
 
 
 
-    <div class="col s12 m6 l8 card">
-        <h5><i class="red-text text-accent-3 material-icons left">shopping_cart</i>Facturación</h5>
-        <div class="card-action">
+    <div class="col s12 l8 card">
+        <h5><i class="red-text text-accent-3 material-icons center ">shopping_cart</i>Selecciona una forma de pago</h5>
 
-          <form>
-            <p>
-              <input name="group1" type="radio" id="test1" />
-              <label for="test1">Factura como consumidor final</label>
-              <br>
-              <input name="group1" type="radio" id="test2" />
-              <label for="test2">Factura con datos</label>
-            </p>
-        </form>
-            <br>
+        <div class="collection">
 
-              <form >
-                  <div class="row">
-
-                    <div class="col s12  l6 input-field ">
-                      <input  id="first_name" type="text" class="validate">
-                      <label for="first_name">Nombre</label>
-                    </div>
-
-                    <div class="col s12  l6 input-field ">
-                      <input  type="text" class="validate">
-                      <label for="last_name">Apellido</label>
-                    </div>
-
-                    <div class="input-field col s12 l6">
-                      <input  type="text" class="validate">
-                      <label for="first_name">Teléfono</label>
-                    </div>
-
-                    <div class="input-field col s12 l6">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">Email</label>
-                    </div>
-
-                    <div class="input-field col s12 l6">
-                      <input id="password" type="password" class="validate">
-                      <label for="number">C.I. - RUC</label>
-                    </div>
-
-                    <div class="input-field col s12 l6">
-                        <input type="text" id="autocomplete-input" class="autocomplete">
-                        <label for="autocomplete-input">Dirección</label>
-                      </div>
-                    </div>
-                  </div>
-              </form>
-
-              <div class="card-content col s12">
-                <a href="#" class="waves-effect waves-light red accent-3 btn">Realizar el pago</a>
+          <a href="Facturacion.html" class="collection-item">
+              <i class="icono-pago red-text text-accent-3 material-icons left">beenhere</i>
+              <div class="">
+                Kushki
               </div>
 
+              <div class="">
+                <label class="">Realice su pago con su tarjeta Visa o Mastercard</label>
+              </div>
+          </a>
+          <a href="Facturacion.html" class="collection-item">
+              <i class="icono-pago red-text text-accent-3 material-icons left">local_phone</i>
+              <div class="">
+                Tarjeta de Crédito por Teléfono
+              </div>
 
+              <div class="">
+                <label class="">Nuestro call center te llamará para ayudarte a completar tu compra vía teléfono</label>
+              </div>
+          </a>
+          <a href="Facturacion.html" class="collection-item">
+              <i class="icono-pago red-text text-accent-3 material-icons left">swap_horiz</i>
+              <div class="">
+                Depósito o Transferencia
+              </div>
+
+              <div class="">
+                <label class="">Debes realizar un depósito o transferencia a una cuenta que nosotros te proveemos</label>
+              </div>
+          </a>
+          <a href="Facturacion.html" class="collection-item">
+              <i class="icono-pago red-text text-accent-3 material-icons left">payment</i>
+              <div class="">
+                Tarjeta de Crédito por Internet (2 Checkout)
+              </div>
+
+              <div class="">
+                <label class="">Realice su pago de manera 100% segura con su tarjeta nacional o internacional preferida</label>
+              </div>
+          </a>
 
         </div>
+    </div>
 
 
 
 
 <!-- seleccion DERECHA -->
-  <div class="col s12 m6 l4">
+  <div class="col s12 l4">
     <div class="card right">
         <h5><i class="red-text text-accent-3 material-icons left">attach_money</i>Valor a pagar</h5>
 
@@ -145,7 +160,8 @@
 
 
               <div class="col s12">
-                <a href="index_carrito.html" class="waves-effect waves-light blue-grey  btn">Detalle de Compra</a>
+
+                <a href="index_carrito.html" class="waves-effect waves-light blue-grey btn">Detalle de Compra</a>
               </div>
 
               <div class="card-content col s12 ">
@@ -163,9 +179,6 @@
         </div>
       </div>
     </div>
-
-
-
 
   </div>
 </div>

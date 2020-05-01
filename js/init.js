@@ -126,4 +126,13 @@ if ($('.pushpin-demo-nav').length) {
    }, 100);
 
 
-// localizar--------------------------------------------------------------
+// RESETRVAR--------------------------------------------------------------
+
+
+    // EFECTO DEL BOTON  DE VER MAS  Y VER MENOS
+    $(".show-more").click(function(event) {
+      var txt = $(".hide-part").is(':visible') ? 'VER MÁS' : 'VER MENOS';
+      $(".hide-part").toggleClass("show-part");
+      $(this).html(txt);
+      event.preventDefault();
+    });

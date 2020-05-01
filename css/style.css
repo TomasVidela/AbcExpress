@@ -494,6 +494,7 @@ div.detalle-precios.card-content {
 
 .boton-pago-dos i {
   margin-right: 15px;
+  font-size: 30px;
 }
 
 /* NOTE: efecto scroll statico para seccion derecha pantallas grandes*/
@@ -746,4 +747,24 @@ font-size: 12px !important;
 
 ul.letras-horas{
   margin: 0px;
+}
+
+.reservas{
+border-bottom: 1px solid #ddd;
+padding-top: 20px  !important;
+padding-bottom: 0px !important;
+}
+
+.reservas:last-child {
+padding-bottom: 24px !important;
+}
+
+
+/* NOTE: reservas------------------- */
+
+.hide-part{
+    display: none;
+}
+.show-part{
+    display: block;
 }

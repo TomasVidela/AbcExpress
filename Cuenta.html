@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuenta</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/entrar-cuenta-dos.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="blue-grey lighten-5">
+
+<!-- barra navegación inicio ---------------------------------------------------------------------------------------------------->
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <!-- barra navegación pantallas grandes -->
+        <a id="logo-container" href="#" class="brand-logo hide-on-med-and-down responsive-img"><img class="logo" src="fotos\ABCexpress logo.png" alt=""></a>
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index_carrito.html"><i class="iconos-encabezado material-icons left">shopping_cart</i>Comprar</a></li>
+          <!-- Modal Trigger entrar cuenta -->
+          <li><a href="entrar-cuenta.html"><i class="iconos-encabezado material-icons  left ">account_box</i>Cuenta</a></li>
+        </ul>
+        <!-- barra navegación pantallas pequeñas-->
+        <div class="row hide-on-large-only">
+          <a href="#" data-activates="slide-out" class="button-collapse "><i class="material-icons menu">menu</i></a>
+          <div class="col s4">
+            <a href="index.html"><img href="index.html" class="brand-logo " src="fotos\ABCexpress logo.png" alt=""></a>
+          </div>
+
+          <ul class="row">
+            <a href="entrar-cuenta.html"><i class="botones-peques material-icons right">account_box</i></a>
+            <a href="index_carrito.html"><i class="botones-peques material-icons right">shopping_cart</i></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<!-- NOTE: menu desplegable lateral patallas medianas y pequeñas -------------->
+  <ul id="slide-out" class="side-nav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img class="responsive-img" src="fotos/Chevrolet/carro.jpg">
+        </div>
+
+        <div class="info-carros z-depth-2">
+          <span class="white-text">Chevrolet Trooper 3.2L</span><br>
+          <span class="white-text">(1995) II Generación</span>
+        </div>
+      </div>
+    </li>
+    <!-- menus de seleccion de vehiculos pastallas medianas y pequeñas ------------>
+    <div class="blue-grey darken-4">
+      <div class="container">
+        <div class="menu-lateral section">
+          <div id="barra-busqueda" class="row">
+
+            <div class="busqueda-lateral col s12">
+              <p class="texto-seleccion-auto center-align white-text">Selecciona tu vehículo</p>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown5'>MARCA</a>
+              <ul id='dropdown5' class='dropdown-content '>
+                <li><a href="#!">BMW</a></li>
+                <li><a href="#!">CHEVROLET</a></li>
+                <li><a href="#!">FIAT</a></li>
+                <li><a href="#!">FORD</a></li>
+                <li><a href="#!">HONDA</a></li>
+                <li><a href="#!">HYUNDAI</a></li>
+                <li><a href="#!">JEEP</a></li>
+                <li><a href="#!">KIA</a></li>
+                <li><a href="#!">MAZDA</a></li>
+                <li><a href="#!">MERCEDES BENZ</a></li>
+                <li><a href="#!">MITSUBISHI</a></li>
+                <li><a href="#!">NISSAN</a></li>
+                <li><a href="#!">TOYOTA</a></li>
+                <li><a href="#!">VOLKSWAGEN</a></li>
+              </ul>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <div>
+                <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown6'>Año</a>
+              </div>
+              <ul id='dropdown6' class='dropdown-content'>
+                <li><a href="#!">2019</a></li>
+                <li><a href="#!">2018</a></li>
+                <li><a href="#!">2017</a></li>
+                <li><a href="#!">2016</a></li>
+                <li><a href="#!">2015</a></li>
+                <li><a href="#!">2014</a></li>
+                <li><a href="#!">2013</a></li>
+                <li><a href="#!">2012</a></li>
+                <li><a href="#!">2011</a></li>
+                <li><a href="#!">2010</a></li>
+                <li><a href="#!">2009</a></li>
+                <li><a href="#!">2008</a></li>
+                <li><a href="#!">2007</a></li>
+                <li><a href="#!">2006</a></li>
+                <li><a href="#!">2005</a></li>
+              </ul>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <a class="dropdown-button btn waves-effect white grey-text darken-text-2" href='#' data-activates='dropdown7'>Modelo</a>
+              <ul id='dropdown7' class='dropdown-content'>
+                <li><a href="#!">Aveo Emotion GT</a></li>
+                <li><a href="#!">Aveo Activo </a></li>
+                <li><a href="#!">Aveo Family </a></li>
+                <li><a href="#!">Aveo Emotion</a></li>
+                <li><a href="#!">Camaro</a></li>
+                <li><a href="#!">Captiva Sport</a></li>
+                <li><a href="#!">Corsa 5 puertas</a></li>
+                <li><a href="#!">Corsa 3 puertas</a></li>
+                <li><a href="#!">Corsa Evolution</a></li>
+                <li><a href="#!">Cruze</a></li>
+                <li><a href="#!">D-MAX 4X2</a></li>
+                <li><a href="#!">D-MAX 4X4 </a></li>
+                <li><a href="#!">Grand Vitara 3P</a></li>
+                <li><a href="#!">Grand Vitara 5P</a></li>
+                <li><a href="#!">Grand Vitara SZ</a></li>
+                <li><a href="#!">Grand Vitara SZ NEXT </a></li>
+                <li><a href="#!">Jimny</a></li>
+                <li><a href="#!">Optra</a></li>
+                <li><a href="#!">Optra Limited</a></li>
+                <li><a href="#!">Optra Advance Hatchback</a></li>
+                <li><a href="#!">Optra Advance </a></li>
+                <li><a href="#!">Rodeo</a></li>
+                <li><a href="#!">Sail</a></li>
+                <li><a href="#!">Sail (Hatchback)</a></li>
+                <li><a href="#!">Silverado</a></li>
+                <li><a href="#!">Spark</a></li>
+                <li><a href="#!">Spark GT</a></li>
+                <li><a href="#!">TrailBlazer</a></li>
+                <li><a href="#!">Trooper</a></li>
+                <li><a href="#!">Vitara 3P Clásico </a></li>
+                <li><a href="#!">Vitara 5P Clásico</a></li>
+                <li><a href="#!">Zafira</a></li>
+              </ul>
+            </div>
+
+            <div class="busqueda-lateral col s12">
+              <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown8'>Motor</a>
+              <ul id='dropdown8' class='dropdown-content'>
+                <li><a href="#!">1.6L</a></li>
+                <li><a href="#!">2.0L</a></li>
+                <li><a href="#!">2.5L</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ul>
+
+<!-- NOTE: banner encabezado -------------------------------------------------->
+  <div id="index-banner">
+    <div class="carousel carousel-slider center">
+      <div class="carousel-fixed-item center"></div>
+
+      <div class="carousel-item" href="#one!">
+        <img src="fotos\banner\banner-01.jpg" alt="">
+      </div>
+
+      <div class="carousel-item" href="#two!">
+        <img src="fotos\banner\banner-02.jpg" alt="">
+
+      </div>
+
+      <div class="carousel-item" href="#three!">
+        <img src="fotos\banner\banner-03.jpg" alt="">
+      </div>
+
+      <div class="carousel-item" href="#four!">
+        <img src="fotos\banner\banner-04.jpg" alt="">
+
+      </div>
+
+    </div>
+  </div>
+<!-- NOTE: menu indicador de sección------------------------------------------->
+  <div class="indicador-seccion row col s12">
+
+    <a href="Cotizar.html" class="waves-effect waves-light col s3 white-text blue-grey">
+      <div>
+        <p><img src="fotos\uno.png">Cotizar</p>
+      </div>
+    </a>
+    <a  href="localiza.html" class="waves-effect waves-light col s3 white-text blue-grey lighten-2">
+      <div>
+        <p><img src="fotos\dos.png">Localizar </p>
+      </div>
+    </a>
+    <div class="col s3 white-text red accent-3">
+      <div>
+        <p><img src="fotos\tres.png">Reservar</p>
+      </div>
+    </div>
+    <a href="Pagar.html" class="waves-effect waves-light col s3 white-text blue-grey lighten-3">
+      <div>
+        <p><img src="fotos\cuatro.png">Pagar</p>
+      </div>
+    </a>
+
+  </div>
+
+<!-- NOTE: Contenido ----------------------------------------------------------------------------------------------------------->
+  <div class="container central">
+    <div class="row">
+
+      <!-- contenido izquiera-->
+      <div class="row sticky hide-on-med-and-down col s12 l3">
+
+
+          <div class="card">
+              <div class="collection">
+
+                <a href="#!" class="row collection-item">
+                  <div class="col s3">
+                    <img src="fotos\dos.png" alt="">
+                  </div>
+                  <div class="col s9">
+                    <p >Configurar cuenta</p>
+                  </div>
+                </a>
+
+
+                <a href="#!" class="collection-item active">Alvin</a>
+                <a href="#!" class="collection-item">Alvin</a>
+                <a href="#!" class="collection-item">Alvin</a>
+              </div>
+
+          </div>
+
+
+
+
+
+        <ul class="collapsible" data-collapsible="accordion">
+         <li>
+           <div class="collapsible-header"><i class="material-icons">Configurar cuenta</i>First</div>
+         </li>
+         <li>
+           <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+         </li>
+         <li>
+           <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+         </li>
+         <li>
+           <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+         </li>
+       </ul>
+
+        <div class="card-detalle-precios card">
+          <div class="detalle-precios card-content">
+
+            <p class="letra-peque left-align">Repuestos<strike class="secondary-content orange-text">$100.00</strike></p>
+            <p class="letra-peque left-align">10% descuento<strong class="secondary-content blue-grey-text darken-4-text">-$10.00</strong> </p>
+            <p class="letra-peque left-align"> <b>Total repuestos</b><strong class="secondary-content">$90.00</strong> </p>
+
+            <div class="divider"></div>
+
+            <p class="letra-peque left-align">Mano de obra ABC Motor<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+            <p class="letra-peque left-align">Mano de obra ABC Frenos<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+            <p class="letra-peque left-align">0% Descuento<strong class="secondary-content blue-grey-text darken-4-text">$00.00</strong> </p>
+            <p class="letra-peque left-align"><b>Total mano de obra</b><strong class="secondary-content">$59.98</strong> </p>
+
+            <div class="divider"></div>
+            <p class="letra-peque left-align">12% IVA<strong class="secondary-content blue-grey-text darken-4-text">$17.99</strong> </p>
+            <div class="divider"></div>
+
+            <div class="letra-peque left-align">
+              <b>PRECIO TOTAL</b>
+              <h4 class="precio red-text right-align">$167.98</h4>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="boton-pago-dos col s12 ">
+          <a href="localiza.html" class="waves-effect waves-light blue-grey lighten-2 btn "><i class="material-icons">arrow_back</i>Regresar</a>
+          <a href="Pagar.html" class="waves-effect waves-light red accent-3 btn"><i class="material-icons">shopping_cart</i>Realizar pago</a>
+        </div>
+      </div>
+
+      <!-- contenido central-->
+      <div class="col s12 l9">
+
+        <!-- NOTE: detalle de precio mantallas medianas y pequeñas ------------>
+        <ul class="sticky-precios collapsible hide-on-large-only" data-collapsible="accordion">
+          <li>
+            <div class="detalle-precios-peques collapsible-header">
+              <div class="texto-precio-total col s6 right-align "><b>DETALLE PRECIO TOTAL</b></div>
+              <h4 class="precio-total col s6 red-text left-align ">$167.98</h4>
+            </div>
+
+            <div class="collapsible-body">
+              <div class="card-precios card">
+                <div class="card-content">
+                  <p class="letra-peque left-align">Repuestos<strike class="secondary-content orange-text">$100.00</strike></p>
+                  <p class="letra-peque left-align">10% descuento<strong class="secondary-content blue-grey-text darken-4-text">-$10.00</strong> </p>
+                  <p class="letra-peque left-align"> <b>Total repuestos</b><strong class="secondary-content">$90.00</strong> </p>
+
+                  <div class="divider"></div>
+
+                  <p class="letra-peque left-align">Mano de obra ABC Motor<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+                  <p class="letra-peque left-align">Mano de obra ABC Frenos<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+                  <p class="letra-peque left-align">0% descuento<strong class="secondary-content blue-grey-text darken-4-text">$00.00</strong> </p>
+                  <p class="letra-peque left-align"><b>Total mano de obra</b><strong class="secondary-content">$59.98</strong> </p>
+
+                  <div class="divider"></div>
+                  <p class="letra-peque left-align">12% IVA<strong class="secondary-content blue-grey-text darken-4-text">$17.99</strong> </p>
+                  <div class="divider"></div>
+
+                  <div class="letra-peque left-align">
+                    <b>PRECIO TOTAL</b>
+                    <h4 class="precio red-text right-align">$167.98</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="boton-pago collapsible-header"><a class="waves-effect waves-light red accent-3 btn"><i class="material-icons">shopping_cart</i>Realizar pago</a></div>
+          </li>
+        </ul>
+
+        <!-- NOTE: menu busqueda horas disponibles grandes ------------------->
+        <!-- busqueda de horas disponibles ------------------------------------>
+
+        <!-- Calendly inline widget begin
+          <div class="calendly-inline-widget" data-url="https://calendly.com/tomasvidela/servicio" style="min-width:320px;height:630px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+          -->
+        <div class="card">
+          <div class="card-content busqueda-carros">
+            <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event_available</i>Reserva el horario de atención</h5>
+            <p class="letra-peque">*Selecciona entre las horas disponibles</p>
+          </div>
+
+          <div class=" card-content reservas">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Viernes, Mayo 8</h6>
+
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas disabled" ></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora ">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Sábado, Mayo 9</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Domingo, Mayo 10</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Lunes, Mayo 11</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Martes, Mayo 12</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Miércoles, Mayo 13</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Jueves, Mayo 14</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Viernes, Mayo 15</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Sábado, Mayo 16</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Domingo, Mayo 17</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>lunes, Mayo 18</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class=" card-content reservas hide-part">
+            <h6 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">event</i>Martes, Mayo 19</h6>
+            <div class="collection flex-container-celdas">
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="7:00" class="btn tooltipped collection-item flex-item-celdas disabled"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="8:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="9:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="10:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="11:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="12:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="1:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="2:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="3:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="4:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+              <a href="#!" data-position="top" data-delay="5" data-tooltip="5:00" class="btn tooltipped collection-item flex-item-celdas"></a>
+            </div>
+            <ul class="letras-horas">
+              <div class="collection flex-container-celdas">
+                <li href="#!" class="collection-item letra-peque flex-item-hora">7AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">9AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">11AM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">1PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">3PM</li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora"></li>
+                <li href="#!" class="collection-item letra-peque flex-item-hora">5PM</li>
+              </div>
+            </ul>
+          </div>
+
+          <div class="">
+            <a class="show-more waves-effect waves-light btn">VER MÁS</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+<!-- POPUP MODALS -------------------------------------------------------------------------------------------------------------->
+<!-- Modal ingreso cuenta -->
+  <div id="modal-ingreso-cuenta" class="modal">
+    <div class="modal-content entrar" >
+
+
+        <div class="white z-depth-2">
+
+          <ul class="tabs teal ingreso-cuenta">
+            <li class="tab col s3 "><a class="white-text active" href="#login">Iniciar sesión</a></li>
+            <li class="tab col s3"><a class="white-text" href="#register">Crear cuenta</a></li>
+          </ul>
+
+          <div id="login" class="col s12">
+            <form class="col s12">
+              <div class="form-container ingreso-container">
+                <h3 class="teal-text menos-margin">Hola</h3>
+                <div class="row menos-margin">
+                  <div class="input-field col s12 ">
+                    <input id="email" type="email" class="validate menos-margin">
+                    <label for="email">Email</label>
+
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field  col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Contraseña</label>
+                  </div>
+
+                  <div class="col s12">
+
+                    <div class="col s4">
+                      <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                      <label for="filled-in-box">Recordar</label>
+                    </div>
+
+                    <div class="col s8 right-align">
+                      <a href="">¿Olvidaste tu contraseña?</a>
+                    </div>
+
+                  </div>
+
+                </div>
+                <br>
+                <center>
+
+                  <div class="col s12 ">
+                    <a class="botones-largos waves-effect red accent-3 waves-light btn">entrar</a>
+                  </div>
+
+
+                  <br>
+                  <div class="divider"></div>
+                  <br>
+
+
+                  <div class="col s12">
+                    <a class="botones-largos waves-effect indigo darken-2 waves-light btn"><i class="logo-social fab fa-facebook "></i>iniciar sesión con Facebook</a>
+                  </div>
+
+                  <br>
+
+                  <div class="col s12">
+                    <a class="botones-largos waves-effect deep-orange waves-light btn"><i class="logo-social fab fa-google-plus-g"></i>iniciar sesión con Google +</a>
+                  </div>
+
+                </center>
+              </div>
+            </form>
+
+          </div>
+
+
+          <div id="register" class="col s12">
+            <form class="col s12">
+              <div class="form-container ingreso-container">
+                <h3 class="teal-text menos-margin">Bienvenido</h3>
+                <div class="row menos-margin">
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate menos-margin">
+                    <label for="last_name">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate menos-margin">
+                    <label for="last_name">Apellido</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate menos-margin">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="email-confirm" type="email" class="validate menos-margin">
+                    <label for="email-confirm">Confirmar Email</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="password" type="password" class="validate menos-margin">
+                    <label for="password">Contraseña</label>
+                  </div>
+                </div>
+                <div class="row menos-margin">
+                  <div class="input-field col s12">
+                    <input id="password-confirm" type="password" class="validate">
+                    <label for="password-confirm">Confirmar contraseña</label>
+                  </div>
+                </div>
+                <center>
+                  <button class="btn waves-effect waves-light teal" type="submit" name="action">enviar</button>
+                </center>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+
+
+
+      <div class="divider botones"></div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+    </div>
+  </div>
+
+</body>
+
+<!-- NOTE: footer ------------------------------------------------------------------------------------------------------------>
+<footer class="page-footer teal blue-grey darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="card-content">
+        <h5 class="white-text">ABC Express</h5>
+      </div>
+      <div class="col s12 m8">
+        <p class="grey-text text-lighten-4">Nuestra misión está en utilizar nuevas tecnologías para dar un mejor servicio a nuestros usuarios convirtiéndonos en sus aliado estratégicos. Hemos construido la plataforma de repuestos y suministros de
+          mantenimiento automotriz preventivo del futuro, lo que nos permite tener una gran cobertura de la mayoría de vehículos de nuestro mercado, enfocados en aumentar día a día nuestro catálogo con nuevos ítems de la mejor calidad y prestaciones.
+          Nuestra plataforma basada en la nube reemplazan la infraestructura física de las tiendas, lo que nos permite tener precios mas competitivos y disponibilidad inmediata gracias a nuestros proveedores amigos.</p>
+      </div>
+
+      <div class="col s12  m4 row">
+        <div class="col s12 m10">
+          <ul>
+            <li><a class="white-text" href="#!">Garantía del consumidor</a></li>
+            <li><a class="white-text" href="#!">Términos y Condiciones </a></li>
+            <li><a class="blue-text" href="#!">Contáctanos</a></li>
+          </ul>
+
+        </div>
+        <div class="col s12 m2 row">
+          <ul>
+            <li><i class="fab fa-facebook small"></i></li>
+            <li><i class="fab fa-instagram small"></i></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright blue-grey darken-3">
+    <div class="container">
+      COPYRIGHT © 2019 <a class="red-text text-accent-3">ABC Express</a>
+    </div>
+  </div>
+</footer>
+
+<!--  Scripts------------------------------------------------------------------>
+<script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+</script>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</html>

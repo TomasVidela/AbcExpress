@@ -487,6 +487,10 @@ div.detalle-precios.card-content {
   padding: 8px;
 }
 
+.detalle-precios-peques:hover{
+  background-color:#eceff1;
+}
+
 .card-precios {
   margin: 0px;
 }

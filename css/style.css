@@ -339,6 +339,11 @@ div.user-view {
 
 
 
+
+
+
+
+
 /* NOTE: seleccion de servicios--------------------------------------------- */
   .seleccion-servicios{
     padding-bottom: 0px !important;
@@ -778,4 +783,45 @@ padding-bottom: 24px !important;
 }
 .show-part{
     display: block;
+}
+
+
+
+/* NOTE: inicio Cuentas */
+a.collection-item.boton-cuenta{
+  padding: 0px !important;
+}
+
+.celda-menu-cuentas{
+  border: 1px solid #ddd;
+  height: 40px !important;
+}
+
+.celda-menu-cuentas.texto{
+  text-align: center;
+  align-content: center;
+  display: grid;
+  padding: 0px;
+  color: #607d8b ;
+}
+
+.celda-menu-cuentas.icono{
+  align-content: center;
+  display: grid;
+  color: white !important;
+}
+
+
+.celda-menu-cuentas p{
+  margin: 0px;
+
+}
+
+.collection.cuentas{
+  overflow: visible;
+}
+
+.container .row{
+margin-left: 0;
+margin-right: 0;
 }

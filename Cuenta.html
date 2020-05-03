@@ -314,88 +314,120 @@
           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
           -->
         <div class="card">
-          <div class="card-content busqueda-carros">
+          <div class="card-content">
             <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons medium">settings_applications</i>Editar datos de la cuenta</h5>
           </div>
 
             <ul class="collapsible" data-collapsible="accordion">
               <li>
-                <div class="collapsible-header"><i class="material-icons">filter_drama</i>Editar perfil</div>
-
+                <div class="collapsible-header"><i class="material-icons">account_box</i>Editar perfil</div>
                 <div class="row collapsible-body">
 
+                  <form class="card-content col s12">
 
-                   <form class="card-content col s12">
-                     <div class="row">
-                       <div class="input-field col s6">
-                         <i class="material-icons prefix">person_outline</i>
-                         <input id="first_name" type="text" class="validate">
-                         <label for="first_name">Nombre</label>
-                       </div>
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">person_outline</i>
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombre</label>
+                      </div>
 
-                     </div>
-                     <div class="row">
-                       <div class="input-field col s6">
-                         <i class="material-icons prefix"></i>
-                         <input id="last_name" type="text" class="validate">
-                         <label for="last_name">Apellido</label>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="input-field col s6">
-                         <i class="material-icons prefix">mail_outline</i>
-                         <input id="email" type="email" class="validate">
-                         <label for="email">Email</label>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="input-field col s6">
-                         <i class="material-icons prefix">lock_outline</i>
-                         <input id="password" type="password" class="validate">
-                         <label for="password">Contraseña</label>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="input-field col s6">
-                         <i class="material-icons prefix">vpn_key</i>
-                         <input id="password" type="password" class="validate">
-                         <label for="password">Confirmar contraseña</label>
-                       </div>
-                     </div>
-                     <div class="row">
-                     <form class="col s12">
-                       <div class="row">
-                         <div class="input-field col s6">
-                           <i class="material-icons prefix">location_on</i>
-                           <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                           <label for="icon_prefix2">First Name</label>
-                         </div>
-                       </div>
-                     </form>
-                   </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix"></i>
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Apellido</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">phone_iphone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Teléfono </label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">fingerprint</i>
+                        <input id="ruc" type="text" class="validate">
+                        <label for="ruc">Cédula o RUC</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">mail_outline</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                      </div>
+                    </div>
 
 
-                   </form>
-                 </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <i class="material-icons prefix">location_on</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Dirección</label>
+                          </div>
+                        </div>
 
+
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <i class="material-icons prefix">pin_drop</i>
+                            <textarea placeholder="Opcional" id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Dirección de facturación</label>
+                          </div>
+                        </div>
+
+
+                    <div class="card-content">
+                      <a class="waves-effect waves-light btn">Guardar</a>
+                    </div>
+
+                  </form>
+                </div>
+              </li>
 
               <li>
-                <div class="collapsible-header"><i class="material-icons">place</i>Mis carros</div>
+                <div class="collapsible-header"><i class="material-icons">directions_car</i>Mis carros</div>
                 <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">whatshot</i>Contraseña</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header"><i class="material-icons">lock</i>Cambia tu contraseña</div>
+                <div class="row collapsible-body">
+
+                  <form class="card-content col s12">
+
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">vpn_key</i>
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Actual contraseña</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">lock_open</i>
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Nueva contraseña</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Confirmar contraseña</label>
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <a class="waves-effect waves-light btn">Guardar</a>
+                    </div>
+
+                  </form>
+                </div>
               </li>
             </ul>
-
-          <div class="">
-            <a class="show-more waves-effect waves-light btn">VER MÁS</a>
-          </div>
         </div>
 
       </div>
-
     </div>
   </div>
 

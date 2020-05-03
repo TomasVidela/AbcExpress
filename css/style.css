@@ -830,3 +830,8 @@ a.collection-item.boton-cuenta{
 margin-left: 0;
 margin-right: 0;
 }
+
+
+.collapsible-header{
+  border-top: 1px solid #ddd;
+}

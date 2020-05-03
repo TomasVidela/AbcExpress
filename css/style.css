@@ -787,6 +787,9 @@ padding-bottom: 24px !important;
 
 
 
+
+
+
 /* NOTE: inicio Cuentas */
 a.collection-item.boton-cuenta{
   padding: 0px !important;
@@ -802,24 +805,26 @@ a.collection-item.boton-cuenta{
   align-content: center;
   display: grid;
   padding: 0px;
-  color: #607d8b ;
+
+}
+
+.celda-menu-cuentas .active{
+  color: white !important;
 }
 
 .celda-menu-cuentas.icono{
   align-content: center;
   display: grid;
-  color: white !important;
 }
-
 
 .celda-menu-cuentas p{
   margin: 0px;
-
 }
 
 .collection.cuentas{
   overflow: visible;
 }
+
 
 .container .row{
 margin-left: 0;

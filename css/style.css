@@ -808,17 +808,31 @@ a.collection-item.boton-cuenta{
 
 }
 
-.celda-menu-cuentas .active{
+.celda-menu-cuentas.active{
   color: white !important;
 }
 
 .celda-menu-cuentas.icono{
   align-content: center;
   display: grid;
+  0padding-left:20px;
+  0padding-right:20px;
+  0margin: auto;
+
+}
+.icono-cuenta{
+  max-width: 35px;
+  min-width: 30px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
+
 .celda-menu-cuentas p{
-  margin: 0px;
+  margin: 0px !important;
 }
 
 .collection.cuentas{
@@ -826,7 +840,7 @@ a.collection-item.boton-cuenta{
 }
 
 
-.container .row{
+.container.row{
 margin-left: 0;
 margin-right: 0;
 }

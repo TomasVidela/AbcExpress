@@ -838,7 +838,14 @@ a.collection-item.boton-cuenta{
 .collection.cuentas{
   overflow: visible;
 }
-
+.editar-cuenta:hover{
+  background-color: #4db6ac;
+  color: white;
+}
+.boton-cuenta:hover{
+  background-color: #4db6ac !important;
+  color: white !important;
+}
 
 .container.row{
 margin-left: 0;

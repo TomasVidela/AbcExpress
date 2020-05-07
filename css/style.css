@@ -856,3 +856,16 @@ margin-right: 0;
 .collapsible-header{
   border-top: 1px solid #ddd;
 }
+
+
+/*  ceuntas / mis carros: */
+.logos-autos{
+  max-height: 35px;
+  margin-top: 8px;
+
+
+}
+
+.info-micarro{
+  margin: 0px !important;
+}

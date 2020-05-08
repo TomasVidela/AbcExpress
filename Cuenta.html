@@ -423,7 +423,7 @@
 
                                     <div class="input-field col s12 m6">
                                       <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car-rental.png"/>
-                                      <input value="50" id="first_name2" type="text" placeholder="Auto de mama" class="validate">
+                                      <input value="" id="first_name2" type="text" placeholder="vehículo de trabajo" class="validate">
                                       <label class="active" for="first_name2">Usuario</label>
                                     </div>
                                 </div>
@@ -431,14 +431,14 @@
                                 <div class="row">
                                   <div class="input-field col s12 m6">
                                     <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/odometer.png"/>
-                                    <input value="152000" id="input_text" type="text"  class="validate">
+                                    <input value="152000" id="input_text" type="text" data-length="6"  class="validate">
                                     <label class="active" for="first_name2">Kilometraje actual</label>
                                   </div>
 
 
                                     <div class="input-field col s12 m6">
                                       <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/odometer.png"/>
-                                      <input value="50" id="first_name2" type="text" class="validate">
+                                      <input placeholder="Opcional" value="" id="first_name2" type="text" class="validate">
                                       <label class="active" for="first_name2">Kilometraje diario</label>
                                     </div>
                                 </div>
@@ -475,17 +475,15 @@
                                     </select>
                                     <label>¿Qué tipo de aceite usa su vehículo?</label>
                                   </div>
-
-
-                                  <div class="switch col s12 m6 ">
-                                    <img class="material-icons prefix basicos-micarro " src="https://img.icons8.com/ios/50/000000/speedometer.png"/>
-                                    <label >
-                                      Kilometros
-                                      <input type="checkbox">
-                                      <span class="lever"></span>
-                                      Millas
-                                    </label>
-                                    </div>
+                                  <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/speedometer.png"/>
+                                    <select>
+                                      <option value="" disabled selected>Elige una opción (*Importante)</option>
+                                      <option value="1">kilómetros (Km/h)</option>
+                                      <option value="2">Millas (MPH) </option>
+                                    </select>
+                                    <label>¿El tablero de instrumentos esta en?</label>
+                                  </div>
 
 
                                 </div>

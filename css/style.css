@@ -869,3 +869,40 @@ margin-right: 0;
 .info-micarro{
   margin: 0px !important;
 }
+
+
+
+
+
+/* label color */
+   .input-field label {
+     color: #78909c;
+   }
+
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+   /* tamaño del texto delformilario */
+   input[type="text"].valid:not(.browser-default){
+     font-size: 18px;
+   }
+   input[type="text"]:not(.browser-default){
+     font-size: 16px;
+   }
+
+
+
+   .basicos-micarro{
+     padding-right: 10px;
+   }
+
+
+  .borrar{
+    padding-right: 10px;
+  }
+
+.prefix ~ label{
+  margin-left: 1rem;
+   font-size: 1rem;
+}

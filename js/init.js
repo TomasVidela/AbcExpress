@@ -126,7 +126,7 @@ if ($('.pushpin-demo-nav').length) {
    }, 100);
 
 
-// RESETRVAR--------------------------------------------------------------
+// Reservar --------------------------------------------------------------
 
 
     // EFECTO DEL BOTON  DE VER MAS  Y VER MENOS
@@ -136,3 +136,15 @@ if ($('.pushpin-demo-nav').length) {
       $(this).html(txt);
       event.preventDefault();
     });
+
+
+
+
+// CUENTAS: para que funcione formularios de seleccion
+
+    $(document).ready(function() {
+  $('select').material_select();
+});
+
+
+  $('select').material_select('destroy');

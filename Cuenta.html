@@ -342,7 +342,7 @@
                     <div class="row">
                       <div class="input-field col s12 m6">
                         <i class="material-icons prefix">phone_iphone</i>
-                        <input id="icon_telephone" type="tel" class="validate">
+                        <input id="icon_telephone" type="text" class="validate">
                         <label for="icon_telephone">Teléfono </label>
                       </div>
                       <div class="input-field col s12 m6">
@@ -355,8 +355,8 @@
                     <div class="row">
                       <div class="input-field col s12">
                         <i class="material-icons prefix">mail_outline</i>
-                        <input id="email" type="email" class="validate">
-                        <label for="email">Email</label>
+                        <input id="email" type="email" data-error="wrong" data-success="right"class="validate">
+                        <label for="email" data-error="wrong" data-success="right">Email</label>
                       </div>
                     </div>
 
@@ -416,61 +416,89 @@
 
                                 <div class="row">
                                   <div class="input-field col s12 m6">
-                                    <img class="prefix"src="iconos\cuenta-gris-01.png" alt="">
-                                    <input ="first_name" type="number" class="validate">
-                                    <label for="nuember">Kilometraje actual</label>
+                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/licence-plate.png"/>
+                                    <input value="" placeholder="ABC1234"  data-length="7" id="input_text" type="text"  class="validate">
+                                    <label class="active" for="first_name2">Placa del vehículo</label>
                                   </div>
 
-                                  <div class="input-field col s12 m6">
-                                    <input placeholder="Kilometraje diario" id="first_name" type="text" class="validate">
-                                    <label for="first_name">Kilometraje diario</label>
-                                  </div>
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car-rental.png"/>
+                                      <input value="50" id="first_name2" type="text" placeholder="Auto de mama" class="validate">
+                                      <label class="active" for="first_name2">Usuario</label>
+                                    </div>
                                 </div>
 
                                 <div class="row">
                                   <div class="input-field col s12 m6">
-                                    <i class="material-icons prefix">phone_iphone</i>
-                                    <input id="icon_telephone" type="tel" class="validate">
-                                    <label for="icon_telephone">Teléfono </label>
+                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/odometer.png"/>
+                                    <input value="152000" id="input_text" type="text"  class="validate">
+                                    <label class="active" for="first_name2">Kilometraje actual</label>
                                   </div>
-                                  <div class="input-field col s12 m6">
-                                    <i class="material-icons prefix">fingerprint</i>
-                                    <input id="ruc" type="text" class="validate">
-                                    <label for="ruc">Cédula o RUC</label>
-                                  </div>
+
+
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/odometer.png"/>
+                                      <input value="50" id="first_name2" type="text" class="validate">
+                                      <label class="active" for="first_name2">Kilometraje diario</label>
+                                    </div>
                                 </div>
 
                                 <div class="row">
-                                  <div class="input-field col s12">
-                                    <i class="material-icons prefix">mail_outline</i>
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email">Email</label>
+                                  <div class="input-field col s12 m6">
+                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/car-badge.png"/>
+                                    <input id="input_text" type="text" data-length="17">
+                                    <label for="input_text">Número VIN (chasis)</label>
+                                  </div>
+
+                                  <div class="input-field col s12 m6">
+                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/pastel-glyph/64/000000/gearbox-selector.png"/>
+                                  <select>
+                                    <option value="" disabled selected>Elige una opción</option>
+                                    <option value="1">Caja Manual</option>
+                                    <option value="2">Caja Automática</option>
+                                  </select>
+                                  <label>¿Cuál es la transmisión de tu vehículo?</label>
+                                </div>
+
+                                </div>
+
+                                <div class="row">
+
+                                  <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/engine-oil-level.png"/>
+                                    <select>
+                                      <option value="" disabled selected>Elige una opción</option>
+                                      <option value="1">No lo sé</option>
+                                      <option value="2">Aceite sintético</option>
+                                      <option value="3">Aceite semi sintético</option>
+                                      <option value="4">Aceite mineral</option>
+                                    </select>
+                                    <label>¿Qué tipo de aceite usa su vehículo?</label>
+                                  </div>
+
+
+                                  <div class="switch col s12 m6 ">
+                                    <img class="material-icons prefix basicos-micarro " src="https://img.icons8.com/ios/50/000000/speedometer.png"/>
+                                    <label >
+                                      Kilometros
+                                      <input type="checkbox">
+                                      <span class="lever"></span>
+                                      Millas
+                                    </label>
+                                    </div>
+
+
+                                </div>
+                                <br>
+
+                                <div class="row card-content">
+                                  <div class="col s12 m8">
+                                    <a class="waves-effect waves-light btn">Guardar</a>
+                                  </div>
+                                  <div class="col s12 m4">
+                                    <a class="waves-effect waves-light btn blue-grey darken-1"><i class="borrar material-icons center">delete</i>Borrar</a>
                                   </div>
                                 </div>
-
-
-                                    <div class="row">
-                                      <div class="input-field col s12">
-                                        <i class="material-icons prefix">location_on</i>
-                                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                                        <label for="icon_prefix2">Dirección</label>
-                                      </div>
-                                    </div>
-
-
-                                    <div class="row">
-                                      <div class="input-field col s12">
-                                        <i class="material-icons prefix">pin_drop</i>
-                                        <textarea placeholder="Opcional" id="icon_prefix2" class="materialize-textarea"></textarea>
-                                        <label for="icon_prefix2">Dirección de facturación</label>
-                                      </div>
-                                    </div>
-
-
-                                <div class="card-content">
-                                  <a class="waves-effect waves-light btn">Guardar</a>
-                                </div>
-
                               </form>
 
                             </div>

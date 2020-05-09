@@ -217,9 +217,8 @@
   <div class="container central">
     <div class="row">
 
-      <!-- contenido izquiera-->
+      <!-- contenido izquiera menu -->
       <div class="sticky hide-on-med-and-down col s12 l3">
-
           <div class="card">
               <div class="collection cuentas">
 
@@ -261,7 +260,6 @@
 
               </div>
           </div>
-
       </div>
 
       <!-- contenido central-->
@@ -306,27 +304,22 @@
           </li>
         </ul>
 
-        <!-- NOTE: menu busqueda horas disponibles grandes ------------------->
-        <!-- busqueda de horas disponibles ------------------------------------>
+        <!-- NOTE: cuentas / Editar datos de la cuenta ------------------------>
 
-        <!-- Calendly inline widget begin
-          <div class="calendly-inline-widget" data-url="https://calendly.com/tomasvidela/servicio" style="min-width:320px;height:630px;"></div>
-          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-          -->
         <div class="card">
           <div class="card-content">
             <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons medium">settings_applications</i>Editar datos de la cuenta</h5>
           </div>
             <ul class="collapsible" data-collapsible="accordion">
 
+<!-- NOTE: Editar perfil ------------------------------------------------------>
               <li>
                 <div class="collapsible-header editar-cuenta"><i class="material-icons">account_box</i>Editar perfil</div>
                 <div class="row collapsible-body">
 
                   <form class="card-content col s12">
-
                     <div class="row">
-                      <div class="input-field col s12 m6">
+                      <div class="input-field col s12">
                         <i class="material-icons prefix">person_outline</i>
                         <input id="first_name" type="text" class="validate">
                         <label for="first_name">Nombre</label>
@@ -360,168 +353,279 @@
                       </div>
                     </div>
 
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">location_on</i>
+                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <label for="icon_prefix2">Dirección</label>
+                      </div>
+                    </div>
 
-                        <div class="row">
-                          <div class="input-field col s12">
-                            <i class="material-icons prefix">location_on</i>
-                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                            <label for="icon_prefix2">Dirección</label>
-                          </div>
-                        </div>
-
-
-                        <div class="row">
-                          <div class="input-field col s12">
-                            <i class="material-icons prefix">pin_drop</i>
-                            <textarea placeholder="Opcional" id="icon_prefix2" class="materialize-textarea"></textarea>
-                            <label for="icon_prefix2">Dirección de facturación</label>
-                          </div>
-                        </div>
-
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">pin_drop</i>
+                        <textarea placeholder="Opcional" id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <label for="icon_prefix2">Dirección de facturación</label>
+                      </div>
+                    </div>
 
                     <div class="card-content">
                       <a class="waves-effect waves-light btn">Guardar</a>
                     </div>
-
                   </form>
+
                 </div>
               </li>
-
+<!-- NOTE: MIS CARROS---------------------------------------------------------->
+              <ul class="collapsible">
               <li>
-
                 <div class="editar-cuenta collapsible-header"><i class="material-icons">directions_car</i>Mis carros</div>
-                <div class="collapsible-body principal">
+
+                <div title="carro1" class="collapsible-body principal">
                   <ul class="collapsible " data-collapsible="accordion">
-
-                  <li>
+                    <li>
                       <div class="col s12 collapsible-header kilometraje blue-grey-text  text-darken-3 micarro ">
-
                         <div class="row col s12  info-micarro ">
-                          <div class="col S5"><img class="logos-autos" src="fotos\logos autos\logos color\Chevylogo.png" alt="">  </div>
-                          <div class="col S2 "><p>2011 <b>Chevrolet</b> Cargo N300 1.5L</p></div>
-                          <div class="col S5 "><p><b>Placa:</b> PPA0645</p></div>
+                          <div class="col S5"><img class="logos-autos" src="fotos\logos autos\logos color\Chevylogo.png" alt=""> </div>
+                          <div class="col S2 ">
+                            <p>2011 <b>Chevrolet</b> Cargo N300 1.5L</p>
+                          </div>
+                          <div class="col S5 ">
+                            <p><b>Placa:</b> PPA0645</p>
+                          </div>
                           <div class="">
-                            <i class="material-icons right icono-abrir-cerar more">expand_more</i><i  style="display: none"  class="material-icons right icono-abrir-cerar less">expand_less</i>
+                            <i class="material-icons right icono-abrir-cerar more">expand_more</i><i style="display: none" class="material-icons right icono-abrir-cerar less">expand_less</i>
                           </div>
                         </div>
-
                       </div>
 
-                    <div class="collapsible-body">
-                      <div class="col s12 collection">
+                      <div class="collapsible-body">
+                        <div class="col s12 collection">
 
-                        <div class="card">
-                          <div class="col s12">
-                            <div class="card ">
+                          <div class="card">
+                            <div class="col s12">
+                              <div class="card ">
 
-                              <form class="card-content col s12">
-
-                                <div class="row">
-                                  <div class="input-field col s12 m6">
-                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/licence-plate.png"/>
-                                    <input value="" placeholder="ABC1234"  data-length="7" id="input_text" type="text"  class="validate">
-                                    <label class="active" for="first_name2">Placa del vehículo</label>
-                                  </div>
+                                <form class="card-content col s12">
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/licence-plate.png" />
+                                      <input value="" placeholder="ABC1234" data-length="7" id="input_text" type="text" class="validate">
+                                      <label class="active" for="first_name2">Placa del vehículo</label>
+                                    </div>
 
                                     <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car.png"/>
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car.png" />
                                       <input value="" id="first_name2" type="text" placeholder="vehículo de trabajo Andrés" class="validate">
                                       <label class="active" for="first_name2">ID vehículo</label>
                                     </div>
-                                </div>
-
-                                <div class="row">
-                                  <div class="input-field col s12 m6">
-                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/odometer.png"/>
-                                    <input value="152000" id="input_text" type="text" data-length="6"  class="validate">
-                                    <label class="active" for="first_name2">Kilometraje actual</label>
                                   </div>
+
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/odometer.png" />
+                                      <input value="152000" id="input_text" type="text" data-length="6" class="validate">
+                                      <label class="active" for="first_name2">Kilometraje actual</label>
+                                    </div>
 
 
                                     <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/odometer.png"/>
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/odometer.png" />
                                       <input placeholder="Opcional" value="" id="first_name2" type="text" class="validate">
                                       <label class="active" for="first_name2">Kilometraje diario</label>
                                     </div>
-                                </div>
-
-                                <div class="row">
-                                  <div class="input-field col s12 m6">
-                                    <a class="prefix orange-text modal-trigger " href="#modalVIN"><i class="cambio-posicion informacion material-icons">info</i></a>
-                                    <img class="material-icons prefix basicos-micarro  modal-trigger " href="#modal1"src="https://img.icons8.com/ios-filled/50/000000/car-badge.png"/>
-                                    <input id="input_text" type="text" data-length="17">
-                                    <label for="input_text">Número VIN (chasis)</label>
-
                                   </div>
 
-                                  <div class="input-field opcion-transmision col s12 m6">
-                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/pastel-glyph/64/000000/gearbox-selector.png"/>
-                                  <select>
-                                    <option value="" disabled selected>Elige una opción</option>
-                                    <option value="1">Caja Manual</option>
-                                    <option value="2">Caja Automática</option>
-                                  </select>
-                                  <label>¿Cuál es la transmisión de tu vehículo?</label>
-                                </div>
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <a class="prefix orange-text modal-trigger " href="#modalVIN"><i class="cambio-posicion informacion material-icons">info</i></a>
+                                      <img class="material-icons prefix basicos-micarro  modal-trigger " href="#modal1" src="https://img.icons8.com/ios-filled/50/000000/car-badge.png" />
+                                      <input id="input_text" type="text" data-length="17">
+                                      <label for="input_text">Número VIN (chasis)</label>
 
-                                </div>
+                                    </div>
 
-                                <div class="row">
-
-                                  <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/engine-oil-level.png"/>
-                                    <select>
-                                      <option value="" disabled selected>Elige una opción</option>
-                                      <option value="1">No lo sé</option>
-                                      <option value="2">Aceite sintético</option>
-                                      <option value="3">Aceite semi sintético</option>
-                                      <option value="4">Aceite mineral</option>
-                                    </select>
-                                    <label>¿Qué tipo de aceite usa su vehículo?</label>
-                                  </div>
-                                  <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/speedometer.png"/>
-                                    <select>
-                                      <option class="blue-text text-darken-2"value="" disabled selected>Elige una opción (*Importante)</option>
-                                      <option value="1">kilómetros (Km/h)</option>
-                                      <option value="2">Millas (MPH) </option>
-                                    </select>
-                                    <label>¿El tablero de instrumentos esta en?</label>
+                                    <div class="input-field opcion-transmision col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/pastel-glyph/64/000000/gearbox-selector.png" />
+                                      <select>
+                                        <option value="" disabled selected>Elige una opción</option>
+                                        <option value="1">Caja Manual</option>
+                                        <option value="2">Caja Automática</option>
+                                      </select>
+                                      <label>¿Cuál es la transmisión de tu vehículo?</label>
+                                    </div>
                                   </div>
 
-
-                                </div>
-                                <br>
-
-                                <div class="row card-content">
-                                  <div class="col s12 m8">
-                                    <a class="waves-effect waves-light btn">Guardar</a>
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/engine-oil-level.png" />
+                                      <select>
+                                        <option value="" disabled selected>Elige una opción</option>
+                                        <option value="1">No lo sé</option>
+                                        <option value="2">Aceite sintético</option>
+                                        <option value="3">Aceite semi sintético</option>
+                                        <option value="4">Aceite mineral</option>
+                                      </select>
+                                      <label>¿Qué tipo de aceite usa su vehículo?</label>
+                                    </div>
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/speedometer.png" />
+                                      <select>
+                                        <option class="blue-text text-darken-2" value="" disabled selected>Elige una opción (*Importante)</option>
+                                        <option value="1">kilómetros (Km/h)</option>
+                                        <option value="2">Millas (MPH) </option>
+                                      </select>
+                                      <label>¿El tablero de instrumentos esta en?</label>
+                                    </div>
                                   </div>
-                                  <div class="col s12 m4">
-                                    <a class="waves-effect waves-light btn blue-grey darken-1 modal-trigger" href="#modalborrar" ><i class="borrar material-icons center">delete</i>Borrar</a>
+                                  <br>
+                                  <div class="row card-content">
+                                    <div class="col s12 m8">
+                                      <a class="waves-effect waves-light btn">Guardar</a>
+                                    </div>
+                                    <div class="col s12 m4">
+                                      <a class="waves-effect waves-light btn blue-grey darken-1 modal-trigger" href="#modalborrar"><i class="borrar material-icons center">delete</i>Borrar</a>
+                                    </div>
                                   </div>
-                                </div>
-                              </form>
+                                </form>
 
+                              </div>
                             </div>
                           </div>
-                        </div>
 
-                    </div>
-                    </div>
-                  </li>
+                        </div>
+                      </div>
+
+                    </li>
                   </ul>
                 </div>
 
+                <div title="carro2" class="collapsible-body principal">
+                  <ul class="collapsible " data-collapsible="accordion">
+                    <li>
+                      <div class="col s12 collapsible-header kilometraje blue-grey-text  text-darken-3 micarro ">
+                        <div class="row col s12  info-micarro ">
+                          <div class="col S5"><img class="logos-autos" src="fotos\logos autos\logos color\BMWlogo.png" alt=""> </div>
+                          <div class="col S2 ">
+                            <p>2004 <b>BMW</b> 330ci 3.0L</p>
+                          </div>
+                          <div class="col S5 ">
+                            <p><b>Placa:</b>PLR0312</p>
+                          </div>
+                          <div class="">
+                            <i class="material-icons right icono-abrir-cerar more">expand_more</i><i style="display: none" class="material-icons right icono-abrir-cerar less">expand_less</i>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="collapsible-body">
+                        <div class="col s12 collection">
+
+                          <div class="card">
+                            <div class="col s12">
+                              <div class="card ">
+
+                                <form class="card-content col s12">
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/licence-plate.png" />
+                                      <input value="" placeholder="ABC1234" data-length="7" id="input_text" type="text" class="validate">
+                                      <label class="active" for="first_name2">Placa del vehículo</label>
+                                    </div>
+
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car.png" />
+                                      <input value="" id="first_name2" type="text" placeholder="vehículo de trabajo Andrés" class="validate">
+                                      <label class="active" for="first_name2">ID vehículo</label>
+                                    </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/odometer.png" />
+                                      <input value="152000" id="input_text" type="text" data-length="6" class="validate">
+                                      <label class="active" for="first_name2">Kilometraje actual</label>
+                                    </div>
+
+
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/odometer.png" />
+                                      <input placeholder="Opcional" value="" id="first_name2" type="text" class="validate">
+                                      <label class="active" for="first_name2">Kilometraje diario</label>
+                                    </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <a class="prefix orange-text modal-trigger " href="#modalVIN"><i class="cambio-posicion informacion material-icons">info</i></a>
+                                      <img class="material-icons prefix basicos-micarro  modal-trigger " href="#modal1" src="https://img.icons8.com/ios-filled/50/000000/car-badge.png" />
+                                      <input id="input_text" type="text" data-length="17">
+                                      <label for="input_text">Número VIN (chasis)</label>
+
+                                    </div>
+
+                                    <div class="input-field opcion-transmision col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/pastel-glyph/64/000000/gearbox-selector.png" />
+                                      <select>
+                                        <option value="" disabled selected>Elige una opción</option>
+                                        <option value="1">Caja Manual</option>
+                                        <option value="2">Caja Automática</option>
+                                      </select>
+                                      <label>¿Cuál es la transmisión de tu vehículo?</label>
+                                    </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/engine-oil-level.png" />
+                                      <select>
+                                        <option value="" disabled selected>Elige una opción</option>
+                                        <option value="1">No lo sé</option>
+                                        <option value="2">Aceite sintético</option>
+                                        <option value="3">Aceite semi sintético</option>
+                                        <option value="4">Aceite mineral</option>
+                                      </select>
+                                      <label>¿Qué tipo de aceite usa su vehículo?</label>
+                                    </div>
+                                    <div class="input-field col s12 m6">
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/speedometer.png" />
+                                      <select>
+                                        <option class="blue-text text-darken-2" value="" disabled selected>Elige una opción (*Importante)</option>
+                                        <option value="1">kilómetros (Km/h)</option>
+                                        <option value="2">Millas (MPH) </option>
+                                      </select>
+                                      <label>¿El tablero de instrumentos esta en?</label>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <div class="row card-content">
+                                    <div class="col s12 m8">
+                                      <a class="waves-effect waves-light btn">Guardar</a>
+                                    </div>
+                                    <div class="col s12 m4">
+                                      <a class="waves-effect waves-light btn blue-grey darken-1 modal-trigger" href="#modalborrar"><i class="borrar material-icons center">delete</i>Borrar</a>
+                                    </div>
+                                  </div>
+                                </form>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </li>
+                  </ul>
+                </div>
 
               </li>
-
+<!-- NOTE: CAMBIO Contraseña -------------------------------------------------->
               <li>
                 <div class="editar-cuenta collapsible-header"><i class="material-icons">lock</i>Cambio de contraseña</div>
                 <div class="row collapsible-body">
 
                   <form class="card-content col s12">
-
                     <div class="row">
                       <div class="input-field col s12 m6">
                         <i class="material-icons prefix">vpn_key</i>
@@ -545,10 +649,10 @@
                     <div class="card-content">
                       <a class="waves-effect waves-light btn">Guardar</a>
                     </div>
-
                   </form>
                 </div>
               </li>
+<!----------------------------------------------------------------------------->
             </ul>
         </div>
 

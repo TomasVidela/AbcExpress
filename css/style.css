@@ -89,13 +89,18 @@ footer.page-footer {
   .container.central{
     margin-top: 0px;
   }
+
+
 }
 
 @media only screen and (min-width : 992px) {
   img.logo {
     transform: scale(0.8);
     margin: -5px 0px 0px 0px;
+
+
   }
+
 }
 
 @media only screen and (max-width : 992px) {
@@ -115,6 +120,8 @@ footer.page-footer {
   .brand-logo {
     width: 280px;
   }
+
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -149,6 +156,10 @@ footer.page-footer {
 
   div.card-content.frenos {
     padding: 0px 0px 24px 0px !important;
+  }
+
+  .opcion-transmision{
+    margin-top: 30px;
   }
 }
 /* NOTE: responsive pantallas fin  */
@@ -887,9 +898,6 @@ margin-right: 0;
    input[type="text"].valid:not(.browser-default){
      font-size: 18px;
    }
-   input[type="text"]:not(.browser-default){
-     font-size: 16px;
-   }
 
 
 
@@ -905,4 +913,16 @@ margin-right: 0;
 .prefix ~ label{
   margin-left: 1rem;
    font-size: 1rem;
+}
+
+.cambio-posicion{
+  position: absolute;
+  top: 7px;
+  bottom: 0px;
+  left: -60px;
+  right: 0px;
+
+}
+.select-wrapper input.select-dropdown{
+  margin-top: 20px;
 }

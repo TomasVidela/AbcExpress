@@ -422,9 +422,9 @@
                                   </div>
 
                                     <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car-rental.png"/>
-                                      <input value="" id="first_name2" type="text" placeholder="vehículo de trabajo" class="validate">
-                                      <label class="active" for="first_name2">Usuario</label>
+                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car.png"/>
+                                      <input value="" id="first_name2" type="text" placeholder="vehículo de trabajo Andrés" class="validate">
+                                      <label class="active" for="first_name2">ID vehículo</label>
                                     </div>
                                 </div>
 
@@ -445,12 +445,14 @@
 
                                 <div class="row">
                                   <div class="input-field col s12 m6">
-                                    <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/car-badge.png"/>
+                                    <a class="prefix orange-text modal-trigger " href="#modalVIN"><i class="cambio-posicion informacion material-icons">info</i></a>
+                                    <img class="material-icons prefix basicos-micarro  modal-trigger " href="#modal1"src="https://img.icons8.com/ios-filled/50/000000/car-badge.png"/>
                                     <input id="input_text" type="text" data-length="17">
                                     <label for="input_text">Número VIN (chasis)</label>
+
                                   </div>
 
-                                  <div class="input-field col s12 m6">
+                                  <div class="input-field opcion-transmision col s12 m6">
                                     <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/pastel-glyph/64/000000/gearbox-selector.png"/>
                                   <select>
                                     <option value="" disabled selected>Elige una opción</option>
@@ -478,7 +480,7 @@
                                   <div class="input-field col s12 m6">
                                       <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/speedometer.png"/>
                                     <select>
-                                      <option value="" disabled selected>Elige una opción (*Importante)</option>
+                                      <option class="blue-text text-darken-2"value="" disabled selected>Elige una opción (*Importante)</option>
                                       <option value="1">kilómetros (Km/h)</option>
                                       <option value="2">Millas (MPH) </option>
                                     </select>
@@ -494,7 +496,7 @@
                                     <a class="waves-effect waves-light btn">Guardar</a>
                                   </div>
                                   <div class="col s12 m4">
-                                    <a class="waves-effect waves-light btn blue-grey darken-1"><i class="borrar material-icons center">delete</i>Borrar</a>
+                                    <a class="waves-effect waves-light btn blue-grey darken-1 modal-trigger" href="#modalborrar" ><i class="borrar material-icons center">delete</i>Borrar</a>
                                   </div>
                                 </div>
                               </form>
@@ -686,8 +688,50 @@
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
     </div>
   </div>
-
+<!-- NOTE:  -->
+<!-- Modal Structure -->
+<div id="modalVIN" class="modal">
+  <div class="modal-content">
+    <h4>Número VIN (chasis)</h4>
+    <p>El VIN (Vehicle Identification Number) llamado NÚMERO DE CHASIS o NÚMERO DE BASTIDOR
+      es una secuencia de 11 a 17 dígitos que identifica el vehículo puesta por el fabricante.
+      <br><br>
+       <b class="blue-text">El VIN se encontrar en la matrícula,</b>
+       también en el frontal del parabrisas o vidrio panorámico, del lado del conductor (Está en una placa adherida al tablero).
+       El número de chasis es como la huella digital del vehículo y es primordial para encontrar los repuestos específicos de su vehículo.
+    </p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+  </div>
+</div>
 </body>
+
+<!-- Modal Borrar -->
+<div id="modalborrar" class="modal">
+  <div class="modal-content">
+    <h4 class="red-text  accent-3">Estás a punto de eliminar este vehículo, ¿estás seguro?</h4>
+    <p>Para eliminar este vehículo, acepta los siguientes puntos.</p>
+    <form action="#">
+   <p>
+     <input type="checkbox" id="test5" />
+      <label for="test5">
+     Todas las citas asociadas con este automóvil se eliminarán. <br>
+     No se podrá recuperar la información del hostorial de un automóvil eliminado.
+   </label>
+   </p>
+
+ </form>
+
+  </div>
+  <div class="divider">
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="btn modal-action modal-close waves-effect waves-green btn-flat">Regresar</a>
+    <a href="#!" class="btn modal-action modal-close waves-effect blue-grey darken-1"><i class="material-icons right">delete_forever</i>Eliminar</a>
+  </div>
+</div>
+
 
 <!-- NOTE: footer ------------------------------------------------------------------------------------------------------------>
 <footer class="page-footer teal blue-grey darken-4">

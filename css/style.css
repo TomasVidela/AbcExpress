@@ -925,4 +925,19 @@ margin-right: 0;
 }
 .select-wrapper input.select-dropdown{
   margin-top: 20px;
+
+}
+
+.icono-abrir-cerar{
+  color: #4db6ac;
+  font-size: 40px  !important;
+  padding-top: 7px;
+}
+
+.micarro:hover{
+  background-color:#b0bec5   ;
+}
+
+.micarro {
+  padding: 0px !important;
 }

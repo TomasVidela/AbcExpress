@@ -873,15 +873,23 @@ margin-right: 0;
 .logos-autos{
   max-height: 35px;
   margin-top: 8px;
-
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 
 }
 
 .info-micarro{
   margin: 0px !important;
+
 }
 
+.contenedor-logo-autos{
+  min-width: 115px !important;
 
+}
 
 
 

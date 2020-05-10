@@ -853,6 +853,12 @@ a.collection-item.boton-cuenta{
   background-color: #4db6ac;
   color: white;
 }
+
+.editar-cuenta.active{
+  background-color: #4db6ac !important;
+  color: white !important;
+}
+
 .boton-cuenta:hover{
   background-color: #4db6ac !important;
   color: white !important;

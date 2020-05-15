@@ -121,6 +121,14 @@ footer.page-footer {
     width: 280px;
   }
 
+.00tamaño-maximo{
+  max-width: 600px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
 }
 
@@ -848,6 +856,8 @@ a.collection-item.boton-cuenta{
 
 .collection.cuentas{
   overflow: visible;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .editar-cuenta:hover{
   background-color: #4db6ac;

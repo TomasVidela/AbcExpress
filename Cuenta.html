@@ -48,15 +48,11 @@
     <li>
       <div class="user-view">
         <div class="background">
-          <img class="responsive-img" src="fotos/Chevrolet/carro.jpg">
-        </div>
-
-        <div class="info-carros z-depth-2">
-          <span class="white-text">Chevrolet Trooper 3.2L</span><br>
-          <span class="white-text">(1995) II Generación</span>
+          <img class="responsive-img" src="iconos\icono carro.png">
         </div>
       </div>
     </li>
+
     <!-- menus agregar vehiculos ------------>
     <div class="blue-grey darken-4">
         <div class="menu-lateral section">
@@ -157,7 +153,10 @@
             </div>
           </div>
         </div>
+        <a class="slide-close waves-effect waves-light btn teal lighten-2"><i class="material-icons icono-Agregar-carro">add</i>Agregar</a>
+
     </div>
+
   </ul>
 
 <!-- NOTE: banner encabezado -------------------------------------------------->
@@ -185,38 +184,31 @@
 
     </div>
   </div>
-<!-- NOTE: menu indicador de sección------------------------------------------->
-  <div class="indicador-seccion row col s12">
-
-    <a href="Cotizar.html" class="waves-effect waves-light col s3 white-text blue-grey">
-      <div>
-        <p><img src="fotos\uno.png">Cotizar</p>
-      </div>
-    </a>
-    <a  href="localiza.html" class="waves-effect waves-light col s3 white-text blue-grey lighten-2">
-      <div>
-        <p><img src="fotos\dos.png">Localizar </p>
-      </div>
-    </a>
-    <div class="col s3 white-text red accent-3">
-      <div>
-        <p><img src="fotos\tres.png">Reservar</p>
-      </div>
-    </div>
-    <a href="Pagar.html" class="waves-effect waves-light col s3 white-text blue-grey lighten-3">
-      <div>
-        <p><img src="fotos\cuatro.png">Pagar</p>
-      </div>
-    </a>
-
+  <div class="recomendado center-align">
+    <h6>Mi cuenta</h6>
   </div>
-
 <!-- NOTE: Contenido ----------------------------------------------------------------------------------------------------------->
+
+
   <div class="container central">
-    <div class="row">
+    <div class="tamaño-maximo row">
+
+
+      <div class="fixed-action-btn toolbar">
+         <a class="btn-floating btn-large red">
+           <i class="large material-icons">mode_edit</i>
+         </a>
+         <ul>
+           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
+           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
+           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
+           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
+         </ul>
+       </div>
+
 
       <!-- contenido izquiera menu -->
-      <div class="sticky hide-on-med-and-down col s12 l3">
+      <div class="col s12 m12 l3">
           <div class="card">
               <div class="collection cuentas">
 
@@ -261,49 +253,9 @@
       </div>
 
       <!-- contenido central-->
-      <div class="col s12 l9">
+      <div class="col s12 m12 l9">
 
-        <!-- NOTE: detalle de precio mantallas medianas y pequeñas ------------>
-        <ul class="sticky-precios collapsible hide-on-large-only" data-collapsible="accordion">
-          <li>
-            <div class="detalle-precios-peques collapsible-header">
-              <div class="texto-precio-total col s6 right-align "><b>DETALLE PRECIO TOTAL</b></div>
-              <h4 class="precio-total col s6 red-text left-align ">$167.98</h4>
-            </div>
-
-            <div class="collapsible-body">
-              <div class="card-precios card">
-                <div class="card-content">
-                  <p class="letra-peque left-align">Repuestos<strike class="secondary-content orange-text">$100.00</strike></p>
-                  <p class="letra-peque left-align">10% descuento<strong class="secondary-content blue-grey-text darken-4-text">-$10.00</strong> </p>
-                  <p class="letra-peque left-align"> <b>Total repuestos</b><strong class="secondary-content">$90.00</strong> </p>
-
-                  <div class="divider"></div>
-
-                  <p class="letra-peque left-align">Mano de obra ABC Motor<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
-                  <p class="letra-peque left-align">Mano de obra ABC Frenos<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
-                  <p class="letra-peque left-align">0% descuento<strong class="secondary-content blue-grey-text darken-4-text">$00.00</strong> </p>
-                  <p class="letra-peque left-align"><b>Total mano de obra</b><strong class="secondary-content">$59.98</strong> </p>
-
-                  <div class="divider"></div>
-                  <p class="letra-peque left-align">12% IVA<strong class="secondary-content blue-grey-text darken-4-text">$17.99</strong> </p>
-                  <div class="divider"></div>
-
-                  <div class="letra-peque left-align">
-                    <b>PRECIO TOTAL</b>
-                    <h4 class="precio red-text right-align">$167.98</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="boton-pago collapsible-header"><a class="waves-effect waves-light red accent-3 btn"><i class="material-icons">shopping_cart</i>Realizar pago</a></div>
-          </li>
-        </ul>
-
-        <!-- NOTE: cuentas / Editar datos de la cuenta ------------------------>
-
+      <!-- NOTE: cuentas / Editar datos de la cuenta ------------------------>
         <div class="card">
           <div class="card-content">
             <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons medium">settings_applications</i>Editar datos de la cuenta</h5>
@@ -369,7 +321,7 @@
                 </div>
               </li>
 <!-- NOTE: MIS CARROS---------------------------------------------------------->
-                <li data-collapsible="accordion">
+              <li data-collapsible="accordion">
 
                 <div class="editar-cuenta collapsible-header"><i class="material-icons">directions_car</i>Mis carros</div>
                 <a class="waves-effect waves-light btn blue-grey darken-3 collapsible-body button-collapse" data-activates="slide-out"><i class="material-icons icono-Agregar-carro">add</i>Agregar carro</a>

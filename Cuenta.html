@@ -23,8 +23,6 @@
         <a id="logo-container" href="#" class="brand-logo hide-on-med-and-down responsive-img"><img class="logo" src="fotos\ABCexpress logo.png" alt=""></a>
 
         <ul class="right hide-on-med-and-down">
-          <li><a href="index_carrito.html"><i class="iconos-encabezado material-icons left">shopping_cart</i>Comprar</a></li>
-          <!-- Modal Trigger entrar cuenta -->
           <li><a href="entrar-cuenta.html"><i class="iconos-encabezado material-icons  left ">account_box</i>Cuenta</a></li>
         </ul>
         <!-- barra navegación pantallas pequeñas-->
@@ -188,27 +186,11 @@
     <h6>Mi cuenta</h6>
   </div>
 <!-- NOTE: Contenido ----------------------------------------------------------------------------------------------------------->
-
-
   <div class="container central">
     <div class="tamaño-maximo row">
 
-
-      <div class="fixed-action-btn toolbar">
-         <a class="btn-floating btn-large red">
-           <i class="large material-icons">mode_edit</i>
-         </a>
-         <ul>
-           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
-           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
-           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
-           <li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
-         </ul>
-       </div>
-
-
       <!-- contenido izquiera menu -->
-      <div class="col s12 m12 l3">
+      <div class="col s12 m12 l3 contenido">
           <div class="card">
               <div class="collection cuentas">
 
@@ -253,9 +235,9 @@
       </div>
 
       <!-- contenido central-->
-      <div class="col s12 m12 l9">
+      <div class="col s12 m12 l9 contenido">
 
-      <!-- NOTE: cuentas / Editar datos de la cuenta ------------------------>
+<!-- NOTE: cuentas / Editar datos de la cuenta ------------------------>
         <div class="card">
           <div class="card-content">
             <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons medium">settings_applications</i>Editar datos de la cuenta</h5>
@@ -324,7 +306,7 @@
               <li data-collapsible="accordion">
 
                 <div class="editar-cuenta collapsible-header"><i class="material-icons">directions_car</i>Mis carros</div>
-                <a class="waves-effect waves-light btn blue-grey darken-3 collapsible-body button-collapse" data-activates="slide-out"><i class="material-icons icono-Agregar-carro">add</i>Agregar carro</a>
+                <a class="waves-effect waves-light btn blue-grey darken-3 collapsible-body button-collapse white-text" data-activates="slide-out"><i class="material-icons icono-Agregar-carro">add</i>Agregar carro</a>
 
                 <div title="carro1" class="collapsible-body  principal" >
                   <ul class="collapsible " data-collapsible="accordion">
@@ -742,15 +724,14 @@
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
     </div>
   </div>
-<!-- NOTE:  -->
-<!-- Modal Structure -->
+<!-- Modal numero de VIN -->
 <div id="modalVIN" class="modal">
   <div class="modal-content">
     <h4>Número VIN (chasis)</h4>
     <p>El VIN (Vehicle Identification Number) llamado NÚMERO DE CHASIS o NÚMERO DE BASTIDOR
       es una secuencia de 11 a 17 dígitos que identifica el vehículo puesta por el fabricante.
       <br><br>
-       <b class="blue-text">El VIN se encontrar en la matrícula,</b>
+       <b class="blue-text">El número VIN se encontrar en la matrícula,</b>
        también en el frontal del parabrisas o vidrio panorámico, del lado del conductor (Está en una placa adherida al tablero).
        El número de chasis es como la huella digital del vehículo y es primordial para encontrar los repuestos específicos de su vehículo.
     </p>
@@ -760,252 +741,6 @@
   </div>
 </div>
 </body>
-<!-- NOTE: modal agregar carro -->
-<div id="modal1" class="modal modal-fixed-footer">
-  <div class="modal-content">
-<!-- NOTE:
-<div class="row">
-      <div class="col s12 m6 contenedor-foto-carro">
-        <img class="responsive-img" src="fotos\Chevrolet\carro.jpg" alt="">
-      </div>
-    <div class="col s12 m6 blue-grey darken-4">
-        <div class="section">
-          <div id="barra-busqueda" class="row">
-
-            <div class="col s12">
-              <p class="texto-seleccion-auto center-align white-text">Selecciona tu vehículo</p>
-            </div>
-
-            <div class="busqueda-lateral col s12">
-              <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown5'>MARCA</a>
-              <ul id='dropdown5' class='dropdown-content '>
-                <li><a href="#!">BMW</a></li>
-                <li><a href="#!">CHEVROLET</a></li>
-                <li><a href="#!">FIAT</a></li>
-                <li><a href="#!">FORD</a></li>
-                <li><a href="#!">HONDA</a></li>
-                <li><a href="#!">HYUNDAI</a></li>
-                <li><a href="#!">JEEP</a></li>
-                <li><a href="#!">KIA</a></li>
-                <li><a href="#!">MAZDA</a></li>
-                <li><a href="#!">MERCEDES BENZ</a></li>
-                <li><a href="#!">MITSUBISHI</a></li>
-                <li><a href="#!">NISSAN</a></li>
-                <li><a href="#!">TOYOTA</a></li>
-                <li><a href="#!">VOLKSWAGEN</a></li>
-              </ul>
-            </div>
-
-            <div class="busqueda-lateral col s12">
-              <div>
-                <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown6'>Año</a>
-              </div>
-              <ul id='dropdown6' class='dropdown-content'>
-                <li><a href="#!">2019</a></li>
-                <li><a href="#!">2018</a></li>
-                <li><a href="#!">2017</a></li>
-                <li><a href="#!">2016</a></li>
-                <li><a href="#!">2015</a></li>
-                <li><a href="#!">2014</a></li>
-                <li><a href="#!">2013</a></li>
-                <li><a href="#!">2012</a></li>
-                <li><a href="#!">2011</a></li>
-                <li><a href="#!">2010</a></li>
-                <li><a href="#!">2009</a></li>
-                <li><a href="#!">2008</a></li>
-                <li><a href="#!">2007</a></li>
-                <li><a href="#!">2006</a></li>
-                <li><a href="#!">2005</a></li>
-              </ul>
-            </div>
-
-            <div class="busqueda-lateral col s12">
-              <a class="dropdown-button btn waves-effect white grey-text darken-text-2" href='#' data-activates='dropdown7'>Modelo</a>
-              <ul id='dropdown7' class='dropdown-content'>
-                <li><a href="#!">Aveo Emotion GT</a></li>
-                <li><a href="#!">Aveo Activo </a></li>
-                <li><a href="#!">Aveo Family </a></li>
-                <li><a href="#!">Aveo Emotion</a></li>
-                <li><a href="#!">Camaro</a></li>
-                <li><a href="#!">Captiva Sport</a></li>
-                <li><a href="#!">Corsa 5 puertas</a></li>
-                <li><a href="#!">Corsa 3 puertas</a></li>
-                <li><a href="#!">Corsa Evolution</a></li>
-                <li><a href="#!">Cruze</a></li>
-                <li><a href="#!">D-MAX 4X2</a></li>
-                <li><a href="#!">D-MAX 4X4 </a></li>
-                <li><a href="#!">Grand Vitara 3P</a></li>
-                <li><a href="#!">Grand Vitara 5P</a></li>
-                <li><a href="#!">Grand Vitara SZ</a></li>
-                <li><a href="#!">Grand Vitara SZ NEXT </a></li>
-                <li><a href="#!">Jimny</a></li>
-                <li><a href="#!">Optra</a></li>
-                <li><a href="#!">Optra Limited</a></li>
-                <li><a href="#!">Optra Advance Hatchback</a></li>
-                <li><a href="#!">Optra Advance </a></li>
-                <li><a href="#!">Rodeo</a></li>
-                <li><a href="#!">Sail</a></li>
-                <li><a href="#!">Sail (Hatchback)</a></li>
-                <li><a href="#!">Silverado</a></li>
-                <li><a href="#!">Spark</a></li>
-                <li><a href="#!">Spark GT</a></li>
-                <li><a href="#!">TrailBlazer</a></li>
-                <li><a href="#!">Trooper</a></li>
-                <li><a href="#!">Vitara 3P Clásico </a></li>
-                <li><a href="#!">Vitara 5P Clásico</a></li>
-                <li><a href="#!">Zafira</a></li>
-              </ul>
-            </div>
-
-            <div class="busqueda-lateral col s12">
-              <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown8'>Motor</a>
-              <ul id='dropdown8' class='dropdown-content'>
-                <li><a href="#!">1.6L</a></li>
-                <li><a href="#!">2.0L</a></li>
-                <li><a href="#!">2.5L</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    </div>
-
-
-</div>
--->
-
-
-<ul id="slide-out" class="side-nav">
-  <li>
-    <div class="user-view">
-      <div class="background">
-        <img class="responsive-img" src="fotos/Chevrolet/carro.jpg">
-      </div>
-
-      <div class="info-carros z-depth-2">
-        <span class="white-text">Chevrolet Trooper 3.2L</span><br>
-        <span class="white-text">(1995) II Generación</span>
-      </div>
-    </div>
-  </li>
-  <!-- menus de seleccion de vehiculos pastallas medianas y pequeñas ------------>
-  <div class="blue-grey darken-4">
-    <div class="container">
-      <div class="menu-lateral section">
-        <div id="barra-busqueda" class="row">
-
-          <div class="busqueda-lateral col s12">
-            <p class="texto-seleccion-auto center-align white-text">Selecciona tu vehículo</p>
-          </div>
-
-          <div class="busqueda-lateral col s12">
-            <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown5'>MARCA</a>
-            <ul id='dropdown5' class='dropdown-content '>
-              <li><a href="#!">BMW</a></li>
-              <li><a href="#!">CHEVROLET</a></li>
-              <li><a href="#!">FIAT</a></li>
-              <li><a href="#!">FORD</a></li>
-              <li><a href="#!">HONDA</a></li>
-              <li><a href="#!">HYUNDAI</a></li>
-              <li><a href="#!">JEEP</a></li>
-              <li><a href="#!">KIA</a></li>
-              <li><a href="#!">MAZDA</a></li>
-              <li><a href="#!">MERCEDES BENZ</a></li>
-              <li><a href="#!">MITSUBISHI</a></li>
-              <li><a href="#!">NISSAN</a></li>
-              <li><a href="#!">TOYOTA</a></li>
-              <li><a href="#!">VOLKSWAGEN</a></li>
-            </ul>
-          </div>
-
-          <div class="busqueda-lateral col s12">
-            <div>
-              <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown6'>Año</a>
-            </div>
-            <ul id='dropdown6' class='dropdown-content'>
-              <li><a href="#!">2019</a></li>
-              <li><a href="#!">2018</a></li>
-              <li><a href="#!">2017</a></li>
-              <li><a href="#!">2016</a></li>
-              <li><a href="#!">2015</a></li>
-              <li><a href="#!">2014</a></li>
-              <li><a href="#!">2013</a></li>
-              <li><a href="#!">2012</a></li>
-              <li><a href="#!">2011</a></li>
-              <li><a href="#!">2010</a></li>
-              <li><a href="#!">2009</a></li>
-              <li><a href="#!">2008</a></li>
-              <li><a href="#!">2007</a></li>
-              <li><a href="#!">2006</a></li>
-              <li><a href="#!">2005</a></li>
-            </ul>
-          </div>
-
-          <div class="busqueda-lateral col s12">
-            <a class="dropdown-button btn waves-effect white grey-text darken-text-2" href='#' data-activates='dropdown7'>Modelo</a>
-            <ul id='dropdown7' class='dropdown-content'>
-              <li><a href="#!">Aveo Emotion GT</a></li>
-              <li><a href="#!">Aveo Activo </a></li>
-              <li><a href="#!">Aveo Family </a></li>
-              <li><a href="#!">Aveo Emotion</a></li>
-              <li><a href="#!">Camaro</a></li>
-              <li><a href="#!">Captiva Sport</a></li>
-              <li><a href="#!">Corsa 5 puertas</a></li>
-              <li><a href="#!">Corsa 3 puertas</a></li>
-              <li><a href="#!">Corsa Evolution</a></li>
-              <li><a href="#!">Cruze</a></li>
-              <li><a href="#!">D-MAX 4X2</a></li>
-              <li><a href="#!">D-MAX 4X4 </a></li>
-              <li><a href="#!">Grand Vitara 3P</a></li>
-              <li><a href="#!">Grand Vitara 5P</a></li>
-              <li><a href="#!">Grand Vitara SZ</a></li>
-              <li><a href="#!">Grand Vitara SZ NEXT </a></li>
-              <li><a href="#!">Jimny</a></li>
-              <li><a href="#!">Optra</a></li>
-              <li><a href="#!">Optra Limited</a></li>
-              <li><a href="#!">Optra Advance Hatchback</a></li>
-              <li><a href="#!">Optra Advance </a></li>
-              <li><a href="#!">Rodeo</a></li>
-              <li><a href="#!">Sail</a></li>
-              <li><a href="#!">Sail (Hatchback)</a></li>
-              <li><a href="#!">Silverado</a></li>
-              <li><a href="#!">Spark</a></li>
-              <li><a href="#!">Spark GT</a></li>
-              <li><a href="#!">TrailBlazer</a></li>
-              <li><a href="#!">Trooper</a></li>
-              <li><a href="#!">Vitara 3P Clásico </a></li>
-              <li><a href="#!">Vitara 5P Clásico</a></li>
-              <li><a href="#!">Zafira</a></li>
-            </ul>
-          </div>
-
-          <div class="busqueda-lateral col s12">
-            <a class='dropdown-button btn waves-effect white grey-text darken-text-2' href='#' data-activates='dropdown8'>Motor</a>
-            <ul id='dropdown8' class='dropdown-content'>
-              <li><a href="#!">1.6L</a></li>
-              <li><a href="#!">2.0L</a></li>
-              <li><a href="#!">2.5L</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</ul>
-
-
-
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
-  </div>
-</div>
-
-
-
-
-
-
-
 
 <!-- Modal Borrar -->
 <div id="modalborrar" class="modal">
@@ -1020,18 +755,14 @@
      No se podrá recuperar la información del hostorial de un automóvil eliminado.
    </label>
    </p>
-
- </form>
-
+  </form>
   </div>
-  <div class="divider">
-  </div>
+  <div class="divider"></div>
   <div class="modal-footer">
     <a href="#!" class="btn modal-action modal-close waves-effect waves-green btn-flat">Regresar</a>
     <a href="#!" class="btn modal-action modal-close waves-effect blue-grey darken-1"><i class="material-icons right">delete_forever</i>Eliminar</a>
   </div>
 </div>
-
 
 <!-- NOTE: footer ------------------------------------------------------------------------------------------------------------>
 <footer class="page-footer teal blue-grey darken-4">

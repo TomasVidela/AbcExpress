@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cuenta</title>
+  <title>MiTablero</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -183,7 +183,7 @@
     </div>
   </div>
   <div class="recomendado center-align">
-    <h6>Mi cuenta</h6>
+    <h6>Mi Tablero</h6>
   </div>
 <!-- NOTE: Contenido ----------------------------------------------------------------------------------------------------------->
   <div class="container central">
@@ -194,18 +194,18 @@
           <div class="card">
               <div class="collection cuentas">
 
-                <a href="#!" class="collection-item row boton-cuenta active ">
-                  <div class="col s3 celda-menu-cuentas icono  red accent-3">
-                    <img class="icono-cuenta" src="iconos\cuenta-blanco-01.png" alt="">
+                <a href="Cuenta.html" class="collection-item row boton-cuenta">
+                  <div class="col s3 celda-menu-cuentas icono">
+                    <img class="icono-cuenta" src="iconos\cuenta-gris-01.png" alt="">
                   </div>
                   <div class="col s9 celda-menu-cuentas texto">
                     <p>Configurar cuenta</p>
                   </div>
                 </a>
 
-                <a href="Tablero.html" class="collection-item row boton-cuenta">
-                  <div class="col s3 celda-menu-cuentas icono ">
-                    <img class="icono-cuenta" src="iconos\cuenta-gris-02.png" alt="">
+                <a href="#!" class="collection-item row boton-cuenta  red accent-3 active" >
+                  <div class="col s3 celda-menu-cuentas icono  red accent-3">
+                    <img class="icono-cuenta" src="iconos\cuenta-blanco-02.png" alt="">
                   </div>
                   <div class="col s9 celda-menu-cuentas texto ">
                     <p>Mi tablero</p>
@@ -240,74 +240,14 @@
 <!-- NOTE: cuentas / Editar datos de la cuenta ------------------------>
         <div class="card">
           <div class="card-content">
-            <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons medium">settings_applications</i>Editar datos de la cuenta</h5>
+            <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons medium">insert_chart</i>Mi Tablero</h5>
           </div>
             <ul class="collapsible" data-collapsible="accordion">
 
-<!-- NOTE: Editar perfil ------------------------------------------------------>
-              <li>
-                <div class="collapsible-header editar-cuenta"><i class="material-icons">account_box</i>Editar perfil</div>
-                <div class="row collapsible-body">
-
-                  <form class="card-content col s12">
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <i class="material-icons prefix">person_outline</i>
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">Nombre completo o Empresa</label>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="input-field col s12 m6">
-                        <i class="material-icons prefix">phone_iphone</i>
-                        <input id="icon_telephone" type="text" class="validate">
-                        <label for="icon_telephone">Teléfono </label>
-                      </div>
-                      <div class="input-field col s12 m6">
-                        <i class="material-icons prefix">fingerprint</i>
-                        <input id="ruc" type="text" class="validate">
-                        <label for="ruc">Cédula o RUC</label>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <i class="material-icons prefix">mail_outline</i>
-                        <input id="email" type="email" data-error="wrong" data-success="right"class="validate">
-                        <label for="email" data-error="wrong" data-success="right">Email</label>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <i class="material-icons prefix">location_on</i>
-                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                        <label for="icon_prefix2">Dirección</label>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <i class="material-icons prefix">pin_drop</i>
-                        <textarea placeholder="Opcional" id="icon_prefix2" class="materialize-textarea"></textarea>
-                        <label for="icon_prefix2">Dirección de facturación</label>
-                      </div>
-                    </div>
-
-                    <div class="card-content">
-                      <a class="waves-effect waves-light btn">Guardar</a>
-                    </div>
-                  </form>
-
-                </div>
-              </li>
 <!-- NOTE: MIS CARROS---------------------------------------------------------->
-              <li data-collapsible="accordion">
+             <li data-collapsible="accordion">
 
                 <div class="editar-cuenta collapsible-header"><i class="material-icons">directions_car</i>Mis carros</div>
-                <a class="waves-effect waves-light btn blue-grey darken-3 collapsible-body button-collapse white-text" data-activates="slide-out"><i class="material-icons icono-Agregar-carro">add</i>Agregar carro</a>
-
                 <div title="carro1" class="collapsible-body  principal" >
                   <ul class="collapsible " data-collapsible="accordion">
                     <li>
@@ -327,100 +267,323 @@
                       </div>
 
                       <div class="collapsible-body">
-                        <div class="col s12 collection">
 
-                          <div class="card">
-                            <div class="col s12">
-                              <div class="card ">
-
-                                <form class="card-content col s12">
-                                  <div class="row">
-                                    <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/licence-plate.png" />
-                                      <input value="" placeholder="ABC1234" data-length="7" id="input_text" type="text" class="validate">
-                                      <label class="active" for="first_name2">Placa del vehículo</label>
-                                    </div>
-
-                                    <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-glyphs/60/000000/car.png" />
-                                      <input value="" id="first_name2" type="text" placeholder="vehículo de trabajo Andrés" class="validate">
-                                      <label class="active" for="first_name2">ID vehículo</label>
-                                    </div>
-                                  </div>
-
-                                  <div class="row">
-                                    <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/odometer.png" />
-                                      <input value="152000" id="input_text" type="text" data-length="6" class="validate">
-                                      <label class="active" for="first_name2">Kilometraje actual</label>
-                                    </div>
-
-
-                                    <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/odometer.png" />
-                                      <input placeholder="Opcional" value="" id="first_name2" type="text" class="validate">
-                                      <label class="active" for="first_name2">Kilometraje diario</label>
-                                    </div>
-                                  </div>
-
-                                  <div class="row">
-                                    <div class="input-field col s12 m6">
-                                      <a class="prefix orange-text modal-trigger " href="#modalVIN"><i class="cambio-posicion informacion material-icons">info</i></a>
-                                      <img class="material-icons prefix basicos-micarro  modal-trigger " href="#modal1" src="https://img.icons8.com/ios-filled/50/000000/car-badge.png" />
-                                      <input id="input_text" type="text" data-length="17">
-                                      <label for="input_text">Número VIN (chasis)</label>
-
-                                    </div>
-
-                                    <div class="input-field opcion-transmision col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/pastel-glyph/64/000000/gearbox-selector.png" />
-                                      <select>
-                                        <option value="" disabled selected>Elige una opción</option>
-                                        <option value="1">Caja Manual</option>
-                                        <option value="2">Caja Automática</option>
-                                      </select>
-                                      <label>¿Cuál es la transmisión de tu vehículo?</label>
-                                    </div>
-                                  </div>
-
-                                  <div class="row">
-                                    <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios-filled/50/000000/engine-oil-level.png" />
-                                      <select>
-                                        <option value="" disabled selected>Elige una opción</option>
-                                        <option value="1">No lo sé</option>
-                                        <option value="2">Aceite sintético</option>
-                                        <option value="3">Aceite semi sintético</option>
-                                        <option value="4">Aceite mineral</option>
-                                      </select>
-                                      <label>¿Qué tipo de aceite usa su vehículo?</label>
-                                    </div>
-                                    <div class="input-field col s12 m6">
-                                      <img class="material-icons prefix basicos-micarro" src="https://img.icons8.com/ios/50/000000/speedometer.png" />
-                                      <select>
-                                        <option class="blue-text text-darken-2" value="" disabled selected>Elige una opción (*Importante)</option>
-                                        <option value="1">kilómetros (Km/h)</option>
-                                        <option value="2">Millas (MPH) </option>
-                                      </select>
-                                      <label>¿El tablero de instrumentos esta en?</label>
-                                    </div>
-                                  </div>
-                                  <br>
-                                  <div class="row card-content">
-                                    <div class="col s12 m8">
-                                      <a class="waves-effect waves-light btn">Guardar</a>
-                                    </div>
-                                    <div class="col s12 m4">
-                                      <a class="waves-effect waves-light btn blue-grey darken-1 modal-trigger" href="#modalborrar"><i class="borrar material-icons center">delete</i>Borrar</a>
-                                    </div>
-                                  </div>
-                                </form>
-
-                              </div>
-                            </div>
+                        <div class="row">
+                          <div class="col s12">
+                            <ul class="tabs tabs-fixed-width">
+                              <li class="tab col s12 "><a href="#test1">Líquidos</a></li>
+                              <li class="tab col s12 "><a href="#test2">Motor</a></li>
+                              <li class="tab col s12 "><a href="#test3">Frenos</a></li>
+                              <li class="tab col s12 "><a href="#test4">Suspensión</a></li>
+                              <li class="tab col s12 "><a href="#test5">Otros</a></li>
+                            </ul>
                           </div>
 
+                          <div id="test1" class="col s12">
+                            <div class="card-content">
+                              <table class="responsive-table striped">
+                               <thead>
+                                 <tr>
+                                     <th>Servicio o repuesto</th>
+                                     <th>Recomendaciones</th>
+                                     <th>Último cambio</th>
+                                     <th>Próximo cambio</th>
+                                 </tr>
+                               </thead>
+
+                               <tbody>
+                                 <tr>
+                                   <td>Aceite de motor</td>
+                                   <td>Cada 5.000 km</td>
+                                   <td>60.350 km</td>
+                                   <td>65.380 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Líquido de frenos</td>
+                                   <td>Cada 20.000 km </td>
+                                   <td>50.400 km</td>
+                                   <td>70.350 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Líquido hidráulico</td>
+                                   <td>Cada 15.000 km</td>
+                                   <td>50.210 km</td>
+                                   <td>65.210 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Líquido refrigerenate</td>
+                                   <td>Cada 20.000 km</td>
+                                   <td>60.380 km</td>
+                                   <td>80.380 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Aceite de caja</td>
+                                   <td>Cada 50.000 km</td>
+                                   <td>35.200 km</td>
+                                   <td>Próximo cambio</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Aceite de difernciales</td>
+                                   <td>Cada 50.000 km</td>
+                                   <td>50.000 km</td>
+                                   <td>100.000 km</td>
+                                 </tr>
+                               </tbody>
+                             </table>
+                             </div>
+                          </div>
+
+                          <div id="test2" class="col s12">
+                            <div class="card-content">
+                              <table class="responsive-table striped">
+                               <thead>
+                                 <tr>
+                                     <th>Servicio o repuesto</th>
+                                     <th>Recomendaciones</th>
+                                     <th>Último cambio</th>
+                                     <th>Próximo cambio</th>
+                                 </tr>
+                               </thead>
+
+                               <tbody>
+                                 <tr>
+                                   <td>Filtro de aceite</td>
+                                   <td>Cada 5.000 km</td>
+                                   <td>60.380 km</td>
+                                   <td>65.380 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Filtro de combustible</td>
+                                   <td>Cada 10.000 km </td>
+                                   <td>55.400 km</td>
+                                   <td>70.400 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Filtro de aire</td>
+                                   <td>cada 15.000 km</td>
+                                   <td>50.210 km</td>
+                                   <td>65.210 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Bujías Niquel-Itrium</td>
+                                   <td>Cada 20.000 km</td>
+                                   <td>60.380 km</td>
+                                   <td>80.380 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Limpieza de inyectores</td>
+                                   <td>Cada 25.000 km</td>
+                                   <td>35.200 km</td>
+                                   <td>Próximo cambio</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Banda de accesorios</td>
+                                   <td>Cada 65.000 km</td>
+                                   <td>65.000 km</td>
+                                   <td>65.000 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Banda de distribución y templadores</td>
+                                   <td>Cada 100.000 km</td>
+                                   <td>100.000 km</td>
+                                   <td>100.000 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Bomba de agua</td>
+                                   <td>Cada 100.000 km</td>
+                                   <td>100.000 km</td>
+                                   <td>100.000 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Bomba de combustible</td>
+                                   <td>Cada 100.000 km</td>
+                                   <td>100.000 km</td>
+                                   <td>100.000 km</td>
+                                 </tr>
+                               </tbody>
+                             </table>
+                             </div>
+                          </div>
+
+                          <div id="test3" class="col s12">
+                            <div class="card-content">
+                              <table class="responsive-table striped">
+                               <thead>
+                                 <tr>
+                                     <th>Servicio o repuesto</th>
+                                     <th>Recomendaciones</th>
+                                     <th>Último cambio</th>
+                                     <th>Próximo cambio</th>
+                                 </tr>
+                               </thead>
+
+                               <tbody>
+                                 <tr>
+                                   <td>Limpieza, revisión y calibración de frenos</td>
+                                   <td>Cada 10.000 km</td>
+                                   <td>60.380 km</td>
+                                   <td>65.380 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Pastillas delanteras</td>
+                                   <td></td>
+                                   <td>25.340 km</td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Pastillas posteriores</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Discos delanteros</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Discos posteriores</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Zapatas posteriores</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                               </tbody>
+                             </table>
+                             </div>
+                          </div>
+
+                          <div id="test4" class="col s12">
+                            <div class="card-content">
+                              <table class="responsive-table striped">
+                               <thead>
+                                 <tr>
+                                     <th>Servicio o repuesto</th>
+                                     <th>Recomendaciones</th>
+                                     <th>Último cambio</th>
+                                     <th>Próximo cambio</th>
+                                 </tr>
+                               </thead>
+
+                               <tbody>
+                                 <tr>
+                                   <td>Alineación, balanceo y rotación de neumáticos</td>
+                                   <td>Cada 15.000 km</td>
+                                   <td>60.380 km</td>
+                                   <td>75.380 km</td>
+                                 </tr>
+                                 <tr>
+                                   <td>Cambio de LLantas</td>
+                                   <td></td>
+                                   <td>25.000km</td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Cambio de amortiguadores</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Cambio de mesas delanteras</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Cambio de mesas posteriores</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Cambio de rodamientos delanteros</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Cambio de rodamientos posteriores</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+
+                               </tbody>
+                             </table>
+                             </div>
+                          </div>
+
+                          <div id="test5" class="col s12">
+                            <div class="card-content">
+                              <table class="responsive-table striped">
+                               <thead>
+                                 <tr>
+                                     <th>Servicio o repuesto</th>
+                                     <th>Recomendaciones</th>
+                                     <th>Último cambio</th>
+                                     <th>Próximo cambio</th>
+                                 </tr>
+                               </thead>
+
+                               <tbody>
+                                 <tr>
+                                   <td>Cambio de Batería </td>
+                                   <td></td>
+                                   <td>50.380 km</td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Embrague</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Limpiaparabrisas</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Reparación de motor</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Mantenimiento de caja</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Alternador</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                                 <tr>
+                                   <td>Mantenimeinto aire Acondicionado</td>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                 </tr>
+                               </tbody>
+                             </table>
+                             </div>
+                          </div>
+
+
                         </div>
+
+
                       </div>
 
                     </li>

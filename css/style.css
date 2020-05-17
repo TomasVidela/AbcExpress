@@ -981,3 +981,17 @@ margin-right: 0;
 .contenido{
   padding-right: 0px  !important;
 }
+
+
+
+/* NOTE: mi Tablero */
+
+input#fname.browser-default{
+  max-width: 60px;
+  border: 1px solid #cfd8dc;
+}
+
+.texto-lebel{
+  font-size: 15px;
+  color: #78909c !important;
+}

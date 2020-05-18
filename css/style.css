@@ -91,6 +91,9 @@ footer.page-footer {
   }
 
 
+  .contenido-carro{
+    padding-left: 35px !important;
+  }
 
 
 }
@@ -981,6 +984,7 @@ margin-right: 0;
 .contenido{
   padding-right: 0px  !important;
 }
+
 
 
 

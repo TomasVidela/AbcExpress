@@ -998,4 +998,25 @@ input#fname.browser-default{
 .texto-lebel{
   font-size: 15px;
   color: #78909c !important;
+  margin-left: 5px !important;
+}
+
+.repuesto{
+  color:#26a69a;
+}
+
+
+.ultimo-cambio{
+  color: #00b0ff;
+}
+
+
+.icono-peque{
+max-height: 30px;
+padding-right: 5px ;
+}
+
+.valor-kilometraje{
+  margin-left: 5px;
+  text-align: center;
 }

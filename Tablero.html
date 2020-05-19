@@ -271,20 +271,33 @@
                         <div class="row">
                           <div class=" col s12 m6 ">
                             <form action="">
-                              <p>
+                              <p class="valign-wrapper">
+                              <img class="material-icons prefix basicos-micarro icono-peque" src="https://img.icons8.com/ios-filled/50/000000/odometer.png" />
                               <label class="texto-lebel">kilometraje Total: </label>
-                              <input class="browser-default" value="50.000" type="text" id="fname" name="fname">
+                              <input class="browser-default valor-kilometraje" value="50.000" type="text" id="fname" name="fname">
                               <label class="texto-lebel">km</label>
                             </p>
                             </form>
                           </div>
 
-                          <div class=" col s12 m6">
+                          <div class=" col s12 m6 ">
                             <form action="">
-                              <p><label class="texto-lebel">ID vehículo: </label> Auto de trabajo</p>
+                              <p class="valign-wrapper"><img class="material-icons prefix basicos-micarro icono-peque" src="https://img.icons8.com/ios-glyphs/60/000000/car.png" />
+                                <label class="texto-lebel">ID vehículo: </label> Auto de trabajo</p>
                             </form>
                           </div>
                         </div>
+                        <div class="row">
+                          <div class="col s12 m6">
+                            <strong class="red-text"><b class="black-text">Servicios realizados:</b> 002</strong>
+                            <p class=" blue-grey-text lighten-1 "><b class="black-text">Tiempo entre servicios:</b> 32 semanas</p>
+                            <p class=" blue-grey-text lighten-1"><b class="black-text">Último servicio en:</b> AUTOBOXES</p>
+                          </div>
+
+                        </div>
+
+
+
                       </div>
 
                       <div class="row">
@@ -304,7 +317,7 @@
                              <thead>
                                <tr>
                                    <th>Servicio o repuesto</th>
-                                   <th>Recomendaciones</th>
+                                   <th>Recomendación</th>
                                    <th>Último cambio</th>
                                    <th>Próximo cambio</th>
                                </tr>
@@ -312,40 +325,40 @@
 
                              <tbody>
                                <tr>
-                                 <td class="teal-text lighten-2">Aceite de motor</td>
-                                 <td>Cada 5.000 km</td>
-                                 <td class="light-blue-text accent-3">49.000 km</td>
-                                 <td>53.000 km</td>
+                                 <td class="repuesto">Aceite de motor</td>
+                                 <td class="recomendacion">Cada 5.000 km</td>
+                                 <td class="ultimo-cambio">49.000 km</td>
+                                 <td class="proximo-cambio">53.000 km</td>
                                </tr>
                                <tr>
-                                 <td class="teal-text lighten-2">Líquido de frenos</td>
-                                 <td>Cada 20.000 km </td>
-                                 <td class="light-blue-text accent-3">40.350 km</td>
-                                 <td>80.350 km</td>
+                                 <td class="repuesto">Líquido de frenos</td>
+                                 <td class="recomendacion">Cada 20.000 km </td>
+                                 <td class="ultimo-cambio">40.350 km</td>
+                                 <td class="proximo-cambio">80.350 km</td>
                                </tr>
                                <tr>
-                                 <td class="teal-text lighten-2">Líquido hidráulico</td>
-                                 <td>Cada 15.000 km</td>
-                                 <td class="light-blue-text accent-3">30.000 km</td>
-                                 <td class="red-text">45.000 km</td>
+                                 <td class="repuesto">Líquido hidráulico</td>
+                                 <td class="recomendacion">Cada 15.000 km</td>
+                                 <td class="ultimo-cambio">30.000 km</td>
+                                 <td class="proximo-cambio red-text">45.000 km</td>
                                </tr>
                                <tr>
-                                 <td class="teal-text lighten-2">Líquido refrigerenate</td>
-                                 <td>Cada 20.000 km</td>
-                                 <td class="light-blue-text accent-3">60.380 km</td>
-                                 <td>80.380 km</td>
+                                 <td class="repuesto">Líquido refrigerenate</td>
+                                 <td class="recomendacion">Cada 20.000 km</td>
+                                 <td class="ultimo-cambio">60.380 km</td>
+                                 <td class="proximo-cambio">80.380 km</td>
                                </tr>
                                <tr>
-                                 <td class="teal-text lighten-2">Aceite de caja</td>
-                                 <td>Cada 50.000 km</td>
-                                 <td class="light-blue-text accent-3">50.000 km</td>
-                                 <td>Próximo cambio</td>
+                                 <td class="repuesto">Aceite de caja</td>
+                                 <td class="recomendacion">Cada 50.000 km</td>
+                                 <td class="ultimo-cambio">50.000 km</td>
+                                 <td class="proximo-cambio">100.000 km</td>
                                </tr>
                                <tr>
-                                 <td class="teal-text lighten-2">Aceite de diferenciales</td>
-                                 <td>Cada 55.000 km</td>
-                                 <td class="light-blue-text accent-3"></td>
-                                 <td>100.000 km</td>
+                                 <td class="repuesto">Aceite de diferenciales</td>
+                                 <td class="recomendacion">Cada 55.000 km</td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio">100.000 km</td>
                                </tr>
                              </tbody>
                            </table>
@@ -358,7 +371,7 @@
                              <thead>
                                <tr>
                                    <th>Servicio o repuesto</th>
-                                   <th>Recomendaciones</th>
+                                   <th>Recomendación</th>
                                    <th>Último cambio</th>
                                    <th>Próximo cambio</th>
                                </tr>
@@ -366,58 +379,58 @@
 
                              <tbody>
                                <tr>
-                                 <td>Filtro de aceite</td>
-                                 <td>Cada 5.000 km</td>
-                                 <td>60.380 km</td>
-                                 <td>65.380 km</td>
+                                 <td class="repuesto">Filtro de aceite</td>
+                                 <td class="recomendacion">Cada 5.000 km</td>
+                                 <td class="ultimo-cambio">60.380 km</td>
+                                 <td class="proximo-cambio">65.380 km</td>
                                </tr>
                                <tr>
-                                 <td>Filtro de combustible</td>
-                                 <td>Cada 10.000 km </td>
-                                 <td>55.400 km</td>
-                                 <td>70.400 km</td>
+                                 <td class="repuesto">Filtro de combustible</td>
+                                 <td class="recomendacion">Cada 10.000 km </td>
+                                 <td class="ultimo-cambio">55.400 km</td>
+                                 <td class="proximo-cambio">70.400 km</td>
                                </tr>
                                <tr>
-                                 <td>Filtro de aire</td>
-                                 <td>cada 15.000 km</td>
-                                 <td>50.210 km</td>
-                                 <td>65.210 km</td>
+                                 <td class="repuesto">Filtro de aire</td>
+                                 <td class="recomendacion">cada 15.000 km</td>
+                                 <td class="ultimo-cambio">50.210 km</td>
+                                 <td class="proximo-cambio">65.210 km</td>
                                </tr>
                                <tr>
-                                 <td>Bujías Niquel-Itrium</td>
-                                 <td>Cada 20.000 km</td>
-                                 <td>60.380 km</td>
-                                 <td>80.380 km</td>
+                                 <td class="repuesto">Bujías Niquel-Itrium</td>
+                                 <td class="recomendacion">Cada 20.000 km</td>
+                                 <td class="ultimo-cambio">25.000 km</td>
+                                 <td class="proximo-cambio red-text">45.000 km</td>
                                </tr>
                                <tr>
-                                 <td>Limpieza de inyectores</td>
-                                 <td>Cada 25.000 km</td>
-                                 <td>35.200 km</td>
-                                 <td>Próximo cambio</td>
+                                 <td class="repuesto">Limpieza de inyectores</td>
+                                 <td class="recomendacion">Cada 25.000 km</td>
+                                 <td class="ultimo-cambio">15.200 km</td>
+                                 <td class="proximo-cambio red-text">40.000 km</td>
                                </tr>
                                <tr>
-                                 <td>Banda de accesorios</td>
-                                 <td>Cada 65.000 km</td>
-                                 <td>65.000 km</td>
-                                 <td>65.000 km</td>
+                                 <td class="repuesto">Banda de accesorios</td>
+                                 <td class="recomendacion">Cada 65.000 km</td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio">65.000 km</td>
                                </tr>
                                <tr>
-                                 <td>Banda de distribución y templadores</td>
-                                 <td>Cada 100.000 km</td>
-                                 <td></td>
-                                 <td>100.000 km</td>
+                                 <td class="repuesto">Banda de distribución y templadores</td>
+                                 <td class="recomendacion">Cada 100.000 km</td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio">100.000 km</td>
                                </tr>
                                <tr>
-                                 <td>Bomba de agua</td>
-                                 <td>Cada 100.000 km</td>
-                                 <td></td>
-                                 <td>100.000 km</td>
+                                 <td class="repuesto">Bomba de agua</td>
+                                 <td class="recomendacion">Cada 100.000 km</td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio">100.000 km</td>
                                </tr>
                                <tr>
-                                 <td>Bomba de combustible</td>
-                                 <td>Cada 100.000 km</td>
-                                 <td></td>
-                                 <td>100.000 km</td>
+                                 <td class="repuesto">Bomba de combustible</td>
+                                 <td class="recomendacion">Cada 100.000 km</td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio">100.000 km</td>
                                </tr>
                              </tbody>
                            </table>
@@ -430,7 +443,7 @@
                              <thead>
                                <tr>
                                    <th>Servicio o repuesto</th>
-                                   <th>Recomendaciones</th>
+                                   <th>Recomendación</th>
                                    <th>Último cambio</th>
                                    <th>Próximo cambio</th>
                                </tr>
@@ -438,40 +451,40 @@
 
                              <tbody>
                                <tr>
-                                 <td>Limpieza, revisión y calibración de frenos</td>
-                                 <td>Cada 10.000 km</td>
-                                 <td>60.380 km</td>
-                                 <td>65.380 km</td>
+                                 <td class="repuesto">Limpieza, revisión y calibración de frenos</td>
+                                 <td class="recomendacion">Cada 10.000 km</td>
+                                 <td class="ultimo-cambio">50.380 km</td>
+                                 <td class="proximo-cambio">60.380 km</td>
                                </tr>
                                <tr>
-                                 <td>Pastillas delanteras</td>
-                                 <td></td>
-                                 <td>25.340 km</td>
-                                 <td></td>
+                                 <td class="repuesto">Pastillas delanteras</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio">25.340 km</td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Pastillas posteriores</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Pastillas posteriores</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Discos delanteros</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Discos delanteros</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Discos posteriores</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Discos posteriores</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Zapatas posteriores</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Zapatas posteriores</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                              </tbody>
                            </table>
@@ -484,7 +497,7 @@
                              <thead>
                                <tr>
                                    <th>Servicio o repuesto</th>
-                                   <th>Recomendaciones</th>
+                                   <th>Recomendación</th>
                                    <th>Último cambio</th>
                                    <th>Próximo cambio</th>
                                </tr>
@@ -492,46 +505,46 @@
 
                              <tbody>
                                <tr>
-                                 <td>Alineación, balanceo y rotación de neumáticos</td>
-                                 <td>Cada 15.000 km</td>
-                                 <td>60.380 km</td>
-                                 <td>75.380 km</td>
+                                 <td class="repuesto">Alineación, balanceo y rotación de neumáticos</td>
+                                 <td class="recomendacion">Cada 15.000 km</td>
+                                 <td class="ultimo-cambio">60.380 km</td>
+                                 <td class="proximo-cambio">75.380 km</td>
                                </tr>
                                <tr>
-                                 <td>Cambio de LLantas</td>
-                                 <td></td>
-                                 <td>25.000km</td>
-                                 <td></td>
+                                 <td class="repuesto">Cambio de LLantas</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio">25.000km</td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Cambio de amortiguadores</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Cambio de amortiguadores</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Cambio de mesas delanteras</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Cambio de mesas delanteras</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Cambio de mesas posteriores</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Cambio de mesas posteriores</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Cambio de rodamientos delanteros</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Cambio de rodamientos delanteros</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Cambio de rodamientos posteriores</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Cambio de rodamientos posteriores</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
 
                              </tbody>
@@ -545,7 +558,7 @@
                              <thead>
                                <tr>
                                    <th>Servicio o repuesto</th>
-                                   <th>Recomendaciones</th>
+                                   <th>Recomendación</th>
                                    <th>Último cambio</th>
                                    <th>Próximo cambio</th>
                                </tr>
@@ -553,46 +566,46 @@
 
                              <tbody>
                                <tr>
-                                 <td>Cambio de Batería </td>
-                                 <td></td>
-                                 <td>50.380 km</td>
-                                 <td></td>
+                                 <td class="repuesto">Cambio de Batería </td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio">50.380 km</td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Embrague</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Embrague</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Limpiaparabrisas</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Limpiaparabrisas</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Reparación de motor</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Reparación de motor</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Mantenimiento de caja</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Mantenimiento de caja</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Alternador</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Alternador</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                                <tr>
-                                 <td>Mantenimeinto aire Acondicionado</td>
-                                 <td></td>
-                                 <td></td>
-                                 <td></td>
+                                 <td class="repuesto">Mantenimeinto aire Acondicionado</td>
+                                 <td class="recomendacion"></td>
+                                 <td class="ultimo-cambio"></td>
+                                 <td class="proximo-cambio"></td>
                                </tr>
                              </tbody>
                            </table>

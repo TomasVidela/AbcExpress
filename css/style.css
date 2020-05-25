@@ -1020,3 +1020,32 @@ padding-right: 5px ;
   margin-left: 5px;
   text-align: center;
 }
+
+
+/* NOTE: hostorial */
+
+.detalle-compra td{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #455a64 !important;
+}
+.total-detalle-compra {
+  padding: 0px 24px 0px 24px !important;
+}
+
+.observaciones li{
+  padding-top: 5px !important ;
+  padding-bottom: 5px !important;
+  color: #455a64 !important;
+}
+blockquote.observaciones{
+  padding-left: 0px !important;
+}
+.card-content.observaciones{
+  padding-bottom: 0px;
+  padding-top: 20px;
+
+}
+.row-observaciones{
+  margin-bottom: 0px;
+}

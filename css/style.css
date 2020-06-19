@@ -95,8 +95,15 @@ footer.page-footer {
     padding-left: 35px !important;
   }
 
+  .modal-content{
+    padding: 0px  !important;
+  }
+.card-content.detalle-compra{
+  padding-left: 15px;
+}
 
 }
+
 
 @media only screen and (min-width : 992px) {
   img.logo {
@@ -1046,6 +1053,12 @@ blockquote.observaciones{
   padding-top: 20px;
 
 }
-.row-observaciones{
+
+.menos-margin{
   margin-bottom: 0px;
+}
+
+.modal{
+  min-width: 320px !important;
+  min-height: 500px !important;
 }

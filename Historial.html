@@ -252,20 +252,19 @@
                 <ul class="collapsible" data-collapsible="accordion">
                 <!-- NOTE: carro 1 -->
                   <li>
-                    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro">
-                      <div class="row col s12  info-micarro">
-                        <div class="col S5 contenedor-logo-autos "><img class="logos-autos" src="fotos\logos autos\logos color\Chevylogo.png" alt=""> </div>
-                        <div class="col S2 ">
-                          <p>2011 <b>Chevrolet</b> Cargo N300 1.5L</p>
-                        </div>
-                        <div class="col S5 ">
-                          <p><b>Placa:</b> PPA0645</p>
-                        </div>
-                        <div class="">
-                          <i class="material-icons right icono-abrir-cerar more">expand_more</i><i style="display: none" class="material-icons right icono-abrir-cerar less">expand_less</i>
-                        </div>
+                    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro flex-container-carro">
+                      <div class=" contenedor-logo-autos flex-item-carro "><img class="logos-autos" src="fotos\logos autos\logos color\Chevylogo.png" alt=""> </div>
+                      <div class=" flex-item-carro ">
+                        <p>2011 <b>Chevrolet </b>Cargo N300 1.5L</p>
+                      </div>
+                      <div class="flex-item-carro center-align">
+                        <p><b>Placa: </b>PPA0645</p>
+                      </div>
+                      <div class="">
+                        <i class="material-icons right icono-abrir-cerar more">expand_more</i><i style="display: none" class="material-icons right icono-abrir-cerar less">expand_less</i>
                       </div>
                     </div>
+
                     <div class="collapsible-body">
 
                       <div class="card-content">
@@ -282,10 +281,10 @@
                                     <p class=" blue-grey-text lighten-1"><b class="black-text">Último servicio en:</b> AUTOBOXES</p>
                                   </div>
 
-                                  <div class="col s12 m3">
+                                  <div class="col  m3">
                                     <b class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">date_range</i>21/04/2016</b>
                                   </div>
-                                  <div class="col s12 m3">
+                                  <div class="col  m3">
                                     <b class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">schedule</i>11:30 am</b>
                                   </div>
                                 </div>
@@ -293,10 +292,14 @@
 
                               <div class="card-action">
                                 <div class="row precio-total">
-                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal-detalle1">Detalle de compra</a>
 
-                                  <div class="texto-precio-total col s12 right-align "><b>PRECIO TOTAL</b></div>
-                                  <h4 class="precio-total col s12 red-text right-align ">$155.99</h4>
+                                  <div class="col s12 m8">
+                                    <a class="waves-effect waves-light btn modal-trigger " href="#modal-detalle1">Detalle de compra</a>
+                                  </div>
+                                  <div class="col s12 m4">
+                                    <div class="texto-precio-total col s12 right-align "><b>PRECIO TOTAL</b></div>
+                                    <h4 class="precio-total col s12 red-text right-align ">$155.99</h4>
+                                  </div>
 
                               </div>
                               </div>
@@ -304,7 +307,7 @@
                           </div>
                         </div>
                       <!-- -------------------------------------------------->
-                      <!-- NOTE:Servicios realizados ------------------------>
+                      <!-- NOTE:Servicios realizados ---------------------->
                         <div class="row">
                           <div class="col s12">
                             <div class="card blue-grey lighten-5">
@@ -317,24 +320,21 @@
                                     <p class=" blue-grey-text lighten-1"><b class="black-text">Último servicio en:</b> AUTOBOXES</p>
                                   </div>
 
-                                  <div class="col s12 m3">
-                                    <b class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">date_range</i>05/01/2016</b>
-                                  </div>
-                                  <div class="col s12 m3">
-                                    <b class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">schedule</i>09:30 am</b>
+                                  <div class="col s12 m6">
+                                    <b class="col s6 blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">date_range</i>05/01/2016</b>
+                                    <b class="col s6 blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">schedule</i>09:30 am</b>
+
+                                    <div class="col s12 detalle-historial">
+                                      <a class="waves-effect waves-light btn modal-trigger" href="#modal-detalle1">Detalle de compra</a>
+
+                                      <div class="texto-precio-total col s12 right-align "><b>PRECIO TOTAL</b></div>
+                                      <h4 class="precio-total col s12 red-text right-align ">$95.12</h4>
+                                    </div>
+
                                   </div>
                                 </div>
                               </div>
 
-                              <div class="card-action">
-                                <div class="row precio-total">
-                                  <a class="waves-effect waves-light btn modal-trigger" href="#modal-detalle1">Detalle de compra</a>
-
-                                  <div class="texto-precio-total col s12 right-align "><b>PRECIO TOTAL</b></div>
-                                  <h4 class="precio-total col s12 red-text right-align ">$95.12</h4>
-
-                              </div>
-                              </div>
                             </div>
                           </div>
                         </div>
@@ -345,21 +345,40 @@
 
                 <!-- NOTE: carro 2 -->
                   <li>
-                    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro ">
-                      <div class="row col s12  info-micarro ">
-                        <div class="col S5 contenedor-logo-autos"><img class="logos-autos" src="fotos\logos autos\logos color\BMWlogo.png" alt=""> </div>
-                        <div class="col S2 ">
+                    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro flex-container-carro">
+
+                        <div class="contenedor-logo-autos flex-item-carro"><img class="logos-autos" src="fotos\logos autos\logos color\BMWlogo.png" alt=""> </div>
+                        <div class="flex-item-carro ">
                           <p>2004 <b>BMW</b> 330ci 3.0L</p>
                         </div>
-                        <div class="col S5 ">
-                          <p><b>Placa:</b>PLR0312</p>
+                        <div class="flex-item-carro  center-align">
+                          <p><b>Placa: </b>PLR0312</p>
                         </div>
                         <div class="">
                           <i class="material-icons right icono-abrir-cerar more">expand_more</i><i style="display: none" class="material-icons right icono-abrir-cerar less">expand_less</i>
                         </div>
-                      </div>
+
                     </div>
                     <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                  </li>
+
+                <!-- NOTE: carro 3 -->
+                  <li>
+                    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro flex-container-carro">
+
+                        <div class=" contenedor-logo-autos flex-item-carro "><img class="logos-autos" src="fotos\logos autos\logos color\Jeeplogo.png" alt=""> </div>
+                        <div class=" flex-item-carro ">
+                          <p>1999 <b>Cherokee </b>Classic 4.0L</p>
+                        </div>
+                        <div class="flex-item-carro center-align">
+                          <p><b>Placa: </b>XBS0447</p>
+                        </div>
+                        <div class="">
+                          <i class="material-icons right icono-abrir-cerar more">expand_more</i><i style="display: none" class="material-icons right icono-abrir-cerar less">expand_less</i>
+                        </div>
+
+                    </div>
+                    <div class="collapsible-body"><span>contenido</span></div>
                   </li>
 
                 </ul>

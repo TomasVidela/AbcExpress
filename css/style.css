@@ -509,6 +509,7 @@ div.detalle-precios.card-content {
   margin: inherit !important;
   padding: 0px 0px 0px 5px !important;
   align-self: center;
+
 }
 
 .boton-pago {
@@ -900,12 +901,14 @@ margin-right: 0;
 /*  ceuntas / mis carros: */
 .logos-autos{
   max-height: 35px;
-  margin-top: 8px;
+  margin-top: 10px;
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+  margin-left: 5px;
+  margin-right: 5px;
 
 }
 
@@ -968,6 +971,8 @@ margin-right: 0;
   color: #4db6ac;
   font-size: 40px  !important;
   padding-top: 7px;
+  margin-left: 0px !important;
+
 }
 
 .micarro:hover{
@@ -1065,4 +1070,27 @@ blockquote.observaciones{
 
 .margin-top{
   margin-top: 0px;
+}
+
+
+
+
+.flex-container-carro {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.flex-item-carro {
+  flex: 1 0 0px;
+  margin: 0px 5px 0px 5px;
+  background-color:;
+}
+.flex-item:last-child {
+  align-self: flex-end;
+  background-color: crimson;
+}
+
+.detalle-historial{
+  padding: 10px 0px 0px 0px !important;
+
 }

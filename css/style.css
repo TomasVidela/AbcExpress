@@ -574,7 +574,7 @@ ul.sticky-precios {
 
 .icono-seleccion{
   color: #ff1744;
-  margin: 0px 10px 3px 0px;
+  margin: 0px 5px 3px 0px !important;
 }
 
 
@@ -919,6 +919,7 @@ margin-right: 0;
 
 .contenedor-logo-autos{
   min-width: 115px !important;
+  max-width: 150px !important;
 
 }
 
@@ -1061,6 +1062,7 @@ blockquote.observaciones{
 
 .menos-margin{
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .modal{
@@ -1083,8 +1085,8 @@ blockquote.observaciones{
 .flex-item-carro {
   flex: 1 0 0px;
   margin: 0px 5px 0px 5px;
-  background-color:;
 }
+
 .flex-item:last-child {
   align-self: flex-end;
   background-color: crimson;
@@ -1092,5 +1094,26 @@ blockquote.observaciones{
 
 .detalle-historial{
   padding: 10px 0px 0px 0px !important;
+
+}
+
+.historiales{
+  margin-left: 15px;
+}
+.logo-detalle-compra{
+padding: 5px 20px 5px 0px;
+max-height: 50px;
+}
+
+.encabezado-iconos{
+  padding-top: 10px !important;
+}
+.encabezado-hostorial{
+  margin: 0px;
+  background-color: #eceff1;
+}
+
+.boton-detalles :hover{
+  background-color: #eceff1;
 
 }

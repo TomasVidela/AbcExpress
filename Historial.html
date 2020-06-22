@@ -252,9 +252,9 @@
                 <ul class="collapsible" data-collapsible="accordion">
                 <!-- NOTE: carro 1 -->
                   <li>
-                    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro flex-container-carro">
+                    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro">
                       <div class=" contenedor-logo-autos flex-item-carro "><img class="logos-autos" src="fotos\logos autos\logos color\Chevylogo.png" alt=""> </div>
-                      <div class=" flex-item-carro ">
+                      <div class=" flex-item-carro">
                         <p>2011 <b>Chevrolet </b>Cargo N300 1.5L</p>
                       </div>
                       <div class="flex-item-carro center-align">
@@ -359,7 +359,34 @@
                         </div>
 
                     </div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body">
+                      <ul class="collapsible" data-collapsible="accordion">
+                        <li class="boton-detalles">
+                          <a class="collapsible-header modal-trigger " href="#modal-detalle1">
+                            <b class="blue-grey-text text-darken-4 historiales"><strong class="blue-text"><b class="black-text">Servicio:</b> 003</strong></b>
+                            <b class="blue-grey-text text-darken-4 historiales"><i class="icono-seleccion material-icons ">content_paste</i>45.152 km</b>
+                            <b class="blue-grey-text text-darken-4 historiales"><i class="icono-seleccion material-icons ">date_range</i>24/06/2020</b>
+                          </a>
+                        </li>
+
+                        <li>
+                          <div class="collapsible-header">
+                            <b class="blue-grey-text text-darken-4 historiales"><strong class="blue-text"><b class="black-text">Servicio:</b> 002</strong></b>
+                            <b class="blue-grey-text text-darken-4 historiales"><i class="icono-seleccion material-icons ">content_paste</i>40.052 km</b>
+                            <b class="blue-grey-text text-darken-4 historiales"><i class="icono-seleccion material-icons ">date_range</i>01/11/2020</b>
+                          </div>
+                          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">
+                            <b class="blue-grey-text text-darken-4 historiales"><strong class="blue-text"><b class="black-text">Servicio:</b> 001</strong></b>
+                            <b class="blue-grey-text text-darken-4 historiales"><i class="icono-seleccion material-icons ">content_paste</i>35.852 km</b>
+                            <b class="blue-grey-text text-darken-4 historiales"><i class="icono-seleccion material-icons ">date_range</i>14/08/2018</b>
+                          </div>
+                          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                      </ul>
+                    </div>
                   </li>
 
                 <!-- NOTE: carro 3 -->
@@ -397,10 +424,33 @@
 <!-- POPUP MODALS -------------------------------------------------------------------------------------------------------------->
 <!-- Modal Structure -->
 <div id="modal-detalle1" class="modal">
-  <div class="modal-content">
+
+
     <div class="row">
-         <div class="card">
+      <div class="card  encabezado-hostorial">
+        <div class="card-content">
+          <div class="row menos-margin">
+            <div class="col s12 m6">
+              <div >
+                <img class="responsive-img logo-detalle-compra" src="fotos\ABCexpress logo.png" alt="">
+              </div>
+              <strong class="red-text"><b class="black-text">Servicios realizados:</b> 001</strong>
+              <p class=" blue-grey-text lighten-1 "><b class="black-text">kilometraje:</b> 45.152 km</p>
+              <p class=" blue-grey-text lighten-1 "><b class="black-text">Tiempo entre servicios:</b> 0 semanas</p>
+              <p class=" blue-grey-text lighten-1"><b class="black-text">Último servicio en:</b> AUTOBOXES</p>
+            </div>
+
+            <div class="col s12 m6 encabezado-iconos">
+              <b class="col s6 blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">date_range</i>05/01/2016</b>
+              <b class="col s6 blue-grey-text text-darken-4"><i class="icono-seleccion material-icons ">schedule</i>09:30 am</b>
+            </div>
+          </div>
+        </div>
+      </div>
+
+         <div class="card menos-margin">
            <div class="card-content detalle-compra">
+
                <h4>Detalle de compra</h4>
                <table class="striped">
                 <thead>
@@ -522,11 +572,11 @@
          </div>
 
        <div class="modal-footer">
+         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Imprimir</a>
          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
        </div>
      </div>
 
-  </div>
 
 </div>
 

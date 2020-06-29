@@ -217,8 +217,6 @@
   <!-- NOTE: contenido central  ----------------------------------------------->
   <div class="container central">
     <div class="row">
-
-      <!-- contenido central-->
       <div class="col s12 l8">
 
         <!-- NOTE: detalle de precio mantallas medianas y pequeñas ------------>
@@ -261,8 +259,6 @@
         </ul>
 
         <!-- NOTE: menu busqueda de carro pantallas grandes ------------------->
-
-        <!-- busqueda de carros -->
         <div class="hide-on-med-and-down card">
 
           <div class="card-content busqueda-carros">
@@ -410,7 +406,7 @@
           </div>
           <!----------------------------------------------------------------------------->
           <!-- NOTE: montenimientos-->
-          <div class="card-content row">
+          <div class="card-content row bloque-mantenimientos">
             <!-- NOTE: montenimiento preventivos -->
             <div class="card-content preventivos">
               <ul class="collapsible" data-collapsible="accordion">
@@ -496,41 +492,56 @@
                               </div>
                             </div>
 
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">ABC DE MOTOR</div>
-                            <div class="col s2 informacion-precio"><span>$30.00</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
 
-                          <a class="collection-item hijo col s12">
-                            <div class="col s9 informacion-item">Aceite PREMIUM</div>
-                            <div class="col s2 informacion-precio"><span>-</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                           <div class="flex-container-cotizar  blue-grey-text  text-darken-3 ">
+                               <div class="informacion-item flex-item-cotizar "><strong>Descripción</strong></div>
+                               <div class="flex-item-cotizar precio-cotizar right-align"><strong>Dcto.</strong></div>
+                               <div class="flex-item-cotizar precio-cotizar center-align"><strong>Precio</strong></div>
+                               <div class="flex-item-cotizar informacion-cotizar right-align"><strong>Info.</strong></div>
+                           </div>
 
-                          <a class="collection-item hijo col s12 active">
-                            <div class="col s9 informacion-item">Aceite RECOMENDADOOO</div>
-                            <div class="col s2 informacion-precio"><span>$15.98</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                           <a class="collection-item Deshabilitado grey lighten-4 flex-container-cotizar">
+                               <div class="informacion-item flex-item-cotizar">ABC DE MOTOR</div>
+                               <div class="flex-item-cotizar descuento-cotizar right-align"><del>$29.99</del></div>
+                               <div class="flex-item-cotizar precio-cotizar center-align">$20.99</div>
+                               <i class="flex-item-cotizar informacion-cotizar material-icons orange-text modal-trigger center-align" href="#modal1">info</i>
+                           </a>
 
-                          <a class="collection-item hijo col s12">
-                            <div class="col s9 informacion-item">Aceite BÁSICO</div>
-                            <div class="col s2 informacion-precio"><span>-</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                           <a class="collection-item hijo flex-container-cotizar">
+                             <div class="informacion-item flex-item-cotizar">Aceite PREMIUM</div>
+                             <div class="flex-item-cotizar descuento-cotizar right-align"><del></del></div>
+                             <div class="flex-item-cotizar precio-cotizar center-align"><span>-</span></div>
+                             <i class="flex-item-cotizar informacion-cotizar material-icons orange-text modal-trigger center-align" href="#modal1">info</i>
+                           </a>
 
-                          <a class="collection-item hijo col s12">
-                            <div class="col s9 informacion-item">Aceite OPCIONAL</div>
-                            <div class="col s2 informacion-precio"><span>-</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                           <a class="collection-item hijo flex-container-cotizar active">
+                             <div class="informacion-item flex-item-cotizar">Aceite RECOMENDADO</div>
+                             <div class="flex-item-cotizar descuento-cotizar right-align"><del>$18.13</del></div>
+                             <div class="flex-item-cotizar precio-cotizar center-align"><span>$15.98</span></div>
+                             <i class="flex-item-cotizar informacion-cotizar material-icons orange-text modal-trigger center-align " href="#modal1">info</i>
+                           </a>
 
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">FILTRO DE ACEITE</div>
-                            <div class="col s2 informacion-precio"><span>$8.00</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                           <a class="collection-item hijo flex-container-cotizar">
+                             <div class="informacion-item flex-item-cotizar">Aceite BÁSICO</div>
+                             <div class="flex-item-cotizar descuento-cotizar right-align"><del></del></div>
+                             <div class="flex-item-cotizar precio-cotizar center-align"><span>-</span></div>
+                             <i class="flex-item-cotizar informacion-cotizar material-icons orange-text modal-trigger center-align " href="#modal1">info</i>
+                           </a>
+
+                           <a class="collection-item hijo flex-container-cotizar">
+                             <div class="informacion-item flex-item-cotizar">Aceite OPCIONAL</div>
+                             <div class="flex-item-cotizar descuento-cotizar right-align"><del></del></div>
+                             <div class="flex-item-cotizar precio-cotizar center-align"><span>-</span></div>
+                             <i class="flex-item-cotizar informacion-cotizar material-icons orange-text modal-trigger center-align" href="#modal1">info</i>
+                           </a>
+
+                           <a class="collection-item Deshabilitado grey lighten-4 flex-container-cotizar">
+                               <div class="informacion-item flex-item-cotizar ">FILTRO DE ACEITE</div>
+                               <div class="flex-item-cotizar descuento-cotizar right-align"><del></del></div>
+                               <div class="flex-item-cotizar precio-cotizar center-align">$8.99</div>
+                               <i class="flex-item-cotizar informacion-cotizar material-icons orange-text modal-trigger center-align" href="#modal1">info</i>
+                           </a>
+
                         </div>
                       </div>
                     </li>
@@ -557,6 +568,8 @@
                                 </div>
                               </div>
                             </div>
+
+
 
                             <a class="collection-item Deshabilitado grey lighten-4 col s12">
                               <div class="col s9 informacion-item">ABC DE MOTOR</div>
@@ -948,145 +961,140 @@
             </div>
 
             <!-- NOTE: SELECCION ABC MOTOR ABC FRENOS ------------------------------------->
-            <div class="card-content frenos">
+                <div class="card-content frenos">
+                  <ul class="collapsible" data-collapsible="accordion">
+                    <li>
 
-              <ul class="collapsible" data-collapsible="accordion">
-                <li>
-
-                  <div class="collapsible-header blue-text">
-                    <div class="col s11 padre"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>ABC FRENOS</b></div>
-                    <div class="col s1">
-                      <a class="informacion secondary-content orange-text modal-trigger " href="#modal1"><i class="informacion material-icons">info</i></a>
-                    </div>
-                  </div>
-
-                  <div class=" collapsible-body">
-                    <ul class="collapsible principal" data-collapsible="Expandable">
-
-                      <li>
-                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de pastillas
-                            delanteras</b></div>
-                        <div class="collection collapsible-body">
-
-
-                          <a class="collection-item hijo col s12">
-                            <div class="col s9 informacion-item">Pastillas PREMIUM</div>
-                            <div class="col s2 informacion-precio"><span>-</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal-pastillas-premium">info</i></div>
-                          </a>
-                          <a class="collection-item hijo active col s12">
-                            <div class="col s9 informacion-item">Pastillas RECOMENDADAS</div>
-                            <div class="col s2 informacion-precio"><span>$40.99</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
-                          <a class="collection-item hijo col s12">
-                            <div class="col s9 informacion-item">Pastillas ECO</div>
-                            <div class="col s2 informacion-precio"><span>-</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal-pastillas-eco">info</i></div>
-                          </a>
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">Rectificación de discos</div>
-                            <div class="col s2 informacion-precio"><span>$20.00</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
-                      </li>
-
-                      <li>
-                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de pastillas
-                            posteriores</b></div>
-                        <div class="collection collapsible-body">
-
-                          <a class="collection-item hijo col s12">
-                            <div class="col s9 informacion-item">Pastillas RECOMENDADAS</div>
-                            <div class="col s2 informacion-precio"><span>$41.99</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">Rectificación de discos</div>
-                            <div class="col s2 informacion-precio"><span>$20.00</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
-
+                      <div class="collapsible-header blue-text">
+                        <div class="col s11 padre"><i class="material-icons more">add_circle_outline</i><i class="material-icons orange-text less" style="display: none">remove_circle_outline</i><b>ABC FRENOS</b></div>
+                        <div class="col s1">
+                          <a class="informacion secondary-content orange-text modal-trigger " href="#modal1"><i class="informacion material-icons">info</i></a>
                         </div>
-                      </li>
+                      </div>
+
+                      <div class=" collapsible-body">
+                        <ul class="collapsible principal" data-collapsible="Expandable">
+
+                          <li>
+                            <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de pastillas
+                                delanteras</b></div>
+                            <div class="collection collapsible-body">
 
 
-                      <li>
-                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio discos delanteros</b>
-                        </div>
-                        <div class="collection collapsible-body">
+                              <a class="collection-item hijo col s12">
+                                <div class="col s9 informacion-item">Pastillas PREMIUM</div>
+                                <div class="col s2 informacion-precio"><span>-</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal-pastillas-premium">info</i></div>
+                              </a>
+                              <a class="collection-item hijo active col s12">
+                                <div class="col s9 informacion-item">Pastillas RECOMENDADAS</div>
+                                <div class="col s2 informacion-precio"><span>$40.99</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
+                              <a class="collection-item hijo col s12">
+                                <div class="col s9 informacion-item">Pastillas ECO</div>
+                                <div class="col s2 informacion-precio"><span>-</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal-pastillas-eco">info</i></div>
+                              </a>
+                              <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                                <div class="col s9 informacion-item">Rectificación de discos</div>
+                                <div class="col s2 informacion-precio"><span>$20.00</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
+                          </li>
 
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">Dicos delanteros</div>
-                            <div class="col s2 informacion-precio"><span>$40.00</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                          <li>
+                            <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de pastillas
+                                posteriores</b></div>
+                            <div class="collection collapsible-body">
 
-                        </div>
-                      </li>
+                              <a class="collection-item hijo col s12">
+                                <div class="col s9 informacion-item">Pastillas RECOMENDADAS</div>
+                                <div class="col s2 informacion-precio"><span>$41.99</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
+                              <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                                <div class="col s9 informacion-item">Rectificación de discos</div>
+                                <div class="col s2 informacion-precio"><span>$20.00</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
 
-                      <li>
-                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de discos
-                            posteriores</b></div>
-                        <div class="collection collapsible-body">
-
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">Discos posteriores</div>
-                            <div class="col s2 informacion-precio"><span>$30.50</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
-
-                        </div>
-                      </li>
-
-                      <li>
-                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Zapatas posteriores</b></div>
-                        <div class="collection collapsible-body">
+                            </div>
+                          </li>
 
 
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">Cambio de pastillas de zapata</div>
-                            <div class="col s2 informacion-precio"><span>$15.50</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                          <li>
+                            <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio discos delanteros</b>
+                            </div>
+                            <div class="collection collapsible-body">
 
-                        </div>
-                      </li>
+                              <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                                <div class="col s9 informacion-item">Dicos delanteros</div>
+                                <div class="col s2 informacion-precio"><span>$40.00</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
 
-                      <li>
-                        <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio de líquido de freno</b>
-                        </div>
-                        <div class="collection collapsible-body">
+                            </div>
+                          </li>
 
-                          <a class="collection-item hijo col s12">
-                            <div class="col s9 informacion-item">líquido de freno</div>
-                            <div class="col s2 informacion-precio"><span>$16.99</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
-                          <a class="collection-item Deshabilitado grey lighten-4 col s12">
-                            <div class="col s9 informacion-item">Mano de obra adicional</div>
-                            <div class="col s2 informacion-precio"><span>$5.00</span></div>
-                            <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
-                          </a>
+                          <li>
+                            <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambios de discos
+                                posteriores</b></div>
+                            <div class="collection collapsible-body">
 
-                        </div>
+                              <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                                <div class="col s9 informacion-item">Discos posteriores</div>
+                                <div class="col s2 informacion-precio"><span>$30.50</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
 
-                      </li>
-                    </ul>
-                  </div>
+                            </div>
+                          </li>
 
-                </li>
-              </ul>
+                          <li>
+                            <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Zapatas posteriores</b></div>
+                            <div class="collection collapsible-body">
+
+
+                              <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                                <div class="col s9 informacion-item">Cambio de pastillas de zapata</div>
+                                <div class="col s2 informacion-precio"><span>$15.50</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
+
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="collapsible-header  blue-grey-text  text-darken-3"><i class="material-icons more">radio_button_unchecked</i><i class="material-icons orange-text less" style="display: none">check_circle</i><b>Cambio de líquido de freno</b>
+                            </div>
+                            <div class="collection collapsible-body">
+
+                              <a class="collection-item hijo col s12">
+                                <div class="col s9 informacion-item">líquido de freno</div>
+                                <div class="col s2 informacion-precio"><span>$16.99</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
+                              <a class="collection-item Deshabilitado grey lighten-4 col s12">
+                                <div class="col s9 informacion-item">Mano de obra adicional</div>
+                                <div class="col s2 informacion-precio"><span>$5.00</span></div>
+                                <div class="col s1 informacion"><i class="material-icons orange-text modal-trigger " href="#modal1">info</i></div>
+                              </a>
+
+                            </div>
+
+                          </li>
+                        </ul>
+                      </div>
+                      </div>
+
+                    </li>
+                  </ul>
+              </div>
             </div>
-
           </div>
-        </div>
-
 <!----------------------------------------------------------------------------->
-        <!-- CARD VENTA REPUESTOS: -->
-        <!-- NOTE: PASTILLAS PREMIUM ECO -->
-        <!------------>
-      </div>
+
 
 <!--- seleccion derecha busqueda pantallas grandes ---------------------------->
       <div class="sticky hide-on-med-and-down col s12 l4">

@@ -103,7 +103,10 @@ footer.page-footer {
 .modal{
   width: 100% !important;
 }
-
+.bloque-mantenimientos{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 
 }
 
@@ -392,6 +395,7 @@ a.collection-item.Deshabilitado {
   border-bottom: 1px solid !important;
   border-color: #e0e0e0 !important;
   font-weight: 400;
+  display: flex !important;
 }
 
 /* texto de busqueda por kilometraje */
@@ -405,6 +409,7 @@ a.collection-item.Deshabilitado {
 /* ---------------------------------:  */
 
 .collection-item.hijo {
+  display: flex !important;
   padding-left: 20px !important;
   color: #546e7a !important;
   font-weight: 300 !important;
@@ -425,7 +430,7 @@ div.col.s12.collection {
   text-align: center !important;
 }
 
-.informacion-item {
+.informacion-item000 {/* NOTE: mejora cotiza */
   padding: 0px 10px 0px 0px !important;
 }
 
@@ -491,7 +496,47 @@ div.collapsible-header.blue-text:focus {
 div.padre {
   padding: 0px !important;
 }
-/*seleccion de servicios---------------------------------------------------  */
+
+
+.flex-container-cotizar{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  min-height: 36px;
+  align-items: center;
+  align-content: center;
+  padding: 0px 15px 0px 15px;
+  color: #546e7a;
+
+  border-top: 1px solid !important;
+  border-bottom: 1px solid !important;
+  border-color: #e0e0e0 !important;
+  font-weight: 400;
+}
+
+.flex-item-cotizar{
+  flex: 1 0 0px;
+  margin: 0px 5px 0px 5px;
+}
+
+.descuento-cotizar{
+  max-width:60px;
+  color: #ffab40 !important;
+
+}
+.precio-cotizar{
+  max-width: 100px;
+}
+
+.informacion-cotizar{
+  margin: 0px 5px 0px 5px !important;
+  max-width: 40px;/* NOTE: crear pantalas peuqe */
+
+}
+
+
+
+/* fin seleccion de servicios---------------------------------------------------  */
 
 
 
@@ -1090,10 +1135,6 @@ blockquote.observaciones{
   margin: 0px 5px 0px 5px;
 }
 
-.flex-item:last-child {
-  align-self: flex-end;
-  background-color: crimson;
-}
 
 .detalle-historial{
   padding: 10px 0px 0px 0px !important;

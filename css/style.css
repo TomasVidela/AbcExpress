@@ -439,13 +439,12 @@ div.collapsible-header.blue-text.active {
 }
 
 .collection-item.active {
-  background-color: #90a4ae !important;
-  color: white !important;
+  background-color: #f5f5f5!important;
   font-weight: 400;
 }
 
 .kilometraje.active {
-  background-color: #f5f5f5;
+  background-color:#cfd8dc ;
 }
 
 .texto-banner {
@@ -520,10 +519,9 @@ div.padre {
 }
 
 .descuento-cotizar{
-  max-width:60px;
-  color: #ffab40 !important;
-
+  max-width:100px;
 }
+
 .precio-cotizar{
   max-width: 100px;
 }
@@ -534,7 +532,14 @@ div.padre {
 
 }
 
+.precio-descuento{
+ color: #ffab40 !important;
+}
 
+
+.icono-grande{
+  font-size: 2.5rem !important;
+}
 
 /* fin seleccion de servicios---------------------------------------------------  */
 
@@ -875,6 +880,10 @@ a.collection-item.boton-cuenta{
   padding: 0px !important;
 }
 
+.boton-cuenta.active{
+  background-color: #37474f !important;
+}
+
 .celda-menu-cuentas{
   border: 1px solid #ddd;
   height: 40px !important;
@@ -892,14 +901,14 @@ a.collection-item.boton-cuenta{
   color: white !important;
 }
 
-.celda-menu-cuentas.icono{
+.celda-menu-cuentas.icono00{/* NOTE: borrar */
   align-content: center;
   display: grid;
   0padding-left:20px;
   0padding-right:20px;
   0margin: auto;
-
 }
+
 .icono-cuenta{
   max-width: 35px;
   min-width: 30px;
@@ -930,15 +939,12 @@ a.collection-item.boton-cuenta{
   color: white !important;
 }
 
-.boton-cuenta:hover{
-  background-color: #4db6ac !important;
-  color: white !important;
-}
 
 .container.row{
 margin-left: 0;
 margin-right: 0;
 }
+
 
 
 .collapsible-header{

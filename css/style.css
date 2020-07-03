@@ -463,14 +463,6 @@ div.collapsible-body {
 }
 
 
-000000div.collapsible-body.principal {
-  /* NOTE: codigo escvroll deshabilitado */
-  max-height: 400px !important;
-  overflow-y: auto !important;
-  backface-visibility: hidden !important;
-  border: 0px;
-  margin: 0px;
-}
 
 div.card-content.preventivos {
   padding: 0px 24px 24px 24px;
@@ -901,13 +893,6 @@ a.collection-item.boton-cuenta{
   color: white !important;
 }
 
-.celda-menu-cuentas.icono00{/* NOTE: borrar */
-  align-content: center;
-  display: grid;
-  0padding-left:20px;
-  0padding-right:20px;
-  0margin: auto;
-}
 
 .icono-cuenta{
   max-width: 35px;
@@ -1166,4 +1151,34 @@ max-height: 50px;
 .boton-detalles :hover{
   background-color: #eceff1;
 
+}
+
+
+/* NOTE: modales */
+.modal-titulo{
+  color:#4db6ac;
+  margin-bottom: 0px !important;
+}
+.modal-subtitulo{
+font-size: 25px !important;
+color:#455a64 !important;
+margin: 0px !important;;
+}
+
+.modal-texto{
+  color:#455a64;
+  font-weight: 300;
+  font-size: 18px;
+  font-size-adjust: auto;
+}
+
+.foto-modal{
+  padding:0px;
+}
+
+.card-modal{
+  margin: 40px 0px 40px 0px;
+}
+.destacado-modal{
+  font-size: 25px !important;
 }

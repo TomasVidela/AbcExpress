@@ -566,7 +566,7 @@ div.detalle-precios.card-content {
 }
 
 .detalle-precios-peques {
-  padding: 8px;
+  padding:0px;
 }
 
 .detalle-precios-peques:hover{
@@ -601,7 +601,7 @@ div.sticky {
 /* NOTE:efecto scroll statico detalle precios total pantallas pequeña*/
 ul.sticky-precios {
   position: sticky !important;
-  top: 59px !important;
+  top:0px !important;
   z-index: 2;
 }
 /*  fin precios-------------------------------------------------------------- */
@@ -1014,6 +1014,14 @@ margin-right: 0;
   margin-left: 0px !important;
 
 }
+
+.icono-abrir-cerar-detalle-precio{
+  color: #4db6ac;
+  font-size: 40px  !important;
+  padding-top: 7px;
+}
+
+
 
 .micarro:hover{
   background-color:#b0bec5   ;

@@ -68,6 +68,16 @@ footer.page-footer {
 .icono-pago {/* NOTE: no se */
   padding: 10px !important;
 }
+/* NOTE: inicio boton de pago */
+.detralle-reserva{
+padding: 10px 0px 0px 0px !important;
+}
+.detralle-reserva-hora{
+  padding:0px 0px 24px 0px !important;
+}
+.icono-precio{
+  margin-left: 10px;
+}
 
 /* fin varios y no se ---------------------------------------------------- */
 

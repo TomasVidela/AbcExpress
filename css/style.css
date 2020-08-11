@@ -78,6 +78,10 @@ padding: 10px 0px 0px 0px !important;
 .icono-precio{
   margin-left: 10px;
 }
+.icono-Cerrar{
+  font-size: 30px  !important;
+  z-index: 10;
+}
 
 /* fin varios y no se ---------------------------------------------------- */
 

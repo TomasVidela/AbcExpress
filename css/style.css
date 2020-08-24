@@ -90,7 +90,7 @@ padding: 10px 0px 0px 0px !important;
 
 /* NOTE: responsive pantallas----------------------------------------------- */
 @media only screen and (max-width : 500px) {
-  .container.central {
+  .0container.central {
     width: 100% !important;
   }
   /* NOTE: ojo  nuevo talleres*/
@@ -117,10 +117,7 @@ padding: 10px 0px 0px 0px !important;
 .modal{
   width: 100% !important;
 }
-.bloque-mantenimientos{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
+
 
 .detalle-precio-pagar{
   padding: 0px !important;
@@ -198,7 +195,7 @@ padding: 10px 0px 0px 0px !important;
     padding: 0px !important;
   }
 
-  div.card-content.frenos {
+  div.card-content.abcfrenos {
     padding: 0px 0px 24px 0px !important;
   }
 
@@ -440,7 +437,7 @@ div.col.s12.collection {
 .informacion {
   text-align: center;
   margin-top: 5px  !important;
-  padding: 0px 0px 0px 0px !important;
+  padding: 0px 0px 0px 50px !important;
 }
 
 .informacion-precio {
@@ -490,7 +487,7 @@ div.card-content.abcmotor {
   padding: 0px 24px 0px 24px;
 }
 
-div.card-content.frenos {
+div.card-content.abcfrenos {
   padding: 0px 24px 24px 24px;
 }
 

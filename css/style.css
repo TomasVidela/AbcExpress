@@ -90,7 +90,7 @@ padding: 10px 0px 0px 0px !important;
 
 /* NOTE: responsive pantallas----------------------------------------------- */
 @media only screen and (max-width : 500px) {
-  .0container.central {
+  .container.central {
     width: 100% !important;
   }
   /* NOTE: ojo  nuevo talleres*/

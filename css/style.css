@@ -677,10 +677,11 @@ a.menu-carros:hover {
   background-color: white !important;
 }
 
-#tabs-swipe-demo{
-  background-color: #eceff1;
+.tabs-talleres{
+  background-color: #eceff1 !important;
 
 }
+
 
 .flex-container.marcas, .año, .modelo{
   display: flex;

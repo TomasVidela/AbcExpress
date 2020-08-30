@@ -35,7 +35,7 @@ footer.page-footer {
   padding: 10px !important;
 }
 
-.container.central{
+.central{
   margin-top: 24px;
 }
 
@@ -90,20 +90,18 @@ padding: 10px 0px 0px 0px !important;
 
 /* NOTE: responsive pantallas----------------------------------------------- */
 @media only screen and (max-width : 500px) {
-  .container.central {
-    width: 100% !important;
+  .central{
+    width:100%!important;
+    margin-top: 0px;
   }
+
+
   /* NOTE: ojo  nuevo talleres*/
   .flex-item.taller{
     flex: 2 0 300px !important;
     max-width: 300px !important;
     margin: auto;
   }
-
-  .container.central{
-    margin-top: 0px;
-  }
-
 
   .contenido-carro{
     padding-left: 35px !important;
@@ -121,6 +119,9 @@ padding: 10px 0px 0px 0px !important;
 
 .detalle-precio-pagar{
   padding: 0px !important;
+}
+.row .col{
+  padding: 0 0.1rem !important;
 }
 
 }
@@ -141,7 +142,7 @@ padding: 10px 0px 0px 0px !important;
     max-height: 300px;
   }
 
-  .parallax-container .section {
+  .parallax-container.section {
     position: absolute;
     top: 40%;
   }
@@ -155,7 +156,7 @@ padding: 10px 0px 0px 0px !important;
   }
 
 .tamaño-maximo{
-  max-width: 600px;
+  min-width: 320px !important;
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -862,6 +863,7 @@ ul.letras-horas{
 border-bottom: 1px solid #ddd;
 padding-top: 20px  !important;
 padding-bottom: 0px !important;
+
 }
 
 .reservas:last-child {
@@ -940,8 +942,8 @@ a.collection-item.boton-cuenta{
   color: white !important;
 }
 
-
-.container.row{
+/* NOTE: ojo revisar*/
+.container .row{
 margin-left: 0;
 margin-right: 0;
 }
@@ -1057,8 +1059,8 @@ margin-right: 0;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-.contenido{
-  padding-right: 0px  !important;
+.0contenido{
+  padding: 0px 1px 0px 1px !important;
 }
 
 

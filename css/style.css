@@ -127,6 +127,11 @@ padding: 10px 0px 0px 0px !important;
 .row .col{
   padding: 0 0.1rem !important;
 }
+.reservas{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
 
 }
 
@@ -135,9 +140,10 @@ padding: 10px 0px 0px 0px !important;
   img.logo {
     transform: scale(0.8);
     margin: -5px 0px 0px 0px;
-
-
   }
+
+
+
 
 }
 
@@ -255,7 +261,7 @@ a.dropdown-button.btn {
 }
 
 a.waves-effect.waves-light.btn {
-  margin: 1px;
+  0000margin: 1px;
   width: 100%;
 }
 
@@ -866,8 +872,9 @@ ul.letras-horas{
 
 .reservas{
 border-bottom: 1px solid #ddd;
-padding: 20px 10px 5px 10px !important;
-
+000000padding: 20px 10px 5px 10px !important;
+padding-top: 20px !important;
+padding-bottom: 5px !important;
 }
 
 .reservas:last-child {
@@ -890,8 +897,21 @@ padding-bottom: 24px !important;
 
 
 /* NOTE: inicio Cuentas */
+.boton-cotizar{
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.icono-cotizar{
+  padding-right: 10px;
+
+}
 a.collection-item.boton-cuenta{
   padding: 0px !important;
+}
+
+.boton-cuenta.configurar{
+  border-top: 1px solid #ddd;
 }
 
 .boton-cuenta.active{
@@ -924,6 +944,7 @@ a.collection-item.boton-cuenta{
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+  padding-top: 2px
 }
 
 

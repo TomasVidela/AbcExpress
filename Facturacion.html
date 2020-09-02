@@ -16,35 +16,30 @@
 </head>
 <body>
 
-
-
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-
-      <!-- barra navegación pantallas grandes -->
-        <a id="logo-container" href="index.html" class="brand-logo hide-on-med-and-down responsive-img"><img class="logo"src="fotos\ABCexpress logo.png" alt=""></a>
+<nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <!-- barra navegación pantallas grandes -->
+      <a id="logo-container" href="index.html" class="brand-logo hide-on-med-and-down responsive-img"><img class="logo"src="fotos\ABCexpress logo.png" alt=""></a>
 
       <ul class="right hide-on-med-and-down">
         <li><a href="#"><i class="iconos-encabezado material-icons left">account_box</i>Cuenta</a></li>
       </ul>
+    <!-- barra navegación pantallas pequeñas y medianas -->
+      <div class="row hide-on-large-only  ">
 
-      <!-- barra navegación pantallas pequeñas y medianas -->
-
-        <div class="row hide-on-large-only  ">
-
-          <div class="col s4">
-            <a href="index.html"><img href="index.html"class="brand-logo " src="fotos\ABCexpress logo.png" alt=""></a>
-          </div>
-
-            <ul class="row">
-              <a href="#"><i class="botones-peques material-icons right">account_box</i></a>
-            </ul>
-
+        <div class="col s4">
+          <a href="index.html"><img href="index.html"class="brand-logo " src="fotos\ABCexpress logo.png" alt=""></a>
         </div>
 
+          <ul class="row">
+            <a href="#"><i class="botones-peques material-icons right">account_box</i></a>
+          </ul>
+
+      </div>
+
+  </div>
 </nav>
 
-<!-- NOTE:__________________________________________________________________ -->
 <!-- NOTE: menu indicador de sección------------------------------------------->
   <div class="indicador-seccion row col s12">
 
@@ -76,157 +71,125 @@
 </div>
 
 <!-- NOTE: contenido central  -->
-<div class="container"><br>
-<div class="row">
+<div class="container central"><br>
+ <div class="row">
 
-    <!-- seleccion izquierda -->
+<!-- seleccion izquierda ------------------------------------------------------>
+    <div class="col s12 m6 l8 ">
+      <div class="row">
+        <div class="card">
+          <div class="card-content">
 
-
-
-    <div class="col s12 m6 l8 card">
-        <h5><i class="red-text text-accent-3 material-icons left">shopping_cart</i>Facturación</h5>
-        <div class="card-action">
-
-          <form>
-            <p>
-              <input name="group1" type="radio" id="test1" />
-              <label for="test1">Factura como consumidor final</label>
-              <br>
-              <input name="group1" type="radio" id="test2" />
-              <label for="test2">Factura con datos</label>
-            </p>
-        </form>
+            <h5><i class="red-text text-accent-3 material-icons left">shopping_cart</i>Facturación</h5>
             <br>
+            <div class="row">
+              <form>
+                <div class="col s12  l6 input-field ">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Nombre</label>
+                </div>
 
-              <form >
+                <div class="col s12  l6 input-field ">
+                  <input type="text" class="validate">
+                  <label for="last_name">Apellido</label>
+                </div>
+
+                <div class="input-field col s12 l6">
+                  <input type="text" class="validate">
+                  <label for="first_name">Teléfono</label>
+                </div>
+
+                <div class="input-field col s12 l6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+
+                <div class="input-field col s12 l6">
+                  <input id="password" type="password" class="validate">
+                  <label for="number">C.I. - RUC</label>
+                </div>
+
+                <div class="input-field col s12 l6">
+                  <input type="text" id="autocomplete-input" class="autocomplete">
+                  <label for="autocomplete-input">Dirección</label>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col s12 realizar-pago">
+            <a href="#" class="waves-effect waves-light red accent-3 btn">Realizar el pago</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!-- seleccion DERECHA -------------------------------------------------------->
+      <div class="row">
+        <div class="col s12 m5 l4  detalle-precio-pagar">
+          <div class="card">
+            <div class=" card-detalle-precios">
+              <h5><i class="red-text text-accent-3 material-icons icono-precio left">attach_money</i>Valor a pagar</h5>
+
+              <div class="detalle-precios">
+                <div class="divider"></div>
+
+                <div class="detalle-precios card-content">
+                  <p class="letra-peque left-align">Repuestos<strike class="secondary-content orange-text">$100.00</strike></p>
+                  <p class="letra-peque left-align">10% descuento<strong class="secondary-content blue-grey-text darken-4-text">-$10.00</strong> </p>
+                  <p class="letra-peque left-align"> <b>Total repuestos</b><strong class="secondary-content">$90.00</strong> </p>
+
+                  <div class="divider"></div>
+                  <p class="letra-peque left-align">Mano de obra ABC Motor<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+                  <p class="letra-peque left-align">Mano de obra ABC Frenos<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
+                  <p class="letra-peque left-align">0% Descuento<strong class="secondary-content blue-grey-text darken-4-text">$00.00</strong> </p>
+                  <p class="letra-peque left-align"><b>Total mano de obra</b><strong class="secondary-content">$59.98</strong> </p>
+
+                  <div class="divider"></div>
+                  <p class="letra-peque left-align">12% IVA<strong class="secondary-content blue-grey-text darken-4-text">$17.99</strong> </p>
+                  <div class="divider"></div>
+
+                  <div class="letra-peque left-align">
+                    <b>PRECIO TOTAL</b>
+                    <h4 class="precio red-text right-align">$167.98</h4>
+                  </div>
+
+                  <div class="divider"></div>
                   <div class="row">
+                    <div class="col s12 detralle-reserva">
+                      <div class=" col s3">
+                        <div class="letra-peque">Fecha:</div>
+                      </div>
 
-                    <div class="col s12  l6 input-field ">
-                      <input  id="first_name" type="text" class="validate">
-                      <label for="first_name">Nombre</label>
+                      <div class="col s9 right-align ">
+                        <div>Lunes, 24, junio 2019</div>
+                      </div>
                     </div>
 
-                    <div class="col s12  l6 input-field ">
-                      <input  type="text" class="validate">
-                      <label for="last_name">Apellido</label>
-                    </div>
+                    <div class="col s12 detralle-reserva-hora">
+                      <div class=" col s3">
+                        <div class="letra-peque">Hora:</div>
+                      </div>
 
-                    <div class="input-field col s12 l6">
-                      <input  type="text" class="validate">
-                      <label for="first_name">Teléfono</label>
-                    </div>
-
-                    <div class="input-field col s12 l6">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">Email</label>
-                    </div>
-
-                    <div class="input-field col s12 l6">
-                      <input id="password" type="password" class="validate">
-                      <label for="number">C.I. - RUC</label>
-                    </div>
-
-                    <div class="input-field col s12 l6">
-                        <input type="text" id="autocomplete-input" class="autocomplete">
-                        <label for="autocomplete-input">Dirección</label>
+                      <div class="col s9 right-align ">
+                        <div>10:30 am</div>
                       </div>
                     </div>
                   </div>
-              </form>
+                </div>
 
-              <div class="card-content col s12">
-                <a href="#" class="waves-effect waves-light red accent-3 btn">Realizar el pago</a>
+                <div class="boton-pago-dos col s12 ">
+                  <a href="Reservar.html" class="waves-effect waves-light blue-grey lighten-2 btn "><i class="material-icons">arrow_back</i>Regresar</a>
+                </div>
               </div>
-
-
-
+            </div>
+          </div>
         </div>
-
-
-
-
-<!-- seleccion DERECHA -->
-<div class="col s12 l4 detalle-precio-pagar">
-  <div class="card right">
-      <h5><i class="red-text text-accent-3 material-icons icono-precio left">attach_money</i>Valor a pagar</h5>
-
-      <div class="detalle-precios">
-        <div class="divider"></div>
-
-        <div class="detalle-precios card-content">
-          <p class="letra-peque left-align">Repuestos<strike class="secondary-content orange-text">$100.00</strike></p>
-          <p class="letra-peque left-align">10% descuento<strong class="secondary-content blue-grey-text darken-4-text">-$10.00</strong> </p>
-          <p class="letra-peque left-align"> <b>Total repuestos</b><strong class="secondary-content">$90.00</strong> </p>
-
-          <div class="divider"></div>
-
-          <p class="letra-peque left-align">Mano de obra ABC Motor<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
-          <p class="letra-peque left-align">Mano de obra ABC Frenos<strong class="secondary-content blue-grey-text darken-4-text">$29.99</strong> </p>
-          <p class="letra-peque left-align">0% Descuento<strong class="secondary-content blue-grey-text darken-4-text">$00.00</strong> </p>
-          <p class="letra-peque left-align"><b>Total mano de obra</b><strong class="secondary-content">$59.98</strong> </p>
-
-          <div class="divider"></div>
-          <p class="letra-peque left-align">12% IVA<strong class="secondary-content blue-grey-text darken-4-text">$17.99</strong> </p>
-          <div class="divider"></div>
-
-          <div class="letra-peque left-align">
-            <b>PRECIO TOTAL</b>
-            <h4 class="precio red-text right-align">$167.98</h4>
-          </div>
-
-          <div class="divider"></div>
-
-          <div class="card-content col s12 detralle-reserva">
-            <div class=" col s3">
-              <div class="letra-peque">Fecha:</div>
-            </div>
-
-            <div class="col s9 right-align ">
-              <div>Lunes, 24, junio 2019</div>
-            </div>
-          </div>
-
-          <div class="card-content col s12 detralle-reserva-hora">
-            <div class=" col s3">
-              <div class="letra-peque">Hora:</div>
-            </div>
-
-            <div class="col s9 right-align ">
-              <div>10:30 am</div>
-            </div>
-          </div>
-
-
-
-       </div>
-
-     </div>
-     <div class="boton-pago-dos col s12 ">
-       <a href="Pagar.html" class="waves-effect waves-light blue-grey lighten-2 btn "><i class="material-icons">arrow_back</i>Regresar</a>
-     </div>
-  </div>
+      </div>
+<!----------------------------------------------------------------------------->
+   </div>
+ </div>
 </div>
-
-
-
-
-  </div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- NOTE: footer -->
 <footer class="page-footer teal blue-grey darken-4">
@@ -266,13 +229,10 @@
   </div>
 </footer>
 
-
-
-
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
-  </body>
+</body>
 </html>

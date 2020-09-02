@@ -83,6 +83,10 @@ padding: 10px 0px 0px 0px !important;
   z-index: 10;
 }
 
+.realizar-pago{
+  padding: 0px !important;
+}
+
 /* fin varios y no se ---------------------------------------------------- */
 
 
@@ -118,7 +122,7 @@ padding: 10px 0px 0px 0px !important;
 
 
 .detalle-precio-pagar{
-  padding: 0px !important;
+  padding: 24px 0px 24px 0px !important;
 }
 .row .col{
   padding: 0 0.1rem !important;
@@ -567,7 +571,7 @@ div.detalle-precios.card-content {
 }
 
 .precio-total {
-  margin: inherit !important;
+  margin: 0px 0px 0px 10px!important;
   padding: 0px 0px 0px 5px !important;
   align-self: center;
 
@@ -582,7 +586,7 @@ div.detalle-precios.card-content {
 }
 
 .detalle-precios-peques {
-  padding:0px;
+  padding:5px 0px 5px 0px;
 }
 
 .detalle-precios-peques:hover{
@@ -595,6 +599,7 @@ div.detalle-precios.card-content {
 
 .card-detalle-precios {
   margin-bottom: 0px;
+  padding-top: 24px;
 }
 
 .boton-pago-dos {
@@ -861,8 +866,7 @@ ul.letras-horas{
 
 .reservas{
 border-bottom: 1px solid #ddd;
-padding-top: 20px  !important;
-padding-bottom: 0px !important;
+padding: 20px 10px 5px 10px !important;
 
 }
 
@@ -1058,9 +1062,6 @@ margin-right: 0;
 .contenedor-foto-carro{
   padding-left: 0px !important;
   padding-right: 0px !important;
-}
-.0contenido{
-  padding: 0px 1px 0px 1px !important;
 }
 
 

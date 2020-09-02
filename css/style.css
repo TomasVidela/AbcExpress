@@ -442,7 +442,7 @@ div.col.s12.collection {
 .informacion {
   text-align: center;
   margin-top: 5px  !important;
-  padding: 0px 0px 0px 50px !important;
+  padding: 0px 0px 0px 0px !important;
 }
 
 .informacion-precio {
@@ -899,7 +899,7 @@ a.collection-item.boton-cuenta{
 }
 
 .celda-menu-cuentas{
-  border: 1px solid #ddd;
+  border-right: 1px solid #ddd;
   height: 40px !important;
 }
 
@@ -933,8 +933,8 @@ a.collection-item.boton-cuenta{
 
 .collection.cuentas{
   overflow: visible;
-  margin-left: 10px;
-  margin-right: 10px;
+  0margin-left: 10px;
+  0margin-right: 10px;
 }
 .editar-cuenta:hover{
   background-color: #4db6ac;

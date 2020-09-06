@@ -130,8 +130,12 @@ padding: 10px 0px 0px 0px !important;
 .reservas{
   padding-left: 10px !important;
   padding-right: 10px !important;
+  
 }
-
+.informacion-tablero{
+  padding-left: 0px !important;
+  padding-right: 0px !important
+}
 
 }
 
@@ -1000,8 +1004,9 @@ margin-right: 0;
 }
 
 .contenedor-logo-autos{
-  min-width: 115px !important;
-  max-width: 150px !important;
+  000min-width: 115px !important;
+  0000max-width: 150px !important;
+  margin-left: 0px !important;
 
 }
 
@@ -1089,6 +1094,7 @@ margin-right: 0;
 
 
 /* NOTE: mi Tablero */
+
 
 input#fname.browser-default{
   max-width: 60px;

@@ -22,9 +22,6 @@ h5 {
     min-width: 320px !important;
   }
 
-  .form-container.ingreso-container {
-    padding: 15px !important;
-  }
 
   .menos-margin {
     margin-bottom: 0px !important;
@@ -51,9 +48,12 @@ h5 {
   background-color: #eceff1 !important;
 }
 
-.form-container.ingreso-container {
-  padding: 40px;
-  padding-top: 10px;
+.ingreso-container {
+ padding-top: 15px;
+ padding-bottom:40px !important;
+ padding-left: 15px;
+ padding-right: 15px;
+
 }
 
 .confirmation-tabs-btn {

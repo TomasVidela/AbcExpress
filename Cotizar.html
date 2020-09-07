@@ -16,25 +16,24 @@
 <body class="blue-grey lighten-5">
 
 <!-- barra navegación inicio ---------------------------------------------------------------------------------------------------->
-  <nav>
-    <div class="nav-wrapper white">
+  <nav class="white">
+    <div class="nav-wrapper">
       <div class="white" role="navigation">
 
           <!-- barra navegación pantallas grandes -->
-            <a id="logo-container" href="#" class="brand-logo hide-on-med-and-down responsive-img "><img class="logo" src="fotos\ABCexpress logo.png" alt=""></a>
+            <a id="logo-container" href="Cotizar.html" class="brand-logo hide-on-med-and-down responsive-img modal-trigger"><img class="logo" src="fotos\ABCexpress logo.png" alt=""></a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="#modal-ingreso-cuenta" class="modal-trigger"><i class="iconos-encabezado material-icons  left ">account_box</i>Cuenta</a></li>
+              <li><a href="##modal-ingreso-cuenta" class="modal-trigger botton-ingreso-cuenta"><i class="iconos-encabezado material-icons  left ">account_box</i>Cuenta</a></li>
             </ul>
 
           <!-- barra navegación pantallas pequeñas-->
           <div class="row hide-on-large-only">
-            <a href="#" data-activates="slide-out" class="button-collapse "><i class="material-icons menu">menu</i></a>
             <div class="col s4">
               <a href="index.html"><img href="index.html" class="brand-logo " src="fotos\ABCexpress logo.png" alt=""></a>
             </div>
 
-            <ul class="row">
-              <a href="entrar-cuenta.html"><i class="botones-peques material-icons right">account_box</i></a>
+            <ul class="">
+              <a href="#modal-ingreso-cuenta" class="modal-trigger"><i class="botones-peques material-icons right">account_box</i></a>
             </ul>
           </div>
 
@@ -153,14 +152,12 @@
           </div>
         </div>
         <a class="slide-close waves-effect waves-light btn teal lighten-2"><i class="material-icons icono-Agregar-carro">add</i>Agregar</a>
-
     </div>
-
   </ul>
 
 <!-- NOTE: banner encabezado -------------------------------------------------->
-  <div id="index-banner">
-    <div class="carousel carousel-slider center">
+  <div id="index-banner benneeeer">
+    <div class="carousel carousel-slider center banner">
       <div class="carousel-fixed-item center"></div>
 
       <div class="carousel-item" href="#one!">
@@ -178,9 +175,7 @@
 
       <div class="carousel-item" href="#four!">
         <img src="fotos\banner\banner-04.jpg" alt="">
-
       </div>
-
     </div>
   </div>
 
@@ -262,10 +257,10 @@
             </div>
 
             <ul id="tabs-swipe-demo" class="tabs">
-              <li class="tab col s3"><a href="#test-swipe-1">MARCA</a></li>
-              <li class="tab col s3"><a href="#test-swipe-2">AÑO</a></li>
-              <li class="tab col s3"><a href="#test-swipe-3">MODELO</a></li>
-              <li class="tab col s3"><a href="#test-swipe-4">MOTOR</a></li>
+              <li class="tab col s3 tabs-busqueda-carro"><a href="#test-swipe-1">MARCA</a></li>
+              <li class="tab col s3 tabs-busqueda-carro"><a href="#test-swipe-2">AÑO</a></li>
+              <li class="tab col s3 tabs-busqueda-carro"><a href="#test-swipe-3">MODELO</a></li>
+              <li class="tab col s3 tabs-busqueda-carro"><a href="#test-swipe-4">MOTOR</a></li>
             </ul>
 
             <div class="row">
@@ -1343,11 +1338,10 @@
 </body>
 <!-- POPUP MODALS -------------------------------------------------------------------------------------------------------------->
 <!-- Ingreso  a cuenta -->
-<div id="modal-ingreso-cuenta" class="modal">
+<div id="modal-ingreso-cuenta" class="modal modal-fixed-footer">
   <div class="modal-content entrar">
 
     <div class="white z-depth-2">
-
       <ul class="tabs teal ingreso-cuenta">
         <li class="tab col s3 "><a class="white-text active" href="#login">Iniciar sesión</a></li>
         <li class="tab col s3"><a class="white-text" href="#register">Crear cuenta</a></li>
@@ -1384,7 +1378,7 @@
             <br>
             <center>
               <div class="col s12 ">
-                <a class="botones-largos waves-effect red accent-3 waves-light btn">entrar</a>
+                <a class="botones-largos waves-effect red accent-3 waves-light btn" href="Cuenta.html">entrar</a>
               </div>
               <br>
               <div class="divider"></div>
@@ -1441,7 +1435,7 @@
               </div>
             </div>
             <center>
-              <button class="btn waves-effect waves-light teal" type="submit" name="action">enviar</button>
+              <button class="btn waves-effect waves-light grey" type="submit" name="action">enviar</button>
             </center>
           </div>
         </form>
@@ -1454,6 +1448,7 @@
     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
   </div>
 </div>
+
 <!-- MANTENIMIENTO PREVENTIVO  -->
 <div id="modal-mantenimineto-preventivo" class="modal modal-fixed-footer">
   <div class="modal-content">

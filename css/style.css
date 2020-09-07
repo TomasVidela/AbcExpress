@@ -243,14 +243,17 @@ div.indicador-seccion {
 }
 
 .indicador-seccion p {
-  margin: 4px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .indicador-seccion img {
   align-content: center !important;
   vertical-align: middle !important;
   padding-right: 10px;
-  padding-right: 10px
+  margin-left: 10px;
 }
 
 

@@ -188,7 +188,7 @@
     <div class="indicador-seccion row col s12">
       <div class="col s3 white-text red accent-3">
         <div>
-          <p><img src="fotos\uno.png">Cotizar</p>
+          <p><img src="fotos\uno.png">  Cotizar  </p>
         </div>
       </div>
       <a href="localiza.html"class="waves-effect waves-light col s3 white-text blue-grey lighten-1">
@@ -257,7 +257,7 @@
 
             <div class="card-content busqueda-carros">
               <h5 class="blue-grey-text text-darken-4"><i class="icono-seleccion material-icons">search</i>Selecciona tu carro</h5>
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal-ingreso-cuenta">Mis carros</a>
+              <a class="waves-effect waves-light btn modal-trigger" href="#mis-carros">Mis carros</a>
               <p class="letra-peque">* Selecciona entre los carros en tu cuenta</p>
             </div>
 
@@ -1342,7 +1342,7 @@
 
 </body>
 <!-- POPUP MODALS -------------------------------------------------------------------------------------------------------------->
-<!-- Modal ingreso cuenta -->
+<!-- Ingreso  a cuenta -->
 <div id="modal-ingreso-cuenta" class="modal">
   <div class="modal-content entrar">
 
@@ -2129,8 +2129,6 @@
   <br>
   <a href="#!" class="modal-close waves-effect waves-grey btn-flat right"><i class="material-icons icono-Cerrar">clear</i></a>
   <br>
-
-
   <div class="modal-content">
     <h4 class="modal-titulo">Servicio</h4>
 
@@ -2146,29 +2144,30 @@
       Esto ayuda a que se realice un pago justo a los talleres amigos por un servicio garantizado.
     </p>
   </div>
+
   <div class="divider"></div>
   <div class="modal-footer">
     <a href="#!" class="modal-action modal-close waves-effect waves-grey btn-flat">Cerrar</a>
   </div>
 </div>
 
-<!-- Modal Structure -->
+<!-- Mis Carros -->
 <div id="mis-carros" class="modal modal-fixed-footer">
-
-  <div class="modal-content carros-guardados">
+  <div class=" modal-content">
     <h4 class="modal-titulo">Mis Carros</h4>
-
-    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro">
-      <div class=" contenedor-logo-autos flex-item-carro "><img class="logos-autos" src="fotos\logos autos\logos color\Chevylogo.png" alt=""> </div>
-      <div class=" flex-item-carro">
-        <p>2011 <b>Chevrolet </b>Cargo N300 1.5L</p>
+    <br>
+    <div class="carros-guardados">
+      <div class="collapsible-header kilometraje blue-grey-text text-darken-3 micarro modal-close ">
+        <div class=" contenedor-logo-autos flex-item-carro "><img class="logos-autos" src="fotos\logos autos\logos color\Chevylogo.png" alt=""> </div>
+        <div class=" flex-item-carro">
+          <p>2011 <b>Chevrolet </b>Cargo N300 1.5L</p>
+        </div>
+        <div class="flex-item-carro center-align">
+          <p><b>Placa: </b>PPA0645</p>
+        </div>
       </div>
-      <div class="flex-item-carro center-align">
-        <p><b>Placa: </b>PPA0645</p>
-      </div>
-    </div>
 
-    <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro flex-container-carro">
+      <div class="collapsible-header kilometraje blue-grey-text  text-darken-3 micarro flex-container-carro modal-close">
         <div class="contenedor-logo-autos flex-item-carro"><img class="logos-autos" src="fotos\logos autos\logos color\BMWlogo.png" alt=""> </div>
         <div class="flex-item-carro ">
           <p>2004 <b>BMW</b> 330ci 3.0L</p>
@@ -2176,6 +2175,7 @@
         <div class="flex-item-carro  center-align">
           <p><b>Placa: </b>PLR0312</p>
         </div>
+      </div>
     </div>
   </div>
 
@@ -2183,7 +2183,6 @@
     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
   </div>
 </div>
-
 
 <!-- NOTE: footer ------------------------------------------------------------------------------------------------------------>
 <footer class="page-footer teal blue-grey darken-4">

@@ -252,6 +252,7 @@ div.indicador-seccion {
   text-align: center;
   align-content: center !important;
   vertical-align: middle !important;
+  position: relative;
 }
 
 .indicador-seccion p {
